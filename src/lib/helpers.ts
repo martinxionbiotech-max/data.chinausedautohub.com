@@ -227,7 +227,7 @@ export function confidenceLow(confidence?: string | null): boolean {
 
 export const VEHICLE_TYPES: Record<
   string,
-  { title: string; desc: string; filter: (m: Model) => boolean }
+  { title: string; desc: string; note?: string; filter: (m: Model) => boolean }
 > = {
   ev: {
     title: "Electric Vehicles",
@@ -242,11 +242,13 @@ export const VEHICLE_TYPES: Record<
   suv: {
     title: "SUVs",
     desc: "SUV models in the database, across powertrains.",
+    note: "A knowledge-hub listing of SUV models in the database — for how each specification field is defined, see the specification fields reference.",
     filter: (m) => m.body_type === "suv",
   },
   sedan: {
     title: "Sedans",
     desc: "Sedan models in the database, across powertrains.",
+    note: "A knowledge-hub listing of sedan models in the database — for how each specification field is defined, see the specification fields reference.",
     filter: (m) => m.body_type === "sedan",
   },
 };

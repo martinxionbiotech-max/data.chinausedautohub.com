@@ -50,6 +50,12 @@ const jsonLd = [
   <p class="lede">
     {list.length} {list.length === 1 ? "model" : "models"} in the database.
   </p>
+  {cfg.note && (
+    <p class="hub-note">
+      {cfg.note}{" "}
+      <a href="/vehicle-specifications/">Specification fields reference →</a>
+    </p>
+  )}
 
   <div class="grid">
     {list.map((m) => {
@@ -75,6 +81,8 @@ const jsonLd = [
 
   <style>
     .lede { color: var(--color-text-soft); }
+    .hub-note { background: var(--color-bg-alt); border-left: 3px solid var(--color-accent); padding: var(--space-3); font-size: 14px; color: var(--color-text-soft); margin: var(--space-3) 0; }
+    .hub-note a { font-weight: 600; color: var(--color-primary); }
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-4); margin: var(--space-5) 0; }
     .card { display: block; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); color: inherit; }
     .card:hover { text-decoration: none; box-shadow: var(--shadow-md); }
