@@ -18,7 +18,7 @@ import {
   BODY_TYPE_LABELS,
   breadcrumbJsonLd,
 } from "../../lib/helpers";
-import { marketPosition, MARKET_POSITION_SOURCE, MARKET_POSITION_CONFIDENCE } from "../../lib/market-position";
+import { marketPosition, MARKET_POSITION_SOURCE, MARKET_POSITION_CONFIDENCE, MARKET_POSITION_CHECKED } from "../../lib/market-position";
 import { modelOverview } from "../../lib/vehicle-overview";
 import { modelMarketLinks, modelGuideLinks, modelToolLinks } from "../../lib/model-links";
 
@@ -60,7 +60,6 @@ const breadcrumbs = [
 // Kept in the page layer (not the shared component) as required by Phase 2.
 function confidenceClass(level: string): string {
   switch (level) {
-    case "Verified":
     case "Source-backed":
       return "badge-high";
     case "Reported":
@@ -241,7 +240,8 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
         <p>{position}</p>
         <p class="confidence-line">
           Source: {MARKET_POSITION_SOURCE} · Confidence level:{" "}
-          <span class={`badge ${confidenceClass(positionLevel)}`}>{positionLevel}</span>
+          <span class={`badge ${confidenceClass(positionLevel)}`}>{positionLevel}</span> ·{" "}
+          Last checked: {MARKET_POSITION_CHECKED}
         </p>
       </>
     ) : (

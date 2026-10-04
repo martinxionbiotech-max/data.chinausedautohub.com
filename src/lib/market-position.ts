@@ -4,6 +4,7 @@
 
 export const MARKET_POSITION_SOURCE = "Public market knowledge";
 export const MARKET_POSITION_CONFIDENCE = "medium";
+export const MARKET_POSITION_CHECKED = "2026-10-04";
 
 export const marketPosition: Record<string, string> = {
   "byd-song-plus": "A core BYD SUV nameplate in China, offered as a DM-i plug-in hybrid and a pure EV.",

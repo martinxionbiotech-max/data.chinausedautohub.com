@@ -60,11 +60,12 @@ export const POWERTRAIN_LABELS: Record<string, string> = {
   ice: "ICE",
 };
 
-// Phase 2 five-level confidence semantics, mapped at the DATA page layer from the
-// four-level data field (high/medium/low/unknown). The shared SourceNote component
-// is left unchanged; this mapping is only for DATA-site display.
+// DATA-site confidence display labels. Manufacturer-published specifications are
+// a citable source, not an independent verification, so the highest level shown is
+// "Source-backed" — never "Verified" (which would claim we independently confirmed
+// the figure against a held document; see docs/trust-terminology.md §2/§4).
 export const CONFIDENCE_LEVELS: Record<string, string> = {
-  high: "Verified",
+  high: "Source-backed",
   medium: "Reported",
   low: "Estimated",
   unknown: "Unknown",
@@ -76,7 +77,7 @@ export function confidenceLevel(
 ): string {
   const c = (confidence ?? "").toLowerCase();
   if (c === "high") {
-    return sourceUrl ? "Source-backed" : "Verified";
+    return "Source-backed";
   }
   return CONFIDENCE_LEVELS[c] ?? "Unknown";
 }

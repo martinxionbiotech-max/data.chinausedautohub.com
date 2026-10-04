@@ -1,95 +1,95 @@
 {
- "countries": [
-  {
-   "country_id": "uae",
-   "name": "United Arab Emirates",
-   "name_zh": "阿联酋",
-   "region": "middle-east",
-   "drive_side": "lhd",
-   "currency": "AED",
-   "status": "active",
-   "source": "Common public knowledge",
-   "source_url": null,
-   "source_date": null,
-   "confidence": "high"
-  },
-  {
-   "country_id": "saudi-arabia",
-   "name": "Saudi Arabia",
-   "name_zh": "沙特阿拉伯",
-   "region": "middle-east",
-   "drive_side": "lhd",
-   "currency": "SAR",
-   "status": "active",
-   "source": "Common public knowledge",
-   "source_url": null,
-   "source_date": null,
-   "confidence": "high"
-  },
-  {
-   "country_id": "kenya",
-   "name": "Kenya",
-   "name_zh": "肯尼亚",
-   "region": "africa",
-   "drive_side": "rhd",
-   "currency": "KES",
-   "status": "active",
-   "source": "Common public knowledge",
-   "source_url": null,
-   "source_date": null,
-   "confidence": "high"
-  },
-  {
-   "country_id": "tanzania",
-   "name": "Tanzania",
-   "name_zh": "坦桑尼亚",
-   "region": "africa",
-   "drive_side": "rhd",
-   "currency": "TZS",
-   "status": "active",
-   "source": "Common public knowledge",
-   "source_url": null,
-   "source_date": null,
-   "confidence": "high"
-  },
-  {
-   "country_id": "nigeria",
-   "name": "Nigeria",
-   "name_zh": "尼日利亚",
-   "region": "africa",
-   "drive_side": "rhd",
-   "currency": "NGN",
-   "status": "active",
-   "source": "Common public knowledge",
-   "source_url": null,
-   "source_date": null,
-   "confidence": "high"
-  },
-  {
-   "country_id": "kazakhstan",
-   "name": "Kazakhstan",
-   "name_zh": "哈萨克斯坦",
-   "region": "central-asia",
-   "drive_side": "lhd",
-   "currency": "KZT",
-   "status": "active",
-   "source": "Common public knowledge",
-   "source_url": null,
-   "source_date": null,
-   "confidence": "high"
-  },
-  {
-   "country_id": "uzbekistan",
-   "name": "Uzbekistan",
-   "name_zh": "乌兹别克斯坦",
-   "region": "central-asia",
-   "drive_side": "lhd",
-   "currency": "UZS",
-   "status": "active",
-   "source": "Common public knowledge",
-   "source_url": null,
-   "source_date": null,
-   "confidence": "high"
-  }
- ]
+  "countries": [
+    {
+      "country_id": "uae",
+      "name": "United Arab Emirates",
+      "name_zh": "阿联酋",
+      "region": "middle-east",
+      "drive_side": "lhd",
+      "currency": "AED",
+      "status": "active",
+      "source": "Common public knowledge",
+      "source_url": null,
+      "source_date": "2026-10-04",
+      "confidence": "high"
+    },
+    {
+      "country_id": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "name_zh": "沙特阿拉伯",
+      "region": "middle-east",
+      "drive_side": "lhd",
+      "currency": "SAR",
+      "status": "active",
+      "source": "Common public knowledge",
+      "source_url": null,
+      "source_date": "2026-10-04",
+      "confidence": "high"
+    },
+    {
+      "country_id": "kenya",
+      "name": "Kenya",
+      "name_zh": "肯尼亚",
+      "region": "africa",
+      "drive_side": "rhd",
+      "currency": "KES",
+      "status": "active",
+      "source": "Common public knowledge",
+      "source_url": null,
+      "source_date": "2026-10-04",
+      "confidence": "high"
+    },
+    {
+      "country_id": "tanzania",
+      "name": "Tanzania",
+      "name_zh": "坦桑尼亚",
+      "region": "africa",
+      "drive_side": "rhd",
+      "currency": "TZS",
+      "status": "active",
+      "source": "Common public knowledge",
+      "source_url": null,
+      "source_date": "2026-10-04",
+      "confidence": "high"
+    },
+    {
+      "country_id": "nigeria",
+      "name": "Nigeria",
+      "name_zh": "尼日利亚",
+      "region": "africa",
+      "drive_side": "rhd",
+      "currency": "NGN",
+      "status": "active",
+      "source": "Common public knowledge",
+      "source_url": null,
+      "source_date": "2026-10-04",
+      "confidence": "high"
+    },
+    {
+      "country_id": "kazakhstan",
+      "name": "Kazakhstan",
+      "name_zh": "哈萨克斯坦",
+      "region": "central-asia",
+      "drive_side": "lhd",
+      "currency": "KZT",
+      "status": "active",
+      "source": "Common public knowledge",
+      "source_url": null,
+      "source_date": "2026-10-04",
+      "confidence": "high"
+    },
+    {
+      "country_id": "uzbekistan",
+      "name": "Uzbekistan",
+      "name_zh": "乌兹别克斯坦",
+      "region": "central-asia",
+      "drive_side": "lhd",
+      "currency": "UZS",
+      "status": "active",
+      "source": "Common public knowledge",
+      "source_url": null,
+      "source_date": "2026-10-04",
+      "confidence": "high"
+    }
+  ]
 }
