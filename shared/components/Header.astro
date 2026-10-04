@@ -1,0 +1,30 @@
+---
+import { MAIN_SITE_URL, DATA_SITE_URL, COMPANIES_SITE_URL, TOOLS_SITE_URL, MARKET_SITE_URL } from "../config/config";
+const { siteTitle, currentSection } = Astro.props;
+const links = [
+  { label: "Vehicles", url: MAIN_SITE_URL + "/", key: "vehicles" },
+  { label: "Vehicle Data", url: DATA_SITE_URL + "/", key: "data" },
+  { label: "Companies", url: COMPANIES_SITE_URL + "/", key: "companies" },
+  { label: "Tools", url: TOOLS_SITE_URL + "/", key: "tools" },
+  { label: "Markets", url: MARKET_SITE_URL + "/", key: "market" },
+];
+---
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="site-brand">{siteTitle}</a>
+    <nav class="eco-nav" aria-label="Ecosystem">
+      {links.map((l) => (
+        <a href={l.url} class={l.key === currentSection ? "current" : ""}>{l.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>
+<style>
+  .site-header { background: var(--color-primary); color: #fff; }
+  .header-inner { display: flex; align-items: center; gap: var(--space-5); padding: 12px 16px; flex-wrap: wrap; }
+  .site-brand { font-weight: 700; font-size: 18px; color: #fff; }
+  .eco-nav { display: flex; gap: var(--space-4); flex-wrap: wrap; }
+  .eco-nav a { color: #cfe0f2; font-size: 14px; }
+  .eco-nav a:hover { color: #fff; }
+  .eco-nav a.current { color: #fff; font-weight: 700; }
+</style>

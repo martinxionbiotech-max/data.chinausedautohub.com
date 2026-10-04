@@ -1,0 +1,84 @@
+---
+import BaseLayout from "../../../shared/components/BaseLayout.astro";
+import { DATA_SITE_URL } from "../../../shared/config/config";
+import {
+  models,
+  getBrand,
+  modelPowertrains,
+  countTrims,
+  POWERTRAIN_LABELS,
+  BODY_TYPE_LABELS,
+  breadcrumbJsonLd,
+} from "../../lib/helpers";
+
+const siteTitle = "China Used Car Database";
+const breadcrumbs = [
+  { name: "Home", url: "/" },
+  { name: "Models", url: "/models/" },
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Vehicle Models",
+    url: DATA_SITE_URL + "/models/",
+    hasPart: models.map((m) => ({
+      "@type": "Vehicle",
+      name: m.name,
+      url: DATA_SITE_URL + `/models/${m.model_id}/`,
+    })),
+  },
+  breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL),
+];
+---
+
+<BaseLayout
+  siteTitle={siteTitle}
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title="All Vehicle Models — China Used Car Database"
+  description="Every vehicle model in the database with brand, body type and powertrain, linked to full generation and trim specifications."
+  canonical="/models/"
+  jsonLd={jsonLd}
+  breadcrumbs={breadcrumbs}
+>
+  <h1>Vehicle Models</h1>
+  <p class="lede">
+    {models.length} models with generation and trim data. Select a model for
+    source-tracked technical specifications.
+  </p>
+
+  <div class="grid">
+    {models.map((m) => {
+      const brand = getBrand(m.brand_id);
+      const pws = modelPowertrains(m);
+      return (
+        <a class="card" href={`/models/${m.model_id}/`}>
+          <h2>{m.name}</h2>
+          <p class="zh">{m.name_zh}</p>
+          <p class="meta">
+            {brand?.name ?? m.brand_id} · {BODY_TYPE_LABELS[m.body_type] ?? m.body_type} ·{" "}
+            {countTrims(m)} {countTrims(m) === 1 ? "trim" : "trims"}
+          </p>
+          <div class="tags">
+            {pws.map((p) => (
+              <span class="tag">{POWERTRAIN_LABELS[p] ?? p}</span>
+            ))}
+          </div>
+        </a>
+      );
+    })}
+  </div>
+
+  <style>
+    .lede { color: var(--color-text-soft); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-4); margin: var(--space-5) 0; }
+    .card { display: block; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); color: inherit; }
+    .card:hover { text-decoration: none; box-shadow: var(--shadow-md); }
+    .card h2 { margin: 0; }
+    .zh { color: var(--color-text-soft); font-size: 14px; margin: var(--space-1) 0; }
+    .meta { color: var(--color-text-soft); font-size: 13px; }
+    .tags { display: flex; gap: var(--space-2); flex-wrap: wrap; margin-top: var(--space-2); }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: var(--radius-sm); font-size: 12px; font-weight: 600; background: var(--color-accent-soft); color: var(--color-primary); }
+  </style>
+</BaseLayout>

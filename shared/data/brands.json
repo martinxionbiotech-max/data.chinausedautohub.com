@@ -1,0 +1,342 @@
+{
+ "brands": [
+  {
+   "brand_id": "byd",
+   "name": "BYD",
+   "name_zh": "比亚迪",
+   "origin_country": "CN",
+   "founded": 2003,
+   "powertrains": [
+    "ev",
+    "phev",
+    "hev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "mpv",
+    "hatchback"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "geely",
+   "name": "Geely Auto",
+   "name_zh": "吉利汽车",
+   "origin_country": "CN",
+   "founded": 1997,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "hatchback"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "chery",
+   "name": "Chery",
+   "name_zh": "奇瑞",
+   "origin_country": "CN",
+   "founded": 1997,
+   "powertrains": [
+    "ice",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "changan",
+   "name": "Changan",
+   "name_zh": "长安汽车",
+   "origin_country": "CN",
+   "founded": 1862,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "pickup"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "gac",
+   "name": "GAC Motor",
+   "name_zh": "广汽传祺",
+   "origin_country": "CN",
+   "founded": 1997,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "mpv"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "saic",
+   "name": "SAIC Motor",
+   "name_zh": "上汽集团",
+   "origin_country": "CN",
+   "founded": 1955,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "mpv"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "great-wall",
+   "name": "Great Wall Motor",
+   "name_zh": "长城汽车",
+   "origin_country": "CN",
+   "founded": 1984,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "pickup"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "li-auto",
+   "name": "Li Auto",
+   "name_zh": "理想汽车",
+   "origin_country": "CN",
+   "founded": 2015,
+   "powertrains": [
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "mpv"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "nio",
+   "name": "NIO",
+   "name_zh": "蔚来",
+   "origin_country": "CN",
+   "founded": 2014,
+   "powertrains": [
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "xpeng",
+   "name": "XPeng",
+   "name_zh": "小鹏汽车",
+   "origin_country": "CN",
+   "founded": 2014,
+   "powertrains": [
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "mpv"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "toyota",
+   "name": "Toyota",
+   "name_zh": "丰田",
+   "origin_country": "JP",
+   "founded": 1937,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "pickup",
+    "mpv"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "volkswagen",
+   "name": "Volkswagen",
+   "name_zh": "大众",
+   "origin_country": "DE",
+   "founded": 1937,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "mpv"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "bmw",
+   "name": "BMW",
+   "name_zh": "宝马",
+   "origin_country": "DE",
+   "founded": 1916,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "mercedes-benz",
+   "name": "Mercedes-Benz",
+   "name_zh": "梅赛德斯-奔驰",
+   "origin_country": "DE",
+   "founded": 1926,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "mpv"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "honda",
+   "name": "Honda",
+   "name_zh": "本田",
+   "origin_country": "JP",
+   "founded": 1948,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "mpv"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  },
+  {
+   "brand_id": "hyundai",
+   "name": "Hyundai",
+   "name_zh": "现代",
+   "origin_country": "KR",
+   "founded": 1967,
+   "powertrains": [
+    "ice",
+    "hev",
+    "phev",
+    "ev"
+   ],
+   "vehicle_types": [
+    "suv",
+    "sedan",
+    "mpv"
+   ],
+   "source": "Official brand history",
+   "source_url": null,
+   "source_date": null,
+   "confidence": "medium"
+  }
+ ]
+}

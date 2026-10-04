@@ -1,0 +1,67 @@
+---
+// 四站共享基础布局：统一设计系统 + 生态导航 + SEO 基础
+import Header from "./Header.astro";
+import Footer from "./Footer.astro";
+import "../styles/design-tokens.css";
+
+interface Props {
+  siteTitle: string;
+  siteUrl: string;
+  title: string;
+  description?: string;
+  canonical?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  breadcrumbs?: { name: string; url: string }[];
+  lastUpdated?: string;
+  ogType?: string;
+}
+const {
+  siteTitle, siteUrl, title, description = "", canonical, jsonLd, breadcrumbs = [],
+  lastUpdated, ogType = "website", currentSection,
+} = Astro.props;
+const canonicalUrl = canonical
+  ? (canonical.startsWith("http") ? canonical : siteUrl + canonical)
+  : siteUrl + Astro.url.pathname;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonicalUrl} />
+    {description && <meta property="og:description" content={description} />}
+    <meta name="robots" content="index,follow" />
+    {Array.isArray(jsonLd)
+      ? jsonLd.map((ld) => (
+          <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+        ))
+      : jsonLd && (
+          <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+        )}
+  </head>
+  <body>
+    <Header siteTitle={siteTitle} currentSection={currentSection} />
+    {breadcrumbs.length > 0 && (
+      <nav class="breadcrumbs container" aria-label="Breadcrumb">
+        <ol>
+          {breadcrumbs.map((b) => (
+            <li><a href={b.url}>{b.name}</a></li>
+          ))}
+        </ol>
+        <style>
+          .breadcrumbs ol { list-style: none; display: flex; gap: 8px; padding: 12px 0 0; margin: 0; font-size: 13px; flex-wrap: wrap; }
+          .breadcrumbs li:not(:last-child)::after { content: "›"; margin-left: 8px; color: var(--color-text-soft); }
+        </style>
+      </nav>
+    )}
+    <main class="container">
+      <slot />
+    </main>
+    <Footer siteUrl={siteUrl} lastUpdated={lastUpdated} />
+  </body>
+</html>

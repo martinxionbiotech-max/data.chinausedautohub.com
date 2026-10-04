@@ -1,0 +1,143 @@
+---
+import BaseLayout from "../../../shared/components/BaseLayout.astro";
+import SourceNote from "../../../shared/components/SourceNote.astro";
+import { DATA_SITE_URL, MAIN_SITE_URL, TOOLS_SITE_URL, MARKET_SITE_URL } from "../../../shared/config/config";
+import {
+  brands,
+  getModelsByBrand,
+  countTrims,
+  countGenerations,
+  modelPowertrains,
+  POWERTRAIN_LABELS,
+  BODY_TYPE_LABELS,
+  COUNTRY_LABELS,
+  breadcrumbJsonLd,
+} from "../../lib/helpers";
+
+export function getStaticPaths() {
+  return brands.map((b) => ({ params: { brand: b.brand_id }, props: { brand: b } }));
+}
+
+const siteTitle = "China Used Car Database";
+const { brand } = Astro.props;
+const brandModels = getModelsByBrand(brand.brand_id);
+const pageUrl = DATA_SITE_URL + `/brands/${brand.brand_id}/`;
+const breadcrumbs = [
+  { name: "Home", url: "/" },
+  { name: "Brands", url: "/brands/" },
+  { name: brand.name, url: `/brands/${brand.brand_id}/` },
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Brand",
+    name: brand.name,
+    alternateName: brand.name_zh,
+    url: pageUrl,
+  },
+  breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL),
+];
+---
+
+<BaseLayout
+  siteTitle={siteTitle}
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title={`${brand.name} ${brand.name_zh} — Models & Specifications`}
+  description={`${brand.name} (${brand.name_zh}) vehicle overview — origin, founding year, powertrains and body types, plus every model with trim and generation counts.`}
+  canonical={`/brands/${brand.brand_id}/`}
+  jsonLd={jsonLd}
+  breadcrumbs={breadcrumbs}
+>
+  <h1>
+    {brand.name}
+    {brand.name_zh && <span class="zh"> {brand.name_zh}</span>}
+  </h1>
+
+  <div class="facts">
+    <div class="fact">
+      <span>Origin</span>
+      <strong>{COUNTRY_LABELS[brand.origin_country] ?? brand.origin_country}</strong>
+    </div>
+    <div class="fact">
+      <span>Founded</span>
+      <strong>{brand.founded ?? "Not available"}</strong>
+    </div>
+    <div class="fact">
+      <span>Models</span>
+      <strong>{brandModels.length}</strong>
+    </div>
+  </div>
+
+  <h2>Powertrains</h2>
+  <div class="tags">
+    {brand.powertrains.map((p) => (
+      <span class="tag">{POWERTRAIN_LABELS[p] ?? p}</span>
+    ))}
+  </div>
+
+  <h2>Body types</h2>
+  <div class="tags">
+    {brand.vehicle_types.map((t) => (
+      <span class="tag">{BODY_TYPE_LABELS[t] ?? t}</span>
+    ))}
+  </div>
+
+  <SourceNote
+    source={brand.source}
+    sourceUrl={brand.source_url}
+    sourceDate={brand.source_date}
+    confidence={brand.confidence}
+  />
+
+  <h2>Models</h2>
+  {brandModels.length === 0 ? (
+    <p>No models listed for this brand yet.</p>
+  ) : (
+    <div class="grid">
+      {brandModels.map((m) => {
+        const gens = countGenerations(m);
+        const trims = countTrims(m);
+        const pws = modelPowertrains(m);
+        return (
+          <a class="card" href={`/models/${m.model_id}/`}>
+            <h3>{m.name}</h3>
+            <p class="zh">{m.name_zh}</p>
+            <p class="meta">
+              {gens} {gens === 1 ? "generation" : "generations"} · {trims}{" "}
+              {trims === 1 ? "trim" : "trims"}
+            </p>
+            <div class="tags">
+              {pws.map((p) => (
+                <span class="tag">{POWERTRAIN_LABELS[p] ?? p}</span>
+              ))}
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  )}
+
+  <h2>Explore the ecosystem</h2>
+  <ul class="links">
+    <li><a href={MAIN_SITE_URL}>View available vehicles</a></li>
+    <li><a href={TOOLS_SITE_URL}>Compare vehicles</a></li>
+    <li><a href={MARKET_SITE_URL}>Explore import markets</a></li>
+  </ul>
+
+  <style>
+    .zh { color: var(--color-text-soft); font-size: 22px; font-weight: 400; }
+    .facts { display: flex; gap: var(--space-4); margin: var(--space-4) 0; flex-wrap: wrap; }
+    .fact { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-3) var(--space-4); }
+    .fact span { display: block; color: var(--color-text-soft); font-size: 13px; }
+    .fact strong { font-size: 18px; color: var(--color-primary); }
+    .tags { display: flex; gap: var(--space-2); flex-wrap: wrap; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: var(--radius-sm); font-size: 12px; font-weight: 600; background: var(--color-accent-soft); color: var(--color-primary); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-4); margin: var(--space-4) 0; }
+    .card { display: block; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); color: inherit; }
+    .card:hover { text-decoration: none; box-shadow: var(--shadow-md); }
+    .card h3 { margin: 0; }
+    .meta { color: var(--color-text-soft); font-size: 13px; }
+    .links li { margin: var(--space-2) 0; }
+  </style>
+</BaseLayout>

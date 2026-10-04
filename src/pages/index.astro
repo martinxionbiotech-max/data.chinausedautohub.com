@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../../shared/components/BaseLayout.astro";
+import { DATA_SITE_URL, MAIN_SITE_URL } from "../../shared/config/config";
+import { brands, models, countTrims, countGenerations } from "../lib/helpers";
+
+const siteTitle = "China Used Car Database";
+const pageUrl = DATA_SITE_URL + "/";
+const totalTrims = models.reduce((a, m) => a + countTrims(m), 0);
+const totalGenerations = models.reduce((a, m) => a + countGenerations(m), 0);
+
+const dataset = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  name: "China Used Car Database",
+  description:
+    "Structured database of Chinese-market vehicles — brands, models, generations, trims and technical specifications.",
+  url: pageUrl,
+  variableMeasured: [
+    { name: "Brands", value: brands.length },
+    { name: "Models", value: models.length },
+    { name: "Generations", value: totalGenerations },
+    { name: "Trims", value: totalTrims },
+  ],
+  license: "https://creativecommons.org/licenses/by-sa/4.0/",
+};
+---
+
+<BaseLayout
+  siteTitle={siteTitle}
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title="China Used Car Database — Vehicle Specifications"
+  description="Searchable database of Chinese-market vehicle brands, models, generations, trims and technical specifications. Data-first, source-tracked, no marketing filler."
+  canonical="/"
+  jsonLd={dataset}
+>
+  <h1>China Used Car Database</h1>
+  <p class="lede">
+    Structured vehicle knowledge: brands, models, generations, trims and technical
+    specifications for Chinese-market vehicles. Facts with sources — not marketing copy.
+  </p>
+
+  <div class="stats">
+    <div class="stat"><strong>{brands.length}</strong><span>Brands</span></div>
+    <div class="stat"><strong>{models.length}</strong><span>Models</span></div>
+    <div class="stat"><strong>{totalGenerations}</strong><span>Generations</span></div>
+    <div class="stat"><strong>{totalTrims}</strong><span>Trims</span></div>
+  </div>
+
+  <h2>Browse</h2>
+  <ul class="browse">
+    <li><a href="/brands/">Browse Brands</a></li>
+    <li><a href="/models/">Browse Models</a></li>
+    <li><a href="/vehicle-types/ev/">Browse EVs</a></li>
+    <li><a href="/vehicle-types/hybrid/">Browse Hybrid Cars</a></li>
+    <li><a href="/vehicle-types/suv/">Browse SUVs</a></li>
+    <li><a href="/vehicle-types/sedan/">Browse Sedans</a></li>
+  </ul>
+
+  <h2>Need a vehicle, not just data?</h2>
+  <p>
+    This site is the knowledge layer. For available vehicles and inquiries, go to the
+    <a href={MAIN_SITE_URL}>main site</a>.
+  </p>
+
+  <style>
+    .lede { font-size: 18px; color: var(--color-text-soft); }
+    .stats { display: flex; gap: var(--space-4); margin: var(--space-5) 0; flex-wrap: wrap; }
+    .stat { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); min-width: 140px; text-align: center; }
+    .stat strong { display: block; font-size: 28px; color: var(--color-primary); }
+    .stat span { color: var(--color-text-soft); font-size: 14px; }
+    .browse li { margin: var(--space-2) 0; }
+  </style>
+</BaseLayout>

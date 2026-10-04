@@ -1,0 +1,22 @@
+---
+interface Props {
+  source?: string;
+  sourceUrl?: string;
+  sourceDate?: string;
+  confidence?: string;
+}
+const { source, sourceUrl, sourceDate, confidence } = Astro.props;
+const badgeClass = {
+  High: "badge-high", Medium: "badge-medium", Low: "badge-low",
+  high: "badge-high", medium: "badge-medium", low: "badge-low", Unknown: "badge-unknown", unknown: "badge-unknown",
+}[confidence ?? "unknown"] ?? "badge-unknown";
+---
+<p class="source-note">
+  <span class={"badge " + badgeClass}>Confidence: {confidence ?? "Unknown"}</span>
+  {source && <>Source: {sourceUrl ? <a href={sourceUrl} rel="noopener">{source}</a> : source}</>}
+  {sourceDate && <> · Source date: {sourceDate}</>}
+</p>
+<style>
+  .source-note { font-size: 13px; color: var(--color-text-soft); margin: var(--space-3) 0; }
+  .source-note .badge { margin-right: var(--space-2); }
+</style>

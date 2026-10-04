@@ -1,0 +1,87 @@
+---
+import BaseLayout from "../../../shared/components/BaseLayout.astro";
+import { DATA_SITE_URL } from "../../../shared/config/config";
+import {
+  models,
+  getBrand,
+  modelPowertrains,
+  countTrims,
+  VEHICLE_TYPES,
+  POWERTRAIN_LABELS,
+  BODY_TYPE_LABELS,
+  breadcrumbJsonLd,
+} from "../../lib/helpers";
+
+export function getStaticPaths() {
+  return Object.keys(VEHICLE_TYPES).map((type) => ({ params: { type } }));
+}
+
+const siteTitle = "China Used Car Database";
+const type = Astro.params.type as string;
+const cfg = VEHICLE_TYPES[type];
+const list = models.filter(cfg.filter);
+const pageUrl = DATA_SITE_URL + `/vehicle-types/${type}/`;
+const breadcrumbs = [
+  { name: "Home", url: "/" },
+  { name: cfg.title, url: `/vehicle-types/${type}/` },
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: cfg.title,
+    url: pageUrl,
+  },
+  breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL),
+];
+---
+
+<BaseLayout
+  siteTitle={siteTitle}
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title={`${cfg.title} — China Used Car Database`}
+  description={cfg.desc}
+  canonical={`/vehicle-types/${type}/`}
+  jsonLd={jsonLd}
+  breadcrumbs={breadcrumbs}
+>
+  <h1>{cfg.title}</h1>
+  <p class="lede">
+    {list.length} {list.length === 1 ? "model" : "models"} in the database.
+  </p>
+
+  <div class="grid">
+    {list.map((m) => {
+      const brand = getBrand(m.brand_id);
+      const pws = modelPowertrains(m);
+      return (
+        <a class="card" href={`/models/${m.model_id}/`}>
+          <h2>{m.name}</h2>
+          <p class="zh">{m.name_zh}</p>
+          <p class="meta">
+            {brand?.name ?? m.brand_id} · {BODY_TYPE_LABELS[m.body_type] ?? m.body_type} ·{" "}
+            {countTrims(m)} {countTrims(m) === 1 ? "trim" : "trims"}
+          </p>
+          <div class="tags">
+            {pws.map((p) => (
+              <span class="tag">{POWERTRAIN_LABELS[p] ?? p}</span>
+            ))}
+          </div>
+        </a>
+      );
+    })}
+  </div>
+
+  <style>
+    .lede { color: var(--color-text-soft); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-4); margin: var(--space-5) 0; }
+    .card { display: block; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4); color: inherit; }
+    .card:hover { text-decoration: none; box-shadow: var(--shadow-md); }
+    .card h2 { margin: 0; }
+    .zh { color: var(--color-text-soft); font-size: 14px; margin: var(--space-1) 0; }
+    .meta { color: var(--color-text-soft); font-size: 13px; }
+    .tags { display: flex; gap: var(--space-2); flex-wrap: wrap; margin-top: var(--space-2); }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: var(--radius-sm); font-size: 12px; font-weight: 600; background: var(--color-accent-soft); color: var(--color-primary); }
+  </style>
+</BaseLayout>

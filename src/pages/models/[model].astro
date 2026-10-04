@@ -1,0 +1,142 @@
+---
+import BaseLayout from "../../../shared/components/BaseLayout.astro";
+import SpecTable from "../../../shared/components/SpecTable.astro";
+import SourceNote from "../../../shared/components/SourceNote.astro";
+import { DATA_SITE_URL, MAIN_SITE_URL, TOOLS_SITE_URL, MARKET_SITE_URL } from "../../../shared/config/config";
+import {
+  models,
+  getBrand,
+  formatYears,
+  countTrims,
+  countGenerations,
+  modelPowertrains,
+  specRows,
+  confidenceLow,
+  POWERTRAIN_LABELS,
+  BODY_TYPE_LABELS,
+  breadcrumbJsonLd,
+} from "../../lib/helpers";
+
+export function getStaticPaths() {
+  return models.map((m) => ({ params: { model: m.model_id }, props: { model: m } }));
+}
+
+const siteTitle = "China Used Car Database";
+const { model } = Astro.props;
+const brand = getBrand(model.brand_id);
+const pageUrl = DATA_SITE_URL + `/models/${model.model_id}/`;
+const gens = model.generations ?? [];
+
+const allYears = gens.flatMap((g) => g.production_years ?? []);
+const prodStart = allYears.length ? Math.min(...allYears) : null;
+const prodEnd = allYears.length ? Math.max(...allYears) : null;
+const prodLabel =
+  prodStart != null ? (prodStart === prodEnd ? `${prodStart}` : `${prodStart}–${prodEnd}`) : "Not available";
+
+const breadcrumbs = [
+  { name: "Home", url: "/" },
+  { name: "Brands", url: "/brands/" },
+  ...(brand ? [{ name: brand.name, url: `/brands/${brand.brand_id}/` }] : []),
+  { name: model.name, url: `/models/${model.model_id}/` },
+];
+
+const vehicleLd = {
+  "@context": "https://schema.org",
+  "@type": "Vehicle",
+  name: `${model.name}${model.name_zh ? ` (${model.name_zh})` : ""}`,
+  brand: { "@type": "Brand", name: brand?.name ?? model.brand_id },
+  url: pageUrl,
+  description: `${model.name} (${model.name_zh}) — technical specifications by generation and trim.`,
+};
+const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
+---
+
+<BaseLayout
+  siteTitle={siteTitle}
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title={`${model.name} ${model.name_zh} — Specifications by Generation & Trim`}
+  description={`${model.name} (${model.name_zh}) technical specifications across every generation and trim — dimensions, powertrain, range, and source-tracked data.`}
+  canonical={`/models/${model.model_id}/`}
+  jsonLd={jsonLd}
+  breadcrumbs={breadcrumbs}
+>
+  <h1>
+    {model.name}
+    {model.name_zh && <span class="zh"> {model.name_zh}</span>}
+  </h1>
+
+  <p class="meta">
+    {brand ? <a href={`/brands/${brand.brand_id}/`}>{brand.name}</a> : model.brand_id} ·{" "}
+    {BODY_TYPE_LABELS[model.body_type] ?? model.body_type} · Production {prodLabel} ·{" "}
+    {countGenerations(model)} {countGenerations(model) === 1 ? "generation" : "generations"} ·{" "}
+    {countTrims(model)} {countTrims(model) === 1 ? "trim" : "trims"}
+  </p>
+
+  <SourceNote
+    source={model.source}
+    sourceUrl={model.source_url}
+    sourceDate={model.source_date}
+    confidence={model.confidence}
+  />
+  {confidenceLow(model.confidence) && (
+    <p class="vary">Data may vary by market / trim / source.</p>
+  )}
+
+  {gens.map((g) => (
+    <section class="generation">
+      <h2>{g.name}</h2>
+      <p class="meta">Production years: {formatYears(g.production_years)}</p>
+      {g.trims && g.trims.length > 0 ? (
+        g.trims.map((t) => {
+          const rows = specRows(t.specs);
+          const low = confidenceLow(t.confidence);
+          return (
+            <div class="trim">
+              <h3>{t.name}</h3>
+              <p class="meta">
+                <span class="tag">{POWERTRAIN_LABELS[t.powertrain] ?? t.powertrain}</span>
+                {t.production_years?.length ? (
+                  <> Production years: {formatYears(t.production_years)}</>
+                ) : null}
+              </p>
+              {rows.length > 0 ? (
+                <SpecTable rows={rows} />
+              ) : (
+                <p class="vary">No specifications available for this trim.</p>
+              )}
+              <SourceNote
+                source={t.spec_source}
+                sourceUrl={t.spec_source_url}
+                sourceDate={t.spec_source_date}
+                confidence={t.confidence}
+              />
+              {low && <p class="vary">Data may vary by market / trim / source.</p>}
+            </div>
+          );
+        })
+      ) : (
+        <p class="vary">No trims listed for this generation.</p>
+      )}
+    </section>
+  ))}
+
+  <h2>Looking to buy, compare, or export?</h2>
+  <ul class="cta">
+    <li><a href={MAIN_SITE_URL}>View Available Vehicles</a></li>
+    <li><a href={MAIN_SITE_URL}>Request This Vehicle</a></li>
+    <li><a href={TOOLS_SITE_URL}>Compare This Vehicle</a></li>
+    <li><a href={MARKET_SITE_URL}>Explore Import Markets</a></li>
+  </ul>
+
+  <style>
+    .zh { color: var(--color-text-soft); font-size: 24px; font-weight: 400; }
+    .meta { color: var(--color-text-soft); font-size: 14px; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: var(--radius-sm); font-size: 12px; font-weight: 600; background: var(--color-accent-soft); color: var(--color-primary); margin-right: var(--space-2); }
+    .generation { border-top: 1px solid var(--color-border); margin-top: var(--space-5); padding-top: var(--space-4); }
+    .trim { margin: var(--space-4) 0; }
+    .trim h3 { margin: var(--space-3) 0 var(--space-1); }
+    .vary { color: var(--color-warning); font-size: 13px; }
+    .cta li { margin: var(--space-2) 0; }
+  </style>
+</BaseLayout>

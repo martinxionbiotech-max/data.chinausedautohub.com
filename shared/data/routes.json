@@ -1,0 +1,148 @@
+{
+  "routes": [
+    {
+      "route_id": "cn-tianjin-to-ke-mombasa",
+      "origin_port_id": "cn-tianjin",
+      "destination_port_id": "ke-mombasa",
+      "est_days_min": 18,
+      "est_days_max": 30,
+      "shipping_method": "roro",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "medium"
+    },
+    {
+      "route_id": "cn-shanghai-to-ke-mombasa",
+      "origin_port_id": "cn-shanghai",
+      "destination_port_id": "ke-mombasa",
+      "est_days_min": 20,
+      "est_days_max": 32,
+      "shipping_method": "roro",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "low"
+    },
+    {
+      "route_id": "cn-tianjin-to-tz-dar-es-salaam",
+      "origin_port_id": "cn-tianjin",
+      "destination_port_id": "tz-dar-es-salaam",
+      "est_days_min": 20,
+      "est_days_max": 32,
+      "shipping_method": "roro",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "low"
+    },
+    {
+      "route_id": "cn-shanghai-to-tz-dar-es-salaam",
+      "origin_port_id": "cn-shanghai",
+      "destination_port_id": "tz-dar-es-salaam",
+      "est_days_min": 22,
+      "est_days_max": 34,
+      "shipping_method": "container",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "low"
+    },
+    {
+      "route_id": "cn-tianjin-to-ae-jebel-ali",
+      "origin_port_id": "cn-tianjin",
+      "destination_port_id": "ae-jebel-ali",
+      "est_days_min": 18,
+      "est_days_max": 28,
+      "shipping_method": "roro",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "medium"
+    },
+    {
+      "route_id": "cn-shanghai-to-ae-jebel-ali",
+      "origin_port_id": "cn-shanghai",
+      "destination_port_id": "ae-jebel-ali",
+      "est_days_min": 16,
+      "est_days_max": 26,
+      "shipping_method": "roro",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "medium"
+    },
+    {
+      "route_id": "cn-qingdao-to-sa-dammam",
+      "origin_port_id": "cn-qingdao",
+      "destination_port_id": "sa-dammam",
+      "est_days_min": 20,
+      "est_days_max": 30,
+      "shipping_method": "roro",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "low"
+    },
+    {
+      "route_id": "cn-shanghai-to-sa-jeddah",
+      "origin_port_id": "cn-shanghai",
+      "destination_port_id": "sa-jeddah",
+      "est_days_min": 18,
+      "est_days_max": 28,
+      "shipping_method": "roro",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "low"
+    },
+    {
+      "route_id": "cn-tianjin-to-ng-lagos",
+      "origin_port_id": "cn-tianjin",
+      "destination_port_id": "ng-lagos",
+      "est_days_min": 25,
+      "est_days_max": 40,
+      "shipping_method": "roro",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "low"
+    },
+    {
+      "route_id": "cn-guangzhou-to-ng-tincan",
+      "origin_port_id": "cn-guangzhou",
+      "destination_port_id": "ng-tincan",
+      "est_days_min": 25,
+      "est_days_max": 40,
+      "shipping_method": "roro",
+      "source": "Industry route estimates",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "low"
+    },
+    {
+      "route_id": "cn-lianyungang-to-kz-khorgos",
+      "origin_port_id": "cn-lianyungang",
+      "destination_port_id": "kz-khorgos",
+      "est_days_min": 15,
+      "est_days_max": 25,
+      "shipping_method": "container",
+      "source": "Industry route estimates (rail transit)",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "low"
+    },
+    {
+      "route_id": "cn-lianyungang-to-uz-tashkent",
+      "origin_port_id": "cn-lianyungang",
+      "destination_port_id": "uz-tashkent",
+      "est_days_min": 18,
+      "est_days_max": 30,
+      "shipping_method": "container",
+      "source": "Industry route estimates (rail transit)",
+      "source_url": null,
+      "last_checked": "2026-10-04",
+      "confidence": "low"
+    }
+  ]
+}

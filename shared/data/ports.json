@@ -1,0 +1,20 @@
+{
+  "ports": [
+    { "port_id": "cn-tianjin", "name": "Tianjin (天津)", "country_id": "cn", "type": "origin", "note": null },
+    { "port_id": "cn-shanghai", "name": "Shanghai (上海)", "country_id": "cn", "type": "origin", "note": null },
+    { "port_id": "cn-ningbo", "name": "Ningbo (宁波)", "country_id": "cn", "type": "origin", "note": null },
+    { "port_id": "cn-qingdao", "name": "Qingdao (青岛)", "country_id": "cn", "type": "origin", "note": null },
+    { "port_id": "cn-guangzhou", "name": "Guangzhou Nansha (广州南沙)", "country_id": "cn", "type": "origin", "note": null },
+    { "port_id": "cn-lianyungang", "name": "Lianyungang (连云港)", "country_id": "cn", "type": "origin", "note": null },
+
+    { "port_id": "ke-mombasa", "name": "Mombasa", "country_id": "kenya", "type": "destination", "note": null },
+    { "port_id": "tz-dar-es-salaam", "name": "Dar es Salaam", "country_id": "tanzania", "type": "destination", "note": null },
+    { "port_id": "ng-lagos", "name": "Lagos (Apapa)", "country_id": "nigeria", "type": "destination", "note": null },
+    { "port_id": "ng-tincan", "name": "Lagos (Tin Can Island)", "country_id": "nigeria", "type": "destination", "note": null },
+    { "port_id": "ae-jebel-ali", "name": "Jebel Ali (Dubai)", "country_id": "uae", "type": "destination", "note": null },
+    { "port_id": "sa-dammam", "name": "Dammam", "country_id": "saudi-arabia", "type": "destination", "note": null },
+    { "port_id": "sa-jeddah", "name": "Jeddah", "country_id": "saudi-arabia", "type": "destination", "note": null },
+    { "port_id": "kz-khorgos", "name": "Khorgos (霍尔果斯) / Alashankou (阿拉山口) border", "country_id": "kazakhstan", "type": "destination", "note": "Primarily land/rail transit" },
+    { "port_id": "uz-tashkent", "name": "Tashkent (via Khorgos/Alashankou rail)", "country_id": "uzbekistan", "type": "destination", "note": "Primarily land/rail transit" }
+  ]
+}

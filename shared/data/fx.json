@@ -1,0 +1,16 @@
+{
+  "base": "USD",
+  "rates": {
+    "AED": 3.67,
+    "SAR": 3.75,
+    "KES": 129.5,
+    "TZS": 2650,
+    "NGN": 1550,
+    "KZT": 480,
+    "UZS": 12700
+  },
+  "source": "Public exchange rate snapshot",
+  "source_url": null,
+  "source_date": "2026-10-04",
+  "confidence": "medium"
+}
