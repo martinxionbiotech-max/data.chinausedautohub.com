@@ -19,6 +19,8 @@ import {
   breadcrumbJsonLd,
 } from "../../lib/helpers";
 import { marketPosition, MARKET_POSITION_SOURCE, MARKET_POSITION_CONFIDENCE } from "../../lib/market-position";
+import { modelOverview } from "../../lib/vehicle-overview";
+import { modelMarketLinks, modelGuideLinks, modelToolLinks } from "../../lib/model-links";
 
 export function getStaticPaths() {
   return models.map((m) => ({ params: { model: m.model_id }, props: { model: m } }));
@@ -42,6 +44,10 @@ const modelLevel = confidenceLevel(model.confidence, model.source_url);
 const relatedModels = getModelsByBrand(model.brand_id).filter((m) => m.model_id !== model.model_id);
 const position = marketPosition[model.model_id];
 const positionLevel = confidenceLevel(MARKET_POSITION_CONFIDENCE);
+const overview = modelOverview(model);
+const marketLinks = modelMarketLinks(model.model_id);
+const guideLinks = modelGuideLinks(model);
+const toolLinks = modelToolLinks(model);
 
 const breadcrumbs = [
   { name: "Home", url: "/" },
@@ -99,6 +105,35 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     {countTrims(model)} {countTrims(model) === 1 ? "trim" : "trims"}
   </p>
 
+  <!-- Basic identification + Vehicle Overview (P3.4) -->
+  <section class="consider">
+    <h2>Vehicle Overview</h2>
+    <table class="overview-table">
+      <tbody>
+        <tr>
+          <th scope="row">Basic identification</th>
+          <td>
+            {model.name}
+            {model.name_zh && <> ({model.name_zh})</>} · Model ID <code>{model.model_id}</code> ·{" "}
+            {brand ? brand.name : model.brand_id}
+          </td>
+        </tr>
+        {overview.map((row) => (
+          <tr>
+            <th scope="row">{row.label}</th>
+            <td>
+              {row.available ? row.value : <span class="vary">{row.value}</span>}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="vary">
+      Values are aggregated across the listed generations and trims. Fields not
+      carried by the source data are marked "Not available".
+    </p>
+  </section>
+
   <SourceNote
     source={model.source}
     sourceUrl={model.source_url}
@@ -111,6 +146,22 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
   {confidenceLow(model.confidence) && (
     <p class="vary">Data may vary by market / trim / source.</p>
   )}
+
+  <section class="consider">
+    <h2>Verification Status</h2>
+    <ul>
+      <li>
+        <strong>Source:</strong> {model.source ?? "Not available"}
+      </li>
+      <li>
+        <strong>Last checked:</strong> {model.source_date ?? "Not available"}
+      </li>
+      <li>
+        <strong>Verification level:</strong>{" "}
+        <span class={`badge ${confidenceClass(modelLevel)}`}>{modelLevel}</span>
+      </li>
+    </ul>
+  </section>
 
   {gens.map((g) => (
     <section class="generation">
@@ -172,7 +223,7 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
           : ""}
         {" "}
         {pws.some((p) => p === "ev" || p === "phev") && (
-          <a href={`${MARKET_SITE_URL}/countries/kenya/ev/`}>Kenya EV guide</a>
+          <a href={`${MARKET_SITE_URL}/countries/kenya/#ev-rules`}>Kenya EV rules</a>
         )}
       </li>
       <li>
@@ -213,6 +264,35 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     </section>
   )}
 
+  {marketLinks.length > 0 && (
+    <section class="consider">
+      <h2>Related Markets</h2>
+      <ul class="related">
+        {marketLinks.map((l) => (
+          <li><a href={l.url}>{l.label}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="consider">
+    <h2>Related Guides</h2>
+    <ul class="related">
+      {guideLinks.map((l) => (
+        <li><a href={l.url}>{l.label}</a></li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="consider">
+    <h2>Related Tools</h2>
+    <ul class="related">
+      {toolLinks.map((l) => (
+        <li><a href={l.url}>{l.label}</a></li>
+      ))}
+    </ul>
+  </section>
+
   <h2>Find or request this vehicle</h2>
   <div class="cta-buttons">
     <a class="cta-primary" href={MAIN_SITE_URL + "/cars/"}>Find Available Vehicles</a>
@@ -235,6 +315,9 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     .consider { border-top: 1px solid var(--color-border); margin-top: var(--space-5); padding-top: var(--space-4); }
     .consider li { margin: var(--space-2) 0; }
     .related li { margin: var(--space-1) 0; }
+    .overview-table { width: 100%; border-collapse: collapse; }
+    .overview-table th, .overview-table td { text-align: left; padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    .overview-table th { width: 30%; color: var(--color-text-soft); font-weight: 600; white-space: nowrap; }
     .related .zh { font-size: 14px; }
     .cta-buttons { display: flex; gap: var(--space-3); flex-wrap: wrap; margin: var(--space-4) 0; }
     .cta-primary { display: inline-block; background: var(--color-primary); color: #fff; padding: 10px 20px; border-radius: var(--radius-md); font-weight: 600; }

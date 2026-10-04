@@ -12,7 +12,7 @@ export interface MarketLink {
 
 const LINKS: Record<string, MarketLink[]> = {
   byd: [
-    { label: "Kenya EV import guide", url: `${MARKET_SITE_URL}/countries/kenya/ev/` },
+    { label: "Kenya EV import rules", url: `${MARKET_SITE_URL}/countries/kenya/#ev-rules` },
     { label: "BYD Song Plus in Kenya", url: `${MARKET_SITE_URL}/countries/kenya/byd-song-plus/` },
     { label: "UAE market guide", url: `${MARKET_SITE_URL}/countries/uae/` },
   ],
