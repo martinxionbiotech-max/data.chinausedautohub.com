@@ -24,7 +24,8 @@
       "source": "Dubai Customs",
       "source_url": "https://www.dubaicustoms.gov.ae",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "uae-gcc-spec",
@@ -37,7 +38,8 @@
       "source": "Dubai Customs",
       "source_url": "https://www.dubaicustoms.gov.ae",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "uae-ev-policy",
@@ -50,7 +52,8 @@
       "source": "UAE authorities (public record)",
       "source_url": null,
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "sa-drive-side",
@@ -76,7 +79,8 @@
       "source": "Zakat, Tax and Customs Authority (ZATCA)",
       "source_url": "https://zatca.gov.sa",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "sa-saber",
@@ -89,7 +93,8 @@
       "source": "SASO / ZATCA",
       "source_url": "https://zatca.gov.sa",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "sa-ev-policy",
@@ -102,7 +107,8 @@
       "source": "Saudi authorities (public record)",
       "source_url": null,
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "ke-drive-side",
@@ -128,7 +134,8 @@
       "source": "Kenya Bureau of Standards (KEBS) / KRA",
       "source_url": "https://www.kra.go.ke",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "ke-pvoc",
@@ -141,7 +148,8 @@
       "source": "Kenya Bureau of Standards (KEBS)",
       "source_url": "https://www.kebs.org",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "ke-ev-policy",
@@ -154,7 +162,8 @@
       "source": "EAC / Kenya Revenue Authority",
       "source_url": "https://www.kra.go.ke",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "tz-drive-side",
@@ -180,7 +189,8 @@
       "source": "Tanzania Revenue Authority (TRA)",
       "source_url": "https://www.tra.go.tz",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "tz-pvoc",
@@ -193,7 +203,8 @@
       "source": "Tanzania Bureau of Standards (TBS)",
       "source_url": null,
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "tz-ev-policy",
@@ -206,7 +217,8 @@
       "source": "Tanzania authorities (public record)",
       "source_url": null,
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "ng-drive-side",
@@ -232,7 +244,8 @@
       "source": "Nigeria Customs Service",
       "source_url": "https://customs.gov.ng",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "ng-soncap",
@@ -245,7 +258,8 @@
       "source": "Nigeria Customs Service / SON",
       "source_url": "https://customs.gov.ng",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "ng-ev-policy",
@@ -258,7 +272,8 @@
       "source": "Nigeria authorities (public record)",
       "source_url": null,
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "kz-drive-side",
@@ -284,7 +299,8 @@
       "source": "State Revenue Committee (KGD)",
       "source_url": "https://kgd.gov.kz",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "kz-eaeu",
@@ -297,7 +313,8 @@
       "source": "State Revenue Committee (KGD)",
       "source_url": "https://kgd.gov.kz",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "kz-ev-policy",
@@ -310,7 +327,8 @@
       "source": "Kazakhstan authorities (public record)",
       "source_url": null,
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "uz-drive-side",
@@ -336,7 +354,8 @@
       "source": "State Customs Committee",
       "source_url": "https://customs.uz",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "uz-age-limit",
@@ -349,7 +368,8 @@
       "source": "State Customs Committee",
       "source_url": "https://customs.uz",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "rule_id": "uz-ev-policy",
@@ -362,7 +382,8 @@
       "source": "Uzbekistan authorities (public record)",
       "source_url": null,
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     }
   ]
 }

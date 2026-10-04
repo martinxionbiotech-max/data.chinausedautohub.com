@@ -4,8 +4,10 @@ interface Props {
   sourceUrl?: string;
   sourceDate?: string;
   confidence?: string;
+  effectiveDate?: string;
+  notes?: string;
 }
-const { source, sourceUrl, sourceDate, confidence } = Astro.props;
+const { source, sourceUrl, sourceDate, confidence, effectiveDate, notes } = Astro.props;
 const badgeClass = {
   High: "badge-high", Medium: "badge-medium", Low: "badge-low",
   high: "badge-high", medium: "badge-medium", low: "badge-low", Unknown: "badge-unknown", unknown: "badge-unknown",
@@ -15,8 +17,11 @@ const badgeClass = {
   <span class={"badge " + badgeClass}>Confidence: {confidence ?? "Unknown"}</span>
   {source && <>Source: {sourceUrl ? <a href={sourceUrl} rel="noopener">{source}</a> : source}</>}
   {sourceDate && <> · Source date: {sourceDate}</>}
+  {effectiveDate && <> · Effective date: {effectiveDate}</>}
+  {notes && <span class="note"> · {notes}</span>}
 </p>
 <style>
   .source-note { font-size: 13px; color: var(--color-text-soft); margin: var(--space-3) 0; }
   .source-note .badge { margin-right: var(--space-2); }
+  .source-note .note { color: var(--color-warning); }
 </style>

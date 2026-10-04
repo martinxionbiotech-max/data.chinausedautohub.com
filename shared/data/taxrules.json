@@ -12,7 +12,8 @@
       "source": "UAE Federal Customs Authority",
       "source_url": "https://www.dubaicustoms.gov.ae",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "taxrule_id": "uae-vat",
@@ -40,7 +41,8 @@
       "source": "Zakat, Tax and Customs Authority (ZATCA)",
       "source_url": "https://zatca.gov.sa",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "taxrule_id": "sa-vat",
@@ -68,7 +70,8 @@
       "source": "Kenya Revenue Authority (KRA)",
       "source_url": "https://www.kra.go.ke",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "taxrule_id": "ke-vat",
@@ -96,7 +99,8 @@
       "source": "EAC Common External Tariff / KRA",
       "source_url": "https://www.kra.go.ke",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "taxrule_id": "tz-duty",
@@ -110,7 +114,8 @@
       "source": "Tanzania Revenue Authority (TRA)",
       "source_url": "https://www.tra.go.tz",
       "confidence": "medium",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "taxrule_id": "tz-vat",
@@ -138,7 +143,8 @@
       "source": "Nigeria Customs Service",
       "source_url": "https://customs.gov.ng",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "taxrule_id": "ng-vat",
@@ -166,7 +172,8 @@
       "source": "State Revenue Committee (KGD)",
       "source_url": "https://kgd.gov.kz",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "taxrule_id": "kz-vat",
@@ -194,7 +201,8 @@
       "source": "State Revenue Committee (KGD)",
       "source_url": "https://kgd.gov.kz",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "taxrule_id": "uz-duty",
@@ -208,7 +216,8 @@
       "source": "State Customs Committee",
       "source_url": "https://customs.uz",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     },
     {
       "taxrule_id": "uz-vat",
@@ -236,7 +245,8 @@
       "source": "State Customs Committee",
       "source_url": "https://customs.uz",
       "confidence": "low",
-      "needs_review": true
+      "needs_review": true,
+      "notes": "Uncertain / changes frequently — verify with official authorities before purchase."
     }
   ]
 }

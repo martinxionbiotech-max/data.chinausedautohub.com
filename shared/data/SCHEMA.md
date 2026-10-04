@@ -108,14 +108,17 @@
     "last_checked": "2026-10-04",
     "source": "…", "source_url": "…",
     "confidence": "high|medium|low|unknown",
-    "needs_review": false
+    "needs_review": false,
+    "notes": "uncertain / changes frequently, verify before purchase"
   }]
 }
 ```
 - 法规是高风险数据：不确定必须 needs_review=true + confidence=low；页面必须显示 source/date 并建议用户确认官方海关
+- `notes`（可选）：不确定或频繁变动的数据显式标注，如 "uncertain / changes frequently, verify before purchase"
 
 ## taxrules.json（MARKET 维护；种子基线 14 条已存在，全部 needs_review=true，需核实更新）
-字段：taxrule_id, country_id, tax_type(import_duty|vat|excise|other), label, rate_pct, basis, effective_date, last_checked, source, source_url, confidence, needs_review
+字段：taxrule_id, country_id, tax_type(import_duty|vat|excise|other), label, rate_pct, basis, effective_date, last_checked, source, source_url, confidence, needs_review, notes
+- `notes`（可选）：不确定或频繁变动的税率显式标注
 
 ## ports.json（MARKET 维护）
 ```json
