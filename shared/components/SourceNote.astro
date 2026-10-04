@@ -4,21 +4,35 @@ interface Props {
   sourceUrl?: string;
   sourceDate?: string;
   confidence?: string;
+  /** Optional PHASE 6 five-level label override (Confirmed / Source-backed / Needs verification / Estimated / Unknown). */
+  confidenceLabel?: string;
   effectiveDate?: string;
   notes?: string;
+  /** Explicit per-statement metadata (PHASE 6): jurisdiction + applicability + caveat. */
+  jurisdiction?: string;
+  applicability?: string;
+  caveat?: string;
 }
-const { source, sourceUrl, sourceDate, confidence, effectiveDate, notes } = Astro.props;
+const { source, sourceUrl, sourceDate, confidence, confidenceLabel, effectiveDate, notes, jurisdiction, applicability, caveat } = Astro.props;
 const badgeClass = {
   High: "badge-high", Medium: "badge-medium", Low: "badge-low",
   high: "badge-high", medium: "badge-medium", low: "badge-low", Unknown: "badge-unknown", unknown: "badge-unknown",
 }[confidence ?? "unknown"] ?? "badge-unknown";
+const labelClass = {
+  Confirmed: "badge-high", "Source-backed": "badge-high", "Needs verification": "badge-medium", Estimated: "badge-low", Unknown: "badge-unknown",
+}[confidenceLabel ?? ""] ?? "badge-unknown";
 ---
 <p class="source-note">
-  <span class={"badge " + badgeClass}>Confidence: {confidence ?? "Unknown"}</span>
+  {confidenceLabel
+    ? <span class={"badge " + labelClass}>Confidence: {confidenceLabel}</span>
+    : <span class={"badge " + badgeClass}>Confidence: {confidence ?? "Unknown"}</span>}
   {source && <>Source: {sourceUrl ? <a href={sourceUrl} rel="noopener">{source}</a> : source}</>}
-  {sourceDate && <> · Source date: {sourceDate}</>}
+  {sourceDate && <> · Date checked: {sourceDate}</>}
+  {jurisdiction && <> · Jurisdiction: {jurisdiction}</>}
+  {applicability && <> · Applies to: {applicability}</>}
   {effectiveDate && <> · Effective date: {effectiveDate}</>}
-  {notes && <span class="note"> · {notes}</span>}
+  {caveat && <span class="note"> · {caveat}</span>}
+  {!caveat && notes && <span class="note"> · {notes}</span>}
 </p>
 <style>
   .source-note { font-size: 13px; color: var(--color-text-soft); margin: var(--space-3) 0; }

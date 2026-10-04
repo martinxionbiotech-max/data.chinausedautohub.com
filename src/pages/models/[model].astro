@@ -21,6 +21,7 @@ import {
 import { marketPosition, MARKET_POSITION_SOURCE, MARKET_POSITION_CONFIDENCE, MARKET_POSITION_CHECKED } from "../../lib/market-position";
 import { modelOverview } from "../../lib/vehicle-overview";
 import { modelMarketLinks, modelGuideLinks, modelToolLinks } from "../../lib/model-links";
+import { getModelNote, relatedInventoryHref } from "../../lib/model-notes";
 
 export function getStaticPaths() {
   return models.map((m) => ({ params: { model: m.model_id }, props: { model: m } }));
@@ -48,6 +49,8 @@ const overview = modelOverview(model);
 const marketLinks = modelMarketLinks(model.model_id);
 const guideLinks = modelGuideLinks(model);
 const toolLinks = modelToolLinks(model);
+const modelNote = getModelNote(model.model_id);
+const inventoryHref = relatedInventoryHref(model.brand_id);
 
 const breadcrumbs = [
   { name: "Home", url: "/" },
@@ -233,6 +236,47 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     </ul>
   </section>
 
+  {modelNote && (
+    <section class="consider">
+      <h2>Common Specification Differences</h2>
+      <p>{modelNote.specDifferences}</p>
+      <p class="vary">
+        Specifications are typical values and may vary by trim and market.
+        Vehicle-specific information should be confirmed before purchase.
+      </p>
+    </section>
+  )}
+
+  {modelNote && (
+    <section class="consider">
+      <h2>Used-Market Considerations</h2>
+      <ul>
+        {modelNote.usedMarket.map((item) => (
+          <li>{item}</li>
+        ))}
+      </ul>
+      <p class="vary">
+        These are general sourcing considerations, not a condition report for any
+        individual vehicle. Confirm the actual unit's history and condition before purchase.
+      </p>
+    </section>
+  )}
+
+  {modelNote && (
+    <section class="consider">
+      <h2>Destination-Market Considerations</h2>
+      <ul>
+        {modelNote.destination.map((item) => (
+          <li>{item}</li>
+        ))}
+      </ul>
+      <p class="vary">
+        Confirm drive side, homologation, charging and age eligibility with the
+        destination-country authorities and the exporter before committing.
+      </p>
+    </section>
+  )}
+
   <section class="consider">
     <h2>China Market Position</h2>
     {position ? (
@@ -247,6 +291,20 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     ) : (
       <p class="vary">Market position data not yet available.</p>
     )}
+  </section>
+
+  <section class="consider">
+    <h2>Related Inventory</h2>
+    <p>
+      Model specifications on this page describe the model line, not any individual
+      vehicle. Current inventory for this brand — with per-unit condition, mileage,
+      price and availability — is listed on the main site.
+    </p>
+    <p>
+      <a class="cta-primary" href={inventoryHref} rel="noopener">
+        View {brand?.name ?? model.brand_id} inventory on the main site
+      </a>
+    </p>
   </section>
 
   {relatedModels.length > 0 && (
