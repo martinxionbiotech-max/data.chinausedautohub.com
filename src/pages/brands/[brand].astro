@@ -13,6 +13,7 @@ import {
   COUNTRY_LABELS,
   breadcrumbJsonLd,
 } from "../../lib/helpers";
+import { brandMarketLinks } from "../../lib/ecosystem";
 
 export function getStaticPaths() {
   return brands.map((b) => ({ params: { brand: b.brand_id }, props: { brand: b } }));
@@ -21,6 +22,7 @@ export function getStaticPaths() {
 const siteTitle = "China Used Car Database";
 const { brand } = Astro.props;
 const brandModels = getModelsByBrand(brand.brand_id);
+const marketLinks = brandMarketLinks(brand.brand_id);
 const pageUrl = DATA_SITE_URL + `/brands/${brand.brand_id}/`;
 const breadcrumbs = [
   { name: "Home", url: "/" },
@@ -123,6 +125,9 @@ const jsonLd = [
     <li><a href={MAIN_SITE_URL}>View available vehicles</a></li>
     <li><a href={TOOLS_SITE_URL}>Compare vehicles</a></li>
     <li><a href={MARKET_SITE_URL}>Explore import markets</a></li>
+    {marketLinks.map((l) => (
+      <li><a href={l.url}>{l.label}</a></li>
+    ))}
   </ul>
 
   <style>

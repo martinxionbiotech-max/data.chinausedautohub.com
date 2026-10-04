@@ -60,6 +60,27 @@ export const POWERTRAIN_LABELS: Record<string, string> = {
   ice: "ICE",
 };
 
+// Phase 2 five-level confidence semantics, mapped at the DATA page layer from the
+// four-level data field (high/medium/low/unknown). The shared SourceNote component
+// is left unchanged; this mapping is only for DATA-site display.
+export const CONFIDENCE_LEVELS: Record<string, string> = {
+  high: "Verified",
+  medium: "Reported",
+  low: "Estimated",
+  unknown: "Unknown",
+};
+
+export function confidenceLevel(
+  confidence?: string | null,
+  sourceUrl?: string | null
+): string {
+  const c = (confidence ?? "").toLowerCase();
+  if (c === "high") {
+    return sourceUrl ? "Source-backed" : "Verified";
+  }
+  return CONFIDENCE_LEVELS[c] ?? "Unknown";
+}
+
 export const BODY_TYPE_LABELS: Record<string, string> = {
   suv: "SUV",
   sedan: "Sedan",
@@ -164,6 +185,15 @@ export function hasPowertrain(model: Model, types: string[]): boolean {
     }
   }
   return false;
+}
+
+// Aggregate models by a single powertrain or body type for the Phase 2 index pages.
+export function modelsByPowertrain(powertrain: string): Model[] {
+  return models.filter((m) => hasPowertrain(m, [powertrain]));
+}
+
+export function modelsByBodyType(bodyType: string): Model[] {
+  return models.filter((m) => m.body_type === bodyType);
 }
 
 export function specRows(

@@ -1,0 +1,78 @@
+---
+import BaseLayout from "../../../shared/components/BaseLayout.astro";
+import { DATA_SITE_URL } from "../../../shared/config/config";
+import { breadcrumbJsonLd } from "../../lib/helpers";
+import { SPEC_FIELD_REFS } from "../../lib/reference";
+
+const siteTitle = "China Used Car Database";
+const pageUrl = DATA_SITE_URL + "/vehicle-specifications/";
+const breadcrumbs = [
+  { name: "Home", url: "/" },
+  { name: "Vehicle Specifications", url: "/vehicle-specifications/" },
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: SPEC_FIELD_REFS.map((f) => ({
+      "@type": "Question",
+      name: `What does "${f.label}" mean in a vehicle specification?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `${f.meaning} Unit: ${f.unit}. ${f.buyerNote}`,
+      },
+    })),
+  },
+  breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL),
+];
+---
+
+<BaseLayout
+  siteTitle={siteTitle}
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title="Vehicle Specification Fields Explained — China Used Car Database"
+  description="A plain-language reference for every specification field in the database — length, wheelbase, battery capacity, range and more — with units and what each means for a buyer."
+  canonical="/vehicle-specifications/"
+  jsonLd={jsonLd}
+  breadcrumbs={breadcrumbs}
+>
+  <h1>Vehicle Specification Fields</h1>
+  <p class="lede">
+    Every field you see on a model page is defined below — what it measures, its unit,
+    and what it means for a buyer. Values that are missing are shown as
+    "Not available" rather than estimated.
+  </p>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Field</th>
+        <th>Unit</th>
+        <th>What it measures</th>
+        <th>What it means for a buyer</th>
+      </tr>
+    </thead>
+    <tbody>
+      {SPEC_FIELD_REFS.map((f) => (
+        <tr>
+          <td><strong>{f.label}</strong><br /><span class="key">{f.key}</span></td>
+          <td>{f.unit}</td>
+          <td>{f.meaning}</td>
+          <td>{f.buyerNote}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <p class="meta">
+    Related terms such as E-CVT, DCT, CLTC and kWh are defined in the
+    <a href="/glossary/">glossary</a>.
+  </p>
+
+  <style>
+    .lede { color: var(--color-text-soft); }
+    .key { font-family: var(--font-mono); font-size: 12px; color: var(--color-text-soft); }
+    .meta { color: var(--color-text-soft); font-size: 13px; margin-top: var(--space-4); }
+  </style>
+</BaseLayout>

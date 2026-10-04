@@ -6,16 +6,19 @@ import { DATA_SITE_URL, MAIN_SITE_URL, TOOLS_SITE_URL, MARKET_SITE_URL } from ".
 import {
   models,
   getBrand,
+  getModelsByBrand,
   formatYears,
   countTrims,
   countGenerations,
   modelPowertrains,
   specRows,
   confidenceLow,
+  confidenceLevel,
   POWERTRAIN_LABELS,
   BODY_TYPE_LABELS,
   breadcrumbJsonLd,
 } from "../../lib/helpers";
+import { marketPosition, MARKET_POSITION_SOURCE, MARKET_POSITION_CONFIDENCE } from "../../lib/market-position";
 
 export function getStaticPaths() {
   return models.map((m) => ({ params: { model: m.model_id }, props: { model: m } }));
@@ -33,12 +36,35 @@ const prodEnd = allYears.length ? Math.max(...allYears) : null;
 const prodLabel =
   prodStart != null ? (prodStart === prodEnd ? `${prodStart}` : `${prodStart}–${prodEnd}`) : "Not available";
 
+const pws = modelPowertrains(model);
+const modelLevel = confidenceLevel(model.confidence, model.source_url);
+
+const relatedModels = getModelsByBrand(model.brand_id).filter((m) => m.model_id !== model.model_id);
+const position = marketPosition[model.model_id];
+const positionLevel = confidenceLevel(MARKET_POSITION_CONFIDENCE);
+
 const breadcrumbs = [
   { name: "Home", url: "/" },
   { name: "Brands", url: "/brands/" },
   ...(brand ? [{ name: brand.name, url: `/brands/${brand.brand_id}/` }] : []),
   { name: model.name, url: `/models/${model.model_id}/` },
 ];
+
+// Maps a five-level confidence label to the shared badge colour class.
+// Kept in the page layer (not the shared component) as required by Phase 2.
+function confidenceClass(level: string): string {
+  switch (level) {
+    case "Verified":
+    case "Source-backed":
+      return "badge-high";
+    case "Reported":
+      return "badge-medium";
+    case "Estimated":
+      return "badge-low";
+    default:
+      return "badge-unknown";
+  }
+}
 
 const vehicleLd = {
   "@context": "https://schema.org",
@@ -79,6 +105,9 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     sourceDate={model.source_date}
     confidence={model.confidence}
   />
+  <p class="confidence-line">
+    Confidence level: <span class={`badge ${confidenceClass(modelLevel)}`}>{modelLevel}</span>
+  </p>
   {confidenceLow(model.confidence) && (
     <p class="vary">Data may vary by market / trim / source.</p>
   )}
@@ -91,6 +120,7 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
         g.trims.map((t) => {
           const rows = specRows(t.specs);
           const low = confidenceLow(t.confidence);
+          const trimLevel = confidenceLevel(t.confidence, t.spec_source_url);
           return (
             <div class="trim">
               <h3>{t.name}</h3>
@@ -111,6 +141,9 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
                 sourceDate={t.spec_source_date}
                 confidence={t.confidence}
               />
+              <p class="confidence-line">
+                Confidence level: <span class={`badge ${confidenceClass(trimLevel)}`}>{trimLevel}</span>
+              </p>
               {low && <p class="vary">Data may vary by market / trim / source.</p>}
             </div>
           );
@@ -121,13 +154,74 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     </section>
   ))}
 
-  <h2>Looking to buy, compare, or export?</h2>
-  <ul class="cta">
-    <li><a href={MAIN_SITE_URL}>View Available Vehicles</a></li>
-    <li><a href={MAIN_SITE_URL}>Request This Vehicle</a></li>
-    <li><a href={TOOLS_SITE_URL}>Compare This Vehicle</a></li>
-    <li><a href={MARKET_SITE_URL}>Explore Import Markets</a></li>
-  </ul>
+  <section class="consider">
+    <h2>Export Considerations</h2>
+    <ul>
+      <li>
+        <strong>Drive side:</strong> vehicles in this database are produced for the
+        Chinese domestic market (left-hand drive). For right-hand-drive destinations
+        such as Kenya, Tanzania or Nigeria, confirm RHD availability with the
+        exporter. See the <a href={`${MARKET_SITE_URL}/countries/kenya/`}>Kenya market guide</a>.
+      </li>
+      <li>
+        <strong>Powertrain:</strong>{" "}
+        {pws.length ? pws.map((p) => POWERTRAIN_LABELS[p] ?? p).join(", ") : "Not available"}.
+        {pws.some((p) => p === "ev" || p === "phev")
+          ? " EV and PHEV models may benefit from duty relief in some markets — see the "
+            + "EV import rules on the " + MARKET_SITE_URL + " EV guides."
+          : ""}
+        {" "}
+        {pws.some((p) => p === "ev" || p === "phev") && (
+          <a href={`${MARKET_SITE_URL}/countries/kenya/ev/`}>Kenya EV guide</a>
+        )}
+      </li>
+      <li>
+        <strong>Vehicle age:</strong> some markets restrict used-vehicle age (for
+        example Kenya's eight-year rule). Production years {prodLabel} — check the{" "}
+        <a href={`${MARKET_SITE_URL}/countries/kenya/`}>Kenya age rules</a>.
+      </li>
+    </ul>
+  </section>
+
+  <section class="consider">
+    <h2>China Market Position</h2>
+    {position ? (
+      <>
+        <p>{position}</p>
+        <p class="confidence-line">
+          Source: {MARKET_POSITION_SOURCE} · Confidence level:{" "}
+          <span class={`badge ${confidenceClass(positionLevel)}`}>{positionLevel}</span>
+        </p>
+      </>
+    ) : (
+      <p class="vary">Market position data not yet available.</p>
+    )}
+  </section>
+
+  {relatedModels.length > 0 && (
+    <section class="consider">
+      <h2>Related Vehicles</h2>
+      <ul class="related">
+        {relatedModels.map((m) => (
+          <li>
+            <a href={`/models/${m.model_id}/`}>{m.name}</a>
+            <span class="zh"> {m.name_zh}</span> ·{" "}
+            {BODY_TYPE_LABELS[m.body_type] ?? m.body_type}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <h2>Find or request this vehicle</h2>
+  <div class="cta-buttons">
+    <a class="cta-primary" href={MAIN_SITE_URL}>Find Available Vehicles</a>
+    <a class="cta-secondary" href={MAIN_SITE_URL}>Request This Vehicle</a>
+  </div>
+  <p class="meta">
+    <a href={TOOLS_SITE_URL + "/vehicle-comparison/"}>Compare this vehicle</a> ·{" "}
+    <a href={MARKET_SITE_URL}>Explore import markets</a>
+  </p>
 
   <style>
     .zh { color: var(--color-text-soft); font-size: 24px; font-weight: 400; }
@@ -137,6 +231,15 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     .trim { margin: var(--space-4) 0; }
     .trim h3 { margin: var(--space-3) 0 var(--space-1); }
     .vary { color: var(--color-warning); font-size: 13px; }
-    .cta li { margin: var(--space-2) 0; }
+    .confidence-line { font-size: 13px; color: var(--color-text-soft); margin: var(--space-2) 0; }
+    .consider { border-top: 1px solid var(--color-border); margin-top: var(--space-5); padding-top: var(--space-4); }
+    .consider li { margin: var(--space-2) 0; }
+    .related li { margin: var(--space-1) 0; }
+    .related .zh { font-size: 14px; }
+    .cta-buttons { display: flex; gap: var(--space-3); flex-wrap: wrap; margin: var(--space-4) 0; }
+    .cta-primary { display: inline-block; background: var(--color-primary); color: #fff; padding: 10px 20px; border-radius: var(--radius-md); font-weight: 600; }
+    .cta-primary:hover { text-decoration: none; background: var(--color-primary-soft); }
+    .cta-secondary { display: inline-block; border: 1px solid var(--color-primary); color: var(--color-primary); padding: 10px 20px; border-radius: var(--radius-md); font-weight: 600; }
+    .cta-secondary:hover { text-decoration: none; background: var(--color-accent-soft); }
   </style>
 </BaseLayout>

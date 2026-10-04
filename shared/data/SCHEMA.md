@@ -73,7 +73,7 @@
   "companies": [{
     "company_id": "example-auto",
     "name": "Example Auto Export Co., Ltd.",
-    "business_type": "exporter|dealer|supplier|inspection|other",
+    "business_type": "automaker|exporter|dealer|supplier|inspection|logistics|shipping|other",
     "province": "Shandong", "city": "Qingdao", "established": null,
     "business_scope": "...",
     "export_markets": ["uae","kenya"],
@@ -81,14 +81,15 @@
     "vehicle_types": ["suv","sedan"],
     "inspection_capability": null, "warehouse": null,
     "website": null, "email": null, "phone": null, "whatsapp": null,
-    "verification_status": "listed|information_provided|source_verified|official_website_found|registration_information_available",
+    "verification_status": "verified|publicly_listed|source-backed|unverified",
     "verification_evidence": "...",
     "source": "...", "source_url": "...", "last_checked": "2026-10-04",
     "status": "active|inactive"
   }]
 }
 ```
-- verification_status 只能用上面 5 个词，禁止 Verified/Certified/Trusted/Best 无证据标记
+- verification_status 只能用上面 4 个词（Phase 2 四级）：verified（绿，需真实独立证据）/ publicly_listed（蓝，上市公司）/ source-backed（青，官方来源可查）/ unverified（灰，含全部 demo 与无证据记录）
+- 禁止 Verified/Certified/Trusted/Best 无证据标记；demo/占位记录必须 verification_status=unverified
 
 ## countries.json（MARKET 维护，种子已存在）
 字段：country_id, name, name_zh, region, drive_side(lhd|rhd), currency, status, source/source_url/source_date/confidence
