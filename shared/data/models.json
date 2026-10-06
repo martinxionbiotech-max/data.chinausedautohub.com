@@ -962,17 +962,19 @@
       ],
       "production_status": "active",
       "china_market_status": "NIO's mid-size electric SUV.",
-      "export_relevance": "Referenced in market guides for UAE.",
+      "export_relevance": "NIO's mid-size electric SUV, exported to the UAE and Saudi Arabia via OEM-authorized export with GCC/SASO homologation.",
       "common_export_regions": [
-        "UAE"
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "Europe"
       ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
       "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Left-hand-drive China-origin units; GCC (SASO) homologation required for Saudi Arabia/UAE. Battery-swap architecture (75/100 kWh).",
+      "parts_availability_notes": "NIO's overseas service network is still limited — confirm battery-swap and parts support with the exporter.",
+      "charging_standard_notes": "China-market GB/T; swappable battery architecture; export units may use CCS2 — confirm the inlet on the sourced unit.",
+      "homologation_notes": "SASO + GCC homologation for Middle East imports.",
       "generations": [
         {
           "generation_id": "nio-es6-g1",
@@ -1019,11 +1021,11 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Manufacturer published specifications",
-      "source_url": "https://www.nio.com/es6",
-      "source_type": "manufacturer",
+      "source_name": "NIO ES6 export / homologation reference (industry)",
+      "source_url": "https://www.autoglobalai.com/ev/nio-es6",
+      "source_type": "industry",
       "checked_date": "2026-10-06",
-      "confidence": "high",
+      "confidence": "medium",
       "last_verified": "2026-10-06"
     },
     {
@@ -1039,15 +1041,28 @@
       ],
       "production_status": "active",
       "china_market_status": "XPeng's mid-size electric SUV.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "XPeng's flagship export SUV and top-selling overseas model; full-year 2025 overseas sales exceeded 45,000 units with the G6 the leading model. Sold across Europe, Australia, Southeast Asia and the Middle East.",
+      "common_export_regions": [
+        "Germany",
+        "France",
+        "Norway",
+        "Denmark",
+        "Belgium",
+        "Netherlands",
+        "Israel",
+        "Australia",
+        "Thailand",
+        "Malaysia",
+        "Hong Kong",
+        "United Arab Emirates"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive production confirmed for Australia (and the UK/Southeast Asia via the G9L sibling) — confirm G6 RHD availability with the exporter.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "China-market units are left-hand drive with GB/T charging; European/Australian export units use CCS2 inlets. Right-hand-drive production (G9L sibling) confirms RHD capability for Australia, the UK and Southeast Asia — source RHD units rather than converting LHD stock.",
+      "parts_availability_notes": "Supported by XPeng's growing European dealer network and official distributors in Australia, Thailand and the Middle East; confirm parts availability outside these markets with the exporter.",
+      "charging_standard_notes": "China-market GB/T; European/Australian export units use CCS2 — confirm which inlet the sourced unit carries.",
+      "homologation_notes": "Euro NCAP 5-star rating (G6, 2025); European type approval; right-hand-drive export production began 2026.",
       "generations": [
         {
           "generation_id": "xpeng-g6-g1",
@@ -1094,11 +1109,11 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Manufacturer published specifications",
-      "source_url": "https://www.xpeng.com/g6",
-      "source_type": "manufacturer",
+      "source_name": "XPeng export news (reputable media) + manufacturer export pages",
+      "source_url": "https://chinaevhome.com/2026/01/23/xpengs-german-deliveries-exceed-3000-units-g6-named-annual-bestseller/",
+      "source_type": "reputable_media",
       "checked_date": "2026-10-06",
-      "confidence": "high",
+      "confidence": "medium",
       "last_verified": "2026-10-06"
     },
     {
@@ -2058,15 +2073,20 @@
       ],
       "production_status": "active",
       "china_market_status": "A mid-size electric SUV from Changan's Deepal new-energy brand.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Changan's Deepal S07 smart electric SUV, exported to Thailand (right-hand drive), Russia, Central Asia and the Middle East.",
+      "common_export_regions": [
+        "Thailand",
+        "Russia",
+        "Central Asia",
+        "Middle East"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive versions shipped to Thailand — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Right-hand-drive versions shipped to Thailand (first RHD batch, with the L07). China-market GB/T vs CCS2 export inlets.",
+      "parts_availability_notes": "Backed by Changan's regional dealer network in Thailand and export channels for Russia/Central Asia.",
+      "charging_standard_notes": "China-market GB/T; export units use CCS2 — confirm which inlet the sourced unit carries.",
+      "homologation_notes": "Thailand homologation; destination certification to be confirmed per market.",
       "generations": [
         {
           "generation_id": "deepal-s07-g1",
@@ -2116,8 +2136,8 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/Deepal_S07",
+      "source_name": "Changan Deepal S07 Thailand RHD shipment (reputable media)",
+      "source_url": "https://www.ichongqing.info/2024/01/10/changans-first-right-hand-drive-deepal-models-head-to-thailand/",
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
@@ -2760,15 +2780,22 @@
       ],
       "production_status": "active",
       "china_market_status": "Li Auto's flagship extended-range electric SUV, sold since 2022.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Li Auto's full-size extended-range (EREV) SUV; historically exported via parallel channels to Russia, the Middle East and Central Asia, with official entry into Kazakhstan (local assembly with Allur) and Egypt/Azerbaijan from 2025.",
+      "common_export_regions": [
+        "Russia",
+        "Kazakhstan",
+        "Egypt",
+        "Azerbaijan",
+        "Middle East",
+        "Central Asia"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
       "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Extended-range (EREV) powertrain is a distinct class from battery-electric — confirm whether destination EV duty relief covers EREV. Left-hand-drive China-origin units.",
+      "parts_availability_notes": "Parts/service network outside China is still developing; confirm local support with the exporter.",
+      "charging_standard_notes": "EREV — China-market GB/T AC/DC charging; confirm destination connector compatibility.",
+      "homologation_notes": "Kazakhstan local assembly via Allur; destination homologation to be confirmed per market.",
       "generations": [
         {
           "generation_id": "li-auto-l9-g1",
@@ -2818,8 +2845,8 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/Li_L9",
+      "source_name": "Li Auto L9 Kazakhstan / overseas expansion (reputable media)",
+      "source_url": "https://carnewschina.com/2025/12/17/li-auto-accelerates-global-expansion-with-entry-into-egypt-kazakhstan-and-azerbaijan/",
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
@@ -2838,15 +2865,18 @@
       ],
       "production_status": "active",
       "china_market_status": "Leapmotor's mid-size electric SUV, sold in China since 2024.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Leapmotor's first globally-designed model, sold in Europe by Leapmotor International (Stellantis joint venture) in EV and range-extender (REEV) forms.",
+      "common_export_regions": [
+        "Europe",
+        "United Kingdom"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
       "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Sold via the Stellantis dealer network in Europe. China-market GB/T vs CCS2 export inlets; the REEV variant's duty classification should be confirmed per destination.",
+      "parts_availability_notes": "Backed by Stellantis' European dealer and service network.",
+      "charging_standard_notes": "China-market GB/T; European units use CCS2 — confirm which inlet the sourced unit carries.",
+      "homologation_notes": "EU type approval via Leapmotor International (Stellantis).",
       "generations": [
         {
           "generation_id": "leapmotor-c10-g1",
@@ -2896,7 +2926,7 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
+      "source_name": "Leapmotor C10 reference (reputable media)",
       "source_url": "https://en.wikipedia.org/wiki/Leapmotor_C10",
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
@@ -4008,13 +4038,20 @@
       ],
       "production_status": "active",
       "china_market_status": "A Chery compact SUV sold in the Chinese market.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Chery's core export crossover; sold in Russia, Iran (as Fownix Tiggo 7 Pro), the Middle East, Latin America, Africa and Southeast Asia.",
+      "common_export_regions": [
+        "Russia",
+        "Iran",
+        "Middle East",
+        "Latin America",
+        "Africa",
+        "Southeast Asia"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive versions available in some markets (e.g. South Africa, Malaysia) — confirm RHD availability with the exporter.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
+      "market_considerations": "Left-hand-drive China-origin units; right-hand-drive versions available in some markets (e.g. South Africa, Malaysia) — confirm RHD availability with the exporter.",
+      "parts_availability_notes": "Chery has a broad global dealer and CKD-assembly network — parts availability is generally good in its main export markets.",
       "charging_standard_notes": null,
       "homologation_notes": null,
       "generations": [
@@ -4066,9 +4103,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/chery-tiggo-7-ii-pro-1.5-tci-145hp-cvt-48734",
-      "source_type": "database",
+      "source_name": "Chery Tiggo 7 export reference (reputable media)",
+      "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_7",
+      "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -4164,13 +4201,18 @@
       ],
       "production_status": "active",
       "china_market_status": "A Jetour mid-size SUV sold in the Chinese market.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Jetour X70 series mid-size SUV; over 800,000 units sold globally, with strong demand in Russia, the Middle East, Africa and Latin America.",
+      "common_export_regions": [
+        "Russia",
+        "Middle East",
+        "Africa",
+        "Latin America"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
       "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
+      "market_considerations": "Left-hand-drive China-origin units; confirm RHD availability with the exporter (Jetour offers RHD in some markets).",
+      "parts_availability_notes": "Jetour's global dealer network covers Russia, the Middle East, Africa and Latin America.",
       "charging_standard_notes": null,
       "homologation_notes": null,
       "generations": [
@@ -4222,9 +4264,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/jetour-x70-plus-facelift-2024-1.5-tci-156hp-dct-54273",
-      "source_type": "database",
+      "source_name": "Jetour X70 export reference (industry)",
+      "source_url": "https://evautopro.com/cars/jetour-x70-plus/",
+      "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -4476,13 +4518,19 @@
       ],
       "production_status": "active",
       "china_market_status": "Sold in China as the Haval Chulian and overseas as the Jolion.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "GWM Haval Jolion compact SUV, sold in Australia, South Africa, Thailand and Sri Lanka (right-hand drive) and the Middle East.",
+      "common_export_regions": [
+        "Australia",
+        "South Africa",
+        "Thailand",
+        "Sri Lanka",
+        "Middle East"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Factory right-hand-drive versions sold in Australia, South Africa, Thailand and Sri Lanka — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
+      "market_considerations": "Factory right-hand-drive versions sold in Australia, South Africa, Thailand and Sri Lanka — source RHD units for RHD destinations.",
+      "parts_availability_notes": "Backed by GWM's dealer network in Australia, South Africa, Thailand and the Middle East.",
       "charging_standard_notes": null,
       "homologation_notes": null,
       "generations": [
@@ -4534,9 +4582,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/haval-jolion-1.5t-150hp-dct-49079",
-      "source_type": "database",
+      "source_name": "Haval Jolion export reference (industry)",
+      "source_url": "https://evautopro.com/brands/haval/jolion/",
+      "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -4632,13 +4680,18 @@
       ],
       "production_status": "active",
       "china_market_status": "A GWM Tank off-road SUV, sold in China.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "GWM Tank 300 off-road SUV, exported to Australia (right-hand drive), the Middle East, Russia and South Africa.",
+      "common_export_regions": [
+        "Australia",
+        "Middle East",
+        "Russia",
+        "South Africa"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive versions sold in Australia — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
+      "market_considerations": "Right-hand-drive versions sold in Australia; China-market LHD units for the Middle East and Russia.",
+      "parts_availability_notes": "Backed by GWM's dealer network in Australia, the Middle East and Russia.",
       "charging_standard_notes": null,
       "homologation_notes": null,
       "generations": [
@@ -4690,9 +4743,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/tank-300-2.0t-227hp-4wd-automatic-8-speed-55405",
-      "source_type": "database",
+      "source_name": "GWM Tank 300 export reference (reputable media)",
+      "source_url": "https://en.wikipedia.org/wiki/GWM_Tank_300",
+      "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -4944,15 +4997,23 @@
       ],
       "production_status": "active",
       "china_market_status": "Sold in China as the Ora Haomao and overseas as the Funky Cat / GWM Ora 03.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Great Wall's Ora Good Cat compact EV, sold as Ora Funky Cat (UK/Europe/Israel), GWM Ora 03 (Europe, Brazil, Indonesia) and GWM Ora (Australia, Nepal).",
+      "common_export_regions": [
+        "United Kingdom",
+        "Europe",
+        "Australia",
+        "Brazil",
+        "Indonesia",
+        "Israel",
+        "Thailand"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive versions sold in the UK, Australia and Thailand — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Right-hand-drive versions sold in the UK, Australia and Thailand. Note: GWM phased the Ora 03 out of the UK in 2026 as part of a European strategy revamp — confirm ongoing support.",
+      "parts_availability_notes": "Parts and service depend on the local GWM dealer network; UK support is affected by the 2026 phase-out.",
+      "charging_standard_notes": "China-market GB/T; European/Australian units use CCS2 — confirm which inlet the sourced unit carries.",
+      "homologation_notes": "Euro NCAP 5-star (2022).",
       "generations": [
         {
           "generation_id": "ora-good-cat-g1",
@@ -5002,9 +5063,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/ora-funky-cat-48-kwh-171hp-48853",
-      "source_type": "database",
+      "source_name": "Ora Good Cat export reference (reputable media)",
+      "source_url": "https://en.wikipedia.org/wiki/Ora_Good_Cat",
+      "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -5725,15 +5786,22 @@
       ],
       "production_status": "active",
       "china_market_status": "MG4 EV (MG Mulan in China), an electric compact hatchback exported globally.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "MG4 EV is SAIC/MG's global electric hatchback, sold across the UK, Europe, Australia, New Zealand, Thailand, India and Southeast Asia.",
+      "common_export_regions": [
+        "United Kingdom",
+        "Europe",
+        "Australia",
+        "New Zealand",
+        "Thailand",
+        "India"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive versions produced for the UK, Australia, Thailand, India and Indonesia — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Right-hand-drive versions are produced for the UK, Australia, Thailand, India and Indonesia — source RHD for RHD destinations. China-market GB/T vs CCS2 export inlets.",
+      "parts_availability_notes": "Backed by MG Motor's established dealer network in the UK, Europe, Australia and Southeast Asia.",
+      "charging_standard_notes": "China-market GB/T; export units use CCS2 — confirm which inlet the sourced unit carries.",
+      "homologation_notes": "Euro NCAP 5-star (2022, re-rated 5-star 2025).",
       "generations": [
         {
           "generation_id": "mg-4-g1",
@@ -5783,9 +5851,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/mg-mg4-ev-i-generation-8990",
-      "source_type": "database",
+      "source_name": "Euro NCAP + MG Motor homologation reference (reputable media)",
+      "source_url": "https://www.euroncap.com/assessments/mg/4+electric/1001/",
+      "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -6583,15 +6651,22 @@
       ],
       "production_status": "active",
       "china_market_status": "BYD Ocean series Sealion 06 plug-in hybrid SUV.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "BYD Sealion 6 (Seal U DM-i in Europe) is a DM-i plug-in-hybrid SUV exported to Australia (right-hand drive), New Zealand, Mexico, Brazil, Thailand and Europe.",
+      "common_export_regions": [
+        "Australia",
+        "New Zealand",
+        "Mexico",
+        "Brazil",
+        "Thailand",
+        "Europe"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive versions sold in Australia and Thailand — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Right-hand-drive versions are sold in Australia and Thailand. As a PHEV (DM-i), confirm whether destination EV duty relief covers plug-in hybrids or only battery-electric vehicles — classification varies by market.",
+      "parts_availability_notes": "Supported by BYD's expanding global dealer network (Australia, New Zealand, Latin America, Europe).",
+      "charging_standard_notes": "China-market GB/T AC/DC; export PHEV units typically use CCS2 for DC charging — confirm the inlet on the sourced unit.",
+      "homologation_notes": "Euro NCAP 5-star (Seal U, 2023).",
       "generations": [
         {
           "generation_id": "byd-sealion-6-g1",
@@ -6641,9 +6716,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/byd-sea-lion-06-dm-i-1.5l-18.3-kwh-218hp-plug-in-hybrid-e-cvt-55318",
-      "source_type": "database",
+      "source_name": "BYD Sealion 6 manufacturer export page (Australia)",
+      "source_url": "https://bydautomotive.com.au/sealion-6",
+      "source_type": "manufacturer",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -6661,15 +6736,21 @@
       ],
       "production_status": "active",
       "china_market_status": "BYD Sealion 07 electric mid-size SUV.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "BYD Sealion 7 (Seal U in Europe) is the battery-electric sibling to the Sealion 6, exported to Australia (right-hand drive), Thailand, New Zealand and Europe.",
+      "common_export_regions": [
+        "Australia",
+        "Thailand",
+        "New Zealand",
+        "Europe",
+        "Brazil"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive versions sold in Australia and Thailand — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Right-hand-drive versions sold in Australia and Thailand. China-market GB/T vs export CCS2 inlets.",
+      "parts_availability_notes": "Supported by BYD's expanding global dealer network.",
+      "charging_standard_notes": "China-market GB/T; European/Australian export units use CCS2 — confirm which inlet the sourced unit carries.",
+      "homologation_notes": "Euro NCAP 5-star (Seal U EV, 2023/2024).",
       "generations": [
         {
           "generation_id": "byd-sealion-07-g1",
@@ -6719,9 +6800,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/byd-sea-lion-07-long-range-80.64-kwh-313hp-electric-51804",
-      "source_type": "database",
+      "source_name": "BYD Sealion 7 manufacturer export page (Australia)",
+      "source_url": "https://bydautomotive.com.au/sealion-7",
+      "source_type": "manufacturer",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -6739,15 +6820,24 @@
       ],
       "production_status": "active",
       "china_market_status": "BYD's compact electric hatchback.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "BYD's global compact EV hatchback, sold in the UK, Australia, New Zealand, Thailand, Japan, Brazil, Mexico and across Europe and Southeast Asia.",
+      "common_export_regions": [
+        "United Kingdom",
+        "Australia",
+        "New Zealand",
+        "Thailand",
+        "Japan",
+        "Brazil",
+        "Mexico",
+        "Europe"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive versions produced for the UK, Australia, Thailand and Japan — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Right-hand-drive versions are produced for the UK, Australia, Thailand and Japan — source RHD units for RHD destinations rather than converting. China-market units use GB/T charging; export units use CCS2.",
+      "parts_availability_notes": "Wide BYD dealer and service network across Europe, Australia and Southeast Asia; parts availability is generally good in these markets.",
+      "charging_standard_notes": "China-market GB/T; European/Australian export units use CCS2 — confirm which inlet the sourced unit carries.",
+      "homologation_notes": "Euro NCAP 5-star rating (2022); ANCAP 5-star (Australia).",
       "generations": [
         {
           "generation_id": "byd-dolphin-g1",
@@ -6797,9 +6887,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/byd-dolphin-60-kwh-204hp-bev-48450",
-      "source_type": "database",
+      "source_name": "BYD Dolphin export / homologation references (reputable media + manufacturer)",
+      "source_url": "https://en.wikipedia.org/wiki/BYD_Dolphin",
+      "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -6973,14 +7063,19 @@
       ],
       "production_status": "active",
       "china_market_status": "Denza's flagship MPV, offered as a DM-i plug-in hybrid.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "BYD's premium Denza D9 MPV, launched in Hong Kong, Cambodia and Singapore (right-hand drive), expanding through Southeast Asia.",
+      "common_export_regions": [
+        "Hong Kong",
+        "Cambodia",
+        "Singapore",
+        "Southeast Asia"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive version launched in Singapore and Hong Kong — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "market_considerations": "Right-hand-drive version launched in Singapore (first RHD market). China-market GB/T vs CCS2 export inlets.",
+      "parts_availability_notes": "Backed by BYD's regional service network (Hong Kong, Singapore, Cambodia).",
+      "charging_standard_notes": "China-market GB/T; export units use CCS2 — confirm which inlet the sourced unit carries.",
       "homologation_notes": null,
       "generations": [
         {
@@ -7031,9 +7126,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/denza-d9-dm-i-1.5ti-40-kwh-407hp-plug-in-hybrid-4wd-e-cvt-52280",
-      "source_type": "database",
+      "source_name": "Denza D9 Singapore launch (reputable media)",
+      "source_url": "https://cnevpost.com/2024/10/11/denza-enters-singapore/",
+      "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -7753,15 +7848,24 @@
       ],
       "production_status": "active",
       "china_market_status": "Zeekr's flagship electric shooting-brake.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Zeekr's flagship shooting-brake EV, officially sold in Europe (Sweden, Netherlands, Denmark, Germany) and via dealer partners in the UAE and Saudi Arabia; right-hand-drive for the UK and Australia.",
+      "common_export_regions": [
+        "Sweden",
+        "Netherlands",
+        "Denmark",
+        "Germany",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "Qatar",
+        "Australia"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "Right-hand-drive available for the UK and Australia (factory RHD) — source RHD units for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Left-hand-drive for Europe/Middle East; right-hand-drive available for the UK/Australia (factory RHD). China-market GB/T vs CCS2 export inlets.",
+      "parts_availability_notes": "Supported by Zeekr's official European and Middle East dealer partnerships.",
+      "charging_standard_notes": "China-market GB/T; export units use CCS2 — confirm which inlet the sourced unit carries.",
+      "homologation_notes": "EU type approval (EC/UNECE); GCC homologation via Middle East distributors (AW Rostamani UAE, Wallan Trading Saudi Arabia).",
       "generations": [
         {
           "generation_id": "zeekr-001-g1",
@@ -7811,9 +7915,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/zeekr-001-100-kwh-544hp-dual-motor-awd-electric-48811",
-      "source_type": "database",
+      "source_name": "Zeekr export guide (industry)",
+      "source_url": "https://richingauto.com/zeekr-export-guide-dealers-middle-east-africa/",
+      "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -7831,15 +7935,21 @@
       ],
       "production_status": "active",
       "china_market_status": "Zeekr's mid-size electric sedan.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Zeekr's executive electric sedan (sold as the 7GT in Europe), exported to Europe and the Middle East alongside the 001.",
+      "common_export_regions": [
+        "Europe",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "Qatar",
+        "Bahrain"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
       "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
-      "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
-      "homologation_notes": null,
+      "market_considerations": "Left-hand-drive for Europe/Middle East; right-hand-drive planned for the UK. China-market GB/T vs CCS2 export inlets.",
+      "parts_availability_notes": "Supported by Zeekr's official European and Middle East dealer partnerships.",
+      "charging_standard_notes": "China-market GB/T; export units use CCS2 — confirm which inlet the sourced unit carries.",
+      "homologation_notes": "EU type approval; GCC homologation via Middle East distributors.",
       "generations": [
         {
           "generation_id": "zeekr-007-g1",
@@ -7889,9 +7999,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/zeekr-007-75-kwh-422hp-single-motor-electric-51728",
-      "source_type": "database",
+      "source_name": "Zeekr export guide (industry)",
+      "source_url": "https://www.fobev.com/guides/zeekr-export-complete-guide/",
+      "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
