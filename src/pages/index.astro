@@ -8,6 +8,25 @@ const pageUrl = DATA_SITE_URL + "/";
 const totalTrims = models.reduce((a, m) => a + countTrims(m), 0);
 const totalGenerations = models.reduce((a, m) => a + countGenerations(m), 0);
 
+const organization = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${DATA_SITE_URL}/#organization`,
+  name: "China Used Auto Hub",
+  url: MAIN_SITE_URL,
+};
+
+const website = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${DATA_SITE_URL}/#website`,
+  name: "China Used Car Database",
+  url: pageUrl,
+  description:
+    "Structured database of Chinese-market vehicles — brands, models, generations, trims and technical specifications.",
+  publisher: { "@id": `${DATA_SITE_URL}/#organization` },
+};
+
 const dataset = {
   "@context": "https://schema.org",
   "@type": "Dataset",
@@ -32,7 +51,7 @@ const dataset = {
   title="China Used Car Database — Vehicle Specifications"
   description="Searchable database of Chinese-market vehicle brands, models, generations, trims and technical specifications. Data-first, source-tracked, no marketing filler."
   canonical="/"
-  jsonLd={dataset}
+  jsonLd={[organization, website, dataset]}
 >
   <h1>China Used Car Database</h1>
   <p class="lede">
