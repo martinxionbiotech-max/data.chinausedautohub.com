@@ -3210,12 +3210,14 @@
       ],
       "production_status": "active",
       "china_market_status": "A JAC pickup sold in China and exported overseas (diesel and petrol).",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "JAC T9 combustion dual-cab pickup (ute), sold in right-hand drive in Australia (JAC Motors Australia) and other RHD export markets.",
+      "common_export_regions": [
+        "Australia"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "right_hand_drive_relevance": "Right-hand-drive production available — JAC T9 sold in RHD form in Australia (JAC Motors Australia).",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; RHD units sourced from JAC regional export production.",
+      "market_considerations": "Dual-cab ICE pickup (2.0CTI diesel); RHD distribution in Australia.",
       "parts_availability_notes": null,
       "charging_standard_notes": null,
       "homologation_notes": null,
@@ -3268,11 +3270,11 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Manufacturer published specifications",
-      "source_url": "https://jacen.jac.com.cn/t9-launch/specs.html",
+      "source_name": "JAC T9 RHD Australia listings (manufacturer: jacute.com.au)",
+      "source_url": "https://jacute.com.au/models/jac-t9/",
       "source_type": "manufacturer",
       "checked_date": "2026-10-06",
-      "confidence": "high",
+      "confidence": "medium",
       "last_verified": "2026-10-06"
     },
     {
@@ -6259,12 +6261,15 @@
       ],
       "production_status": "active",
       "china_market_status": "A Maxus body-on-frame mid-to-large SUV.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Maxus D90 (LDV D90) combustion 7-seat SUV, sold in right-hand drive in Australia and New Zealand.",
+      "common_export_regions": [
+        "Australia",
+        "New Zealand"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "right_hand_drive_relevance": "Right-hand-drive production available — LDV D90 sold in RHD form in Australia and New Zealand (LDV Australia).",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; RHD units sourced from LDV regional export production.",
+      "market_considerations": "7-seat body-on-frame ICE SUV; RHD distribution in Australia and New Zealand.",
       "parts_availability_notes": null,
       "charging_standard_notes": null,
       "homologation_notes": null,
@@ -6317,9 +6322,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/maxus-d90-generation-6669",
-      "source_type": "database",
+      "source_name": "LDV D90 RHD Australia/NZ listings (manufacturer: ldvautomotive.com.au)",
+      "source_url": "https://www.ldvautomotive.com.au/vehicles/ldv-my25-d90-suv/",
+      "source_type": "manufacturer",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
@@ -6337,14 +6342,20 @@
       ],
       "production_status": "active",
       "china_market_status": "The Maxus MIFA 9 (Dajia 9) electric MPV, released 2021.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Maxus MIFA 9 (LDV Mifa 9) battery-electric MPV, sold in right-hand drive in the UK, Australia, New Zealand, Malaysia and Singapore.",
+      "common_export_regions": [
+        "United Kingdom",
+        "Australia",
+        "New Zealand",
+        "Malaysia",
+        "Singapore"
+      ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "right_hand_drive_relevance": "Right-hand-drive production available — Maxus MIFA 9 sold in RHD form in the UK (SAIC Maxus UK), Australia/NZ (LDV), Malaysia and Singapore.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; RHD units sourced from Maxus/LDV regional export production.",
+      "market_considerations": "Full-size battery-electric MPV; strong RHD distribution in UK, Australia, NZ and Southeast Asia.",
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility; regional units may carry other inlets.",
       "homologation_notes": null,
       "generations": [
         {
@@ -6395,9 +6406,9 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/maxus-mifa-9-generation-9049",
-      "source_type": "database",
+      "source_name": "Maxus/LDV MIFA 9 RHD market listings (manufacturer: saicmaxus.co.uk, ldvautomotive.com.au)",
+      "source_url": "https://www.ldvautomotive.com.au/",
+      "source_type": "manufacturer",
       "checked_date": "2026-10-06",
       "confidence": "medium",
       "last_verified": "2026-10-06"
