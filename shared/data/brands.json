@@ -7,13 +7,12 @@
       "origin_country": "CN",
       "founded": 2003,
       "powertrains": [
-        "phev",
-        "ev"
+        "ev",
+        "phev"
       ],
       "vehicle_types": [
         "suv",
         "sedan",
-        "mpv",
         "hatchback"
       ],
       "status": "active",
@@ -35,8 +34,7 @@
       ],
       "vehicle_types": [
         "suv",
-        "sedan",
-        "hatchback"
+        "sedan"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -77,9 +75,7 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
-        "sedan",
-        "pickup"
+        "suv"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -99,9 +95,7 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
-        "sedan",
-        "mpv"
+        "suv"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -122,9 +116,7 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
-        "sedan",
-        "mpv"
+        "suv"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -144,8 +136,7 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
-        "pickup"
+        "suv"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -165,8 +156,7 @@
         "erev"
       ],
       "vehicle_types": [
-        "suv",
-        "mpv"
+        "suv"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -208,8 +198,7 @@
       ],
       "vehicle_types": [
         "suv",
-        "sedan",
-        "mpv"
+        "sedan"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -229,10 +218,7 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
-        "sedan",
-        "pickup",
-        "mpv"
+        "suv"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -252,9 +238,7 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
-        "sedan",
-        "mpv"
+        "suv"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -274,7 +258,6 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
         "sedan"
       ],
       "status": "active",
@@ -295,9 +278,7 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
-        "sedan",
-        "mpv"
+        "sedan"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -317,9 +298,7 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
-        "sedan",
-        "mpv"
+        "suv"
       ],
       "status": "active",
       "source_name": "Official brand history",
@@ -339,13 +318,781 @@
         "ice"
       ],
       "vehicle_types": [
-        "suv",
-        "sedan",
-        "mpv"
+        "suv"
       ],
       "status": "active",
       "source_name": "Official brand history",
       "source_url": "https://www.hyundai.com/worldwide/en/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "haval",
+      "name": "Haval",
+      "name_zh": "哈弗",
+      "origin_country": "CN",
+      "founded": 2013,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.haval.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "tank",
+      "name": "Tank",
+      "name_zh": "坦克",
+      "origin_country": "CN",
+      "founded": 2021,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.tank-global.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "wey",
+      "name": "Wey",
+      "name_zh": "魏牌",
+      "origin_country": "CN",
+      "founded": 2016,
+      "powertrains": [
+        "phev"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.wey.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "ora",
+      "name": "Ora",
+      "name_zh": "欧拉",
+      "origin_country": "CN",
+      "founded": 2018,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "hatchback"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.oraev.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "mg",
+      "name": "MG",
+      "name_zh": "名爵",
+      "origin_country": "CN",
+      "founded": 1924,
+      "powertrains": [
+        "ev",
+        "ice"
+      ],
+      "vehicle_types": [
+        "hatchback",
+        "sedan",
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.mg.co.uk/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "roewe",
+      "name": "Roewe",
+      "name_zh": "荣威",
+      "origin_country": "CN",
+      "founded": 2006,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv",
+        "sedan"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.roewe.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "maxus",
+      "name": "Maxus",
+      "name_zh": "上汽大通",
+      "origin_country": "CN",
+      "founded": 2011,
+      "powertrains": [
+        "ev",
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv",
+        "mpv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.saicmaxus.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "galaxy",
+      "name": "Geely Galaxy",
+      "name_zh": "吉利银河",
+      "origin_country": "CN",
+      "founded": 2023,
+      "powertrains": [
+        "ev",
+        "phev"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://galaxy.geely.com/en",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "deepal",
+      "name": "Deepal",
+      "name_zh": "深蓝",
+      "origin_country": "CN",
+      "founded": 2022,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "suv",
+        "sedan"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.deepalglobal.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "lynk-co",
+      "name": "Lynk & Co",
+      "name_zh": "领克",
+      "origin_country": "CN",
+      "founded": 2016,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv",
+        "sedan"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.lynkco.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "jetour",
+      "name": "Jetour",
+      "name_zh": "捷途",
+      "origin_country": "CN",
+      "founded": 2018,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.jetourglobal.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "exeed",
+      "name": "Exeed",
+      "name_zh": "星途",
+      "origin_country": "CN",
+      "founded": 2019,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.exeedinternational.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "faw",
+      "name": "FAW",
+      "name_zh": "一汽",
+      "origin_country": "CN",
+      "founded": 1953,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.faw.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "hongqi",
+      "name": "Hongqi",
+      "name_zh": "红旗",
+      "origin_country": "CN",
+      "founded": 1958,
+      "powertrains": [
+        "ev",
+        "ice"
+      ],
+      "vehicle_types": [
+        "sedan",
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.hongqi-auto.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "dongfeng",
+      "name": "Dongfeng",
+      "name_zh": "东风",
+      "origin_country": "CN",
+      "founded": 1969,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "sedan",
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.dongfeng-global.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "voyah",
+      "name": "Voyah",
+      "name_zh": "岚图",
+      "origin_country": "CN",
+      "founded": 2020,
+      "powertrains": [
+        "ev",
+        "phev"
+      ],
+      "vehicle_types": [
+        "suv",
+        "mpv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.voyah.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "jac",
+      "name": "JAC",
+      "name_zh": "江淮",
+      "origin_country": "CN",
+      "founded": 1964,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "pickup",
+        "sedan"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.jac.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "baic",
+      "name": "BAIC",
+      "name_zh": "北汽",
+      "origin_country": "CN",
+      "founded": 1958,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.baicmotor.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "arcfox",
+      "name": "Arcfox",
+      "name_zh": "极狐",
+      "origin_country": "CN",
+      "founded": 2017,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "sedan",
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.arcfox.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "zeekr",
+      "name": "Zeekr",
+      "name_zh": "极氪",
+      "origin_country": "CN",
+      "founded": 2021,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "hatchback",
+        "sedan",
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.zeekr.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "leapmotor",
+      "name": "Leapmotor",
+      "name_zh": "零跑",
+      "origin_country": "CN",
+      "founded": 2015,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.leapmotor.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "im-motors",
+      "name": "IM Motors",
+      "name_zh": "智己",
+      "origin_country": "CN",
+      "founded": 2020,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "sedan",
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.immotors.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "xiaomi",
+      "name": "Xiaomi Auto",
+      "name_zh": "小米汽车",
+      "origin_country": "CN",
+      "founded": 2021,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "sedan",
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.xiaomiev.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "denza",
+      "name": "Denza",
+      "name_zh": "腾势",
+      "origin_country": "CN",
+      "founded": 2010,
+      "powertrains": [
+        "ev",
+        "phev"
+      ],
+      "vehicle_types": [
+        "mpv",
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.denza.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "yangwang",
+      "name": "Yangwang",
+      "name_zh": "仰望",
+      "origin_country": "CN",
+      "founded": 2023,
+      "powertrains": [
+        "erev"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.yangwangauto.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "fangchengbao",
+      "name": "Fangchengbao",
+      "name_zh": "方程豹",
+      "origin_country": "CN",
+      "founded": 2023,
+      "powertrains": [
+        "phev"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.fangchengbao.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "avatr",
+      "name": "Avatr",
+      "name_zh": "阿维塔",
+      "origin_country": "CN",
+      "founded": 2018,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "suv",
+        "sedan"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.avatr.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "aito",
+      "name": "AITO",
+      "name_zh": "问界",
+      "origin_country": "CN",
+      "founded": 2021,
+      "powertrains": [
+        "erev"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://aito.auto/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "seres",
+      "name": "Seres",
+      "name_zh": "赛力斯",
+      "origin_country": "CN",
+      "founded": 2016,
+      "powertrains": [
+        "erev"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.seres.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "aion",
+      "name": "Aion",
+      "name_zh": "埃安",
+      "origin_country": "CN",
+      "founded": 2017,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "suv",
+        "sedan"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.aion.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "neta",
+      "name": "Neta",
+      "name_zh": "哪吒",
+      "origin_country": "CN",
+      "founded": 2014,
+      "powertrains": [
+        "ev",
+        "erev"
+      ],
+      "vehicle_types": [
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.neta.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "wuling",
+      "name": "Wuling",
+      "name_zh": "五菱",
+      "origin_country": "CN",
+      "founded": 1982,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "hatchback"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.wuling.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "tesla",
+      "name": "Tesla",
+      "name_zh": "特斯拉",
+      "origin_country": "US",
+      "founded": 2003,
+      "powertrains": [
+        "ev"
+      ],
+      "vehicle_types": [
+        "suv",
+        "sedan"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.tesla.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "ford",
+      "name": "Ford",
+      "name_zh": "福特",
+      "origin_country": "US",
+      "founded": 1903,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "sedan",
+        "suv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.ford.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "nissan",
+      "name": "Nissan",
+      "name_zh": "日产",
+      "origin_country": "JP",
+      "founded": 1933,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv",
+        "sedan"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.nissan.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "buick",
+      "name": "Buick",
+      "name_zh": "别克",
+      "origin_country": "US",
+      "founded": 1903,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv",
+        "mpv"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.buick.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "brand_id": "kia",
+      "name": "Kia",
+      "name_zh": "起亚",
+      "origin_country": "KR",
+      "founded": 1944,
+      "powertrains": [
+        "ice"
+      ],
+      "vehicle_types": [
+        "suv",
+        "sedan"
+      ],
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.kia.com/cn/",
       "source_type": "official",
       "checked_date": "2026-10-06",
       "confidence": "high",
