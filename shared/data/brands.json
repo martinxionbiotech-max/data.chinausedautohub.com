@@ -7,9 +7,8 @@
       "origin_country": "CN",
       "founded": 2003,
       "powertrains": [
-        "ev",
         "phev",
-        "hev"
+        "ev"
       ],
       "vehicle_types": [
         "suv",
@@ -17,10 +16,13 @@
         "mpv",
         "hatchback"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.byd.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "geely",
@@ -29,20 +31,20 @@
       "origin_country": "CN",
       "founded": 1997,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan",
         "hatchback"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.geely.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "chery",
@@ -51,18 +53,19 @@
       "origin_country": "CN",
       "founded": 1997,
       "powertrains": [
-        "ice",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.cheryinternational.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "changan",
@@ -71,20 +74,20 @@
       "origin_country": "CN",
       "founded": 1862,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan",
         "pickup"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.globalchangan.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "gac",
@@ -93,20 +96,20 @@
       "origin_country": "CN",
       "founded": 1997,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan",
         "mpv"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.gacmotor.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "saic",
@@ -115,20 +118,21 @@
       "origin_country": "CN",
       "founded": 1955,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ev",
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan",
         "mpv"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.saicmotor.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "great-wall",
@@ -137,19 +141,19 @@
       "origin_country": "CN",
       "founded": 1984,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "pickup"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.gwm-global.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "li-auto",
@@ -158,16 +162,19 @@
       "origin_country": "CN",
       "founded": 2015,
       "powertrains": [
-        "ev"
+        "erev"
       ],
       "vehicle_types": [
         "suv",
         "mpv"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.li-auto.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "nio",
@@ -182,10 +189,13 @@
         "suv",
         "sedan"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.nio.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "xpeng",
@@ -201,10 +211,13 @@
         "sedan",
         "mpv"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.xpeng.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "toyota",
@@ -213,10 +226,7 @@
       "origin_country": "JP",
       "founded": 1937,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
@@ -224,10 +234,13 @@
         "pickup",
         "mpv"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://global.toyota/en/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "volkswagen",
@@ -236,20 +249,20 @@
       "origin_country": "DE",
       "founded": 1937,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan",
         "mpv"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.volkswagen.com/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "bmw",
@@ -258,19 +271,19 @@
       "origin_country": "DE",
       "founded": 1916,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.bmw.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "mercedes-benz",
@@ -279,20 +292,20 @@
       "origin_country": "DE",
       "founded": 1926,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan",
         "mpv"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.mercedes-benz.com.cn/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "honda",
@@ -301,20 +314,20 @@
       "origin_country": "JP",
       "founded": 1948,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan",
         "mpv"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://global.honda/en/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     },
     {
       "brand_id": "hyundai",
@@ -323,20 +336,20 @@
       "origin_country": "KR",
       "founded": 1967,
       "powertrains": [
-        "ice",
-        "hev",
-        "phev",
-        "ev"
+        "ice"
       ],
       "vehicle_types": [
         "suv",
         "sedan",
         "mpv"
       ],
-      "source": "Official brand history",
-      "source_url": null,
-      "source_date": "2026-10-04",
-      "confidence": "medium"
+      "status": "active",
+      "source_name": "Official brand history",
+      "source_url": "https://www.hyundai.com/worldwide/en/",
+      "source_type": "official",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     }
   ]
 }

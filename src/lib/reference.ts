@@ -28,6 +28,11 @@ export const POWERTRAIN_DEFS: Record<string, PowertrainDef> = {
     definition:
       "An internal-combustion-engine vehicle is powered by a petrol or diesel engine only. It has no electric drive motor for propulsion.",
   },
+  erev: {
+    title: "Extended-Range Electric (EREV)",
+    definition:
+      "An extended-range electric vehicle is driven by an electric motor, with a small combustion engine acting only as a generator to recharge the battery. It is always propelled electrically.",
+  },
 };
 
 export interface BodyTypeDef {

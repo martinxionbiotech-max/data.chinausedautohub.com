@@ -13,7 +13,7 @@ import { POWERTRAIN_DEFS } from "../../lib/reference";
 
 const siteTitle = "China Used Car Database";
 const pageUrl = DATA_SITE_URL + "/powertrains/";
-const powertrains = ["ev", "phev", "hev", "ice"];
+const powertrains = ["ev", "phev", "erev", "hev", "ice"];
 const breadcrumbs = [
   { name: "Home", url: "/" },
   { name: "Powertrains", url: "/powertrains/" },
@@ -24,7 +24,7 @@ const jsonLd = [
     "@type": "CollectionPage",
     name: "Powertrain Types",
     url: pageUrl,
-    description: "Vehicle models grouped by powertrain type: BEV, PHEV, HEV and ICE.",
+    description: "Vehicle models grouped by powertrain type: BEV, PHEV, EREV, HEV and ICE.",
     hasPart: powertrains.map((p) => ({
       "@type": "CollectionPage",
       name: POWERTRAIN_DEFS[p].title,
@@ -40,16 +40,16 @@ const jsonLd = [
   siteUrl={DATA_SITE_URL}
   currentSection="data"
   title="Powertrain Types — China Used Car Database"
-  description="Vehicles grouped by powertrain: battery electric (BEV), plug-in hybrid (PHEV), hybrid (HEV) and internal combustion (ICE), with plain-language definitions and model lists."
+  description="Vehicles grouped by powertrain: battery electric (BEV), plug-in hybrid (PHEV), extended-range (EREV), hybrid (HEV) and internal combustion (ICE), with plain-language definitions and model lists."
   canonical="/powertrains/"
   jsonLd={jsonLd}
   breadcrumbs={breadcrumbs}
 >
   <h1>Powertrain Types</h1>
   <p class="lede">
-    The database is organised around four powertrain families. Each section explains
+    The database is organised around five powertrain families. Each section explains
     what the term means and lists the models that use it. See the
-    <a href="/glossary/">glossary</a> for related terms such as EREV and DM-i.
+    <a href="/glossary/">glossary</a> for related terms such as DM-i and CLTC.
   </p>
 
   <nav class="toc" aria-label="Powertrain index">

@@ -1,1137 +1,1737 @@
 {
- "models": [
-  {
-   "model_id": "byd-song-plus",
-   "brand_id": "byd",
-   "name": "Song Plus",
-   "name_zh": "宋PLUS",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+  "models": [
     {
-     "generation_id": "byd-song-plus-g1",
-     "name": "First Generation",
-     "production_years": [
-      2020,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "byd-song-plus-g1-dmi110",
-       "name": "DM-i 110km",
-       "powertrain": "phev",
-       "production_years": [
-        2021,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4705,
-        "width_mm": 1890,
-        "height_mm": 1680,
-        "wheelbase_mm": 2765,
-        "engine": "1.5L",
-        "engine_displacement_cc": 1498,
-        "motor_power_kw": 145,
-        "battery_capacity_kwh": 18.3,
-        "range_km": 110,
-        "transmission": "E-CVT",
-        "drive_type": "fwd",
-        "seats": 5,
-        "fuel_consumption_l100km": 4.5,
-        "max_speed_kmh": 170,
-        "acceleration_0_100_s": 7.9
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "high"
-      },
-      {
-       "trim_id": "byd-song-plus-g1-dmi150",
-       "name": "DM-i 150km",
-       "powertrain": "phev",
-       "production_years": [
-        2024,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4705,
-        "width_mm": 1890,
-        "height_mm": 1680,
-        "wheelbase_mm": 2765,
-        "engine": "1.5L",
-        "engine_displacement_cc": 1498,
-        "motor_power_kw": 160,
-        "battery_capacity_kwh": 26.6,
-        "range_km": 150,
-        "transmission": "E-CVT",
-        "drive_type": "fwd",
-        "seats": 5,
-        "max_speed_kmh": 180,
-        "acceleration_0_100_s": 7.5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "high"
-      },
-      {
-       "trim_id": "byd-song-plus-g1-ev",
-       "name": "EV 520km",
-       "powertrain": "ev",
-       "production_years": [
-        2023,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4785,
-        "width_mm": 1890,
-        "height_mm": 1660,
-        "wheelbase_mm": 2765,
-        "motor_power_kw": 150,
-        "battery_capacity_kwh": 71.8,
-        "range_km": 520,
-        "drive_type": "fwd",
-        "seats": 5,
-        "max_speed_kmh": 175
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "high"
-  },
-  {
-   "model_id": "byd-qin-plus",
-   "brand_id": "byd",
-   "name": "Qin Plus",
-   "name_zh": "秦PLUS",
-   "body_type": "sedan",
-   "status": "active",
-   "generations": [
+      "model_id": "byd-song-plus",
+      "brand_id": "byd",
+      "name": "Song Plus",
+      "name_zh": "宋PLUS",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "phev",
+        "ev"
+      ],
+      "production_status": "active",
+      "china_market_status": "A core BYD SUV nameplate in China, offered as a DM-i plug-in hybrid and a pure EV.",
+      "export_relevance": "Referenced in market guides for Kenya, Uzbekistan, UAE.",
+      "common_export_regions": [
+        "Kenya",
+        "Uzbekistan",
+        "UAE"
+      ],
+      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "byd-song-plus-g1",
+          "name": "First Generation",
+          "production_years": [
+            2020,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "byd-song-plus-g1-dmi110",
+              "name": "DM-i 110km",
+              "powertrain": "phev",
+              "production_years": [
+                2021,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4705,
+                "width_mm": 1890,
+                "height_mm": 1680,
+                "wheelbase_mm": 2765,
+                "engine": "1.5L",
+                "engine_displacement_cc": 1498,
+                "motor_power_kw": 145,
+                "battery_capacity_kwh": 18.3,
+                "range_km": 110,
+                "transmission": "E-CVT",
+                "drive_type": "fwd",
+                "seats": 5,
+                "fuel_consumption_l100km": 4.5,
+                "max_speed_kmh": 170,
+                "acceleration_0_100_s": 7.9
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.byd.com/eu/car/seal-u",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            },
+            {
+              "trim_id": "byd-song-plus-g1-dmi150",
+              "name": "DM-i 150km",
+              "powertrain": "phev",
+              "production_years": [
+                2024,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4705,
+                "width_mm": 1890,
+                "height_mm": 1680,
+                "wheelbase_mm": 2765,
+                "engine": "1.5L",
+                "engine_displacement_cc": 1498,
+                "motor_power_kw": 160,
+                "battery_capacity_kwh": 26.6,
+                "range_km": 150,
+                "transmission": "E-CVT",
+                "drive_type": "fwd",
+                "seats": 5,
+                "max_speed_kmh": 180,
+                "acceleration_0_100_s": 7.5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.byd.com/eu/car/seal-u",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            },
+            {
+              "trim_id": "byd-song-plus-g1-ev",
+              "name": "EV 520km",
+              "powertrain": "ev",
+              "production_years": [
+                2023,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4785,
+                "width_mm": 1890,
+                "height_mm": 1660,
+                "wheelbase_mm": 2765,
+                "motor_power_kw": 150,
+                "battery_capacity_kwh": 71.8,
+                "range_km": 520,
+                "drive_type": "fwd",
+                "seats": 5,
+                "max_speed_kmh": 175
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.byd.com/eu/car/seal-u",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.byd.com/eu/car/seal-u",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.byd.com/eu/car/seal-u",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "byd-qin-plus-g1",
-     "name": "First Generation",
-     "production_years": [
-      2021,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "byd-qin-plus-g1-dmi55",
-       "name": "DM-i 55km",
-       "powertrain": "phev",
-       "production_years": [
-        2021,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4765,
-        "width_mm": 1837,
-        "height_mm": 1495,
-        "wheelbase_mm": 2718,
-        "engine": "1.5L",
-        "engine_displacement_cc": 1498,
-        "motor_power_kw": 132,
-        "battery_capacity_kwh": 8.32,
-        "range_km": 55,
-        "transmission": "E-CVT",
-        "drive_type": "fwd",
-        "seats": 5,
-        "fuel_consumption_l100km": 3.8,
-        "max_speed_kmh": 185
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "high"
-      },
-      {
-       "trim_id": "byd-qin-plus-g1-dmi120",
-       "name": "DM-i 120km",
-       "powertrain": "phev",
-       "production_years": [
-        2021,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4765,
-        "width_mm": 1837,
-        "height_mm": 1495,
-        "wheelbase_mm": 2718,
-        "engine": "1.5L",
-        "engine_displacement_cc": 1498,
-        "motor_power_kw": 145,
-        "battery_capacity_kwh": 18.32,
-        "range_km": 120,
-        "transmission": "E-CVT",
-        "drive_type": "fwd",
-        "seats": 5,
-        "fuel_consumption_l100km": 3.8,
-        "max_speed_kmh": 185
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "high"
-      },
-      {
-       "trim_id": "byd-qin-plus-g1-ev500",
-       "name": "EV 500km",
-       "powertrain": "ev",
-       "production_years": [
-        2021,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4765,
-        "width_mm": 1837,
-        "height_mm": 1515,
-        "wheelbase_mm": 2718,
-        "motor_power_kw": 100,
-        "battery_capacity_kwh": 57.6,
-        "range_km": 500,
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "high"
-  },
-  {
-   "model_id": "byd-atto-3",
-   "brand_id": "byd",
-   "name": "Atto 3",
-   "name_zh": "元PLUS",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "byd-qin-plus",
+      "brand_id": "byd",
+      "name": "Qin Plus",
+      "name_zh": "秦PLUS",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "sedan",
+      "powertrain_types": [
+        "phev",
+        "ev"
+      ],
+      "production_status": "active",
+      "china_market_status": "A high-volume BYD compact sedan in the Chinese market, sold as DM-i hybrid and EV.",
+      "export_relevance": "Referenced in market guides for Kenya, Nigeria, UAE.",
+      "common_export_regions": [
+        "Kenya",
+        "Nigeria",
+        "UAE"
+      ],
+      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "byd-qin-plus-g1",
+          "name": "First Generation",
+          "production_years": [
+            2021,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "byd-qin-plus-g1-dmi55",
+              "name": "DM-i 55km",
+              "powertrain": "phev",
+              "production_years": [
+                2021,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4765,
+                "width_mm": 1837,
+                "height_mm": 1495,
+                "wheelbase_mm": 2718,
+                "engine": "1.5L",
+                "engine_displacement_cc": 1498,
+                "motor_power_kw": 132,
+                "battery_capacity_kwh": 8.32,
+                "range_km": 55,
+                "transmission": "E-CVT",
+                "drive_type": "fwd",
+                "seats": 5,
+                "fuel_consumption_l100km": 3.8,
+                "max_speed_kmh": 185
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            },
+            {
+              "trim_id": "byd-qin-plus-g1-dmi120",
+              "name": "DM-i 120km",
+              "powertrain": "phev",
+              "production_years": [
+                2021,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4765,
+                "width_mm": 1837,
+                "height_mm": 1495,
+                "wheelbase_mm": 2718,
+                "engine": "1.5L",
+                "engine_displacement_cc": 1498,
+                "motor_power_kw": 145,
+                "battery_capacity_kwh": 18.32,
+                "range_km": 120,
+                "transmission": "E-CVT",
+                "drive_type": "fwd",
+                "seats": 5,
+                "fuel_consumption_l100km": 3.8,
+                "max_speed_kmh": 185
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            },
+            {
+              "trim_id": "byd-qin-plus-g1-ev500",
+              "name": "EV 500km",
+              "powertrain": "ev",
+              "production_years": [
+                2021,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4765,
+                "width_mm": 1837,
+                "height_mm": 1515,
+                "wheelbase_mm": 2718,
+                "motor_power_kw": 100,
+                "battery_capacity_kwh": 57.6,
+                "range_km": 500,
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": null,
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "medium",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": null,
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "medium",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "byd-atto-3-g1",
-     "name": "First Generation",
-     "production_years": [
-      2022,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "byd-atto-3-g1-ev",
-       "name": "EV 510km",
-       "powertrain": "ev",
-       "production_years": [
-        2022,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4455,
-        "width_mm": 1875,
-        "height_mm": 1615,
-        "wheelbase_mm": 2720,
-        "motor_power_kw": 150,
-        "battery_capacity_kwh": 60.48,
-        "range_km": 510,
-        "drive_type": "fwd",
-        "seats": 5,
-        "acceleration_0_100_s": 7.3
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "high"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "high"
-  },
-  {
-   "model_id": "byd-han",
-   "brand_id": "byd",
-   "name": "Han",
-   "name_zh": "汉",
-   "body_type": "sedan",
-   "status": "active",
-   "generations": [
+      "model_id": "byd-atto-3",
+      "brand_id": "byd",
+      "name": "Atto 3",
+      "name_zh": "元PLUS",
+      "aliases": [
+        "Yuan Plus"
+      ],
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ev"
+      ],
+      "production_status": "active",
+      "china_market_status": "BYD's compact electric SUV, positioned as an export-oriented EV under the Atto 3 name.",
+      "export_relevance": "Referenced in market guides for Kenya, UAE.",
+      "common_export_regions": [
+        "Kenya",
+        "UAE"
+      ],
+      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "byd-atto-3-g1",
+          "name": "First Generation",
+          "production_years": [
+            2022,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "byd-atto-3-g1-ev",
+              "name": "EV 510km",
+              "powertrain": "ev",
+              "production_years": [
+                2022,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4455,
+                "width_mm": 1875,
+                "height_mm": 1615,
+                "wheelbase_mm": 2720,
+                "motor_power_kw": 150,
+                "battery_capacity_kwh": 60.48,
+                "range_km": 510,
+                "drive_type": "fwd",
+                "seats": 5,
+                "acceleration_0_100_s": 7.3
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.byd.com/eu/car/atto3",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.byd.com/eu/car/atto3",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.byd.com/eu/car/atto3",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "byd-han-g1",
-     "name": "First Generation",
-     "production_years": [
-      2020,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "byd-han-g1-ev",
-       "name": "EV 605km",
-       "powertrain": "ev",
-       "production_years": [
-        2020,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4980,
-        "width_mm": 1910,
-        "height_mm": 1495,
-        "wheelbase_mm": 2920,
-        "motor_power_kw": 163,
-        "battery_capacity_kwh": 76.9,
-        "range_km": 605,
-        "drive_type": "fwd",
-        "seats": 5,
-        "acceleration_0_100_s": 7.9
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      },
-      {
-       "trim_id": "byd-han-g1-dmi",
-       "name": "DM-i",
-       "powertrain": "phev",
-       "production_years": [
-        2022,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4975,
-        "width_mm": 1910,
-        "height_mm": 1495,
-        "wheelbase_mm": 2920,
-        "engine": "1.5T",
-        "engine_displacement_cc": 1497,
-        "battery_capacity_kwh": 18.3,
-        "range_km": 121,
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "byd-seal",
-   "brand_id": "byd",
-   "name": "Seal",
-   "name_zh": "海豹",
-   "body_type": "sedan",
-   "status": "active",
-   "generations": [
+      "model_id": "byd-han",
+      "brand_id": "byd",
+      "name": "Han",
+      "name_zh": "汉",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "sedan",
+      "powertrain_types": [
+        "ev",
+        "phev"
+      ],
+      "production_status": "active",
+      "china_market_status": "BYD's flagship sedan, offered as a pure EV and a DM-i plug-in hybrid.",
+      "export_relevance": "Referenced in market guides for UAE, Kenya.",
+      "common_export_regions": [
+        "UAE",
+        "Kenya"
+      ],
+      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "byd-han-g1",
+          "name": "First Generation",
+          "production_years": [
+            2020,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "byd-han-g1-ev",
+              "name": "EV 605km",
+              "powertrain": "ev",
+              "production_years": [
+                2020,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4980,
+                "width_mm": 1910,
+                "height_mm": 1495,
+                "wheelbase_mm": 2920,
+                "motor_power_kw": 163,
+                "battery_capacity_kwh": 76.9,
+                "range_km": 605,
+                "drive_type": "fwd",
+                "seats": 5,
+                "acceleration_0_100_s": 7.9
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.byd.com/eu/car/han",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            },
+            {
+              "trim_id": "byd-han-g1-dmi",
+              "name": "DM-i",
+              "powertrain": "phev",
+              "production_years": [
+                2022,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4975,
+                "width_mm": 1910,
+                "height_mm": 1495,
+                "wheelbase_mm": 2920,
+                "engine": "1.5T",
+                "engine_displacement_cc": 1497,
+                "battery_capacity_kwh": 18.3,
+                "range_km": 121,
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.byd.com/eu/car/han",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.byd.com/eu/car/han",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.byd.com/eu/car/han",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "byd-seal-g1",
-     "name": "First Generation",
-     "production_years": [
-      2022,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "byd-seal-g1-ev550",
-       "name": "EV 550km",
-       "powertrain": "ev",
-       "production_years": [
-        2022,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4800,
-        "width_mm": 1875,
-        "height_mm": 1460,
-        "wheelbase_mm": 2920,
-        "motor_power_kw": 150,
-        "battery_capacity_kwh": 61.4,
-        "range_km": 550,
-        "drive_type": "rwd",
-        "seats": 5,
-        "acceleration_0_100_s": 7.5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "geely-monjaro",
-   "brand_id": "geely",
-   "name": "Monjaro (Xingyue L)",
-   "name_zh": "星越L",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "byd-seal",
+      "brand_id": "byd",
+      "name": "Seal",
+      "name_zh": "海豹",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "sedan",
+      "powertrain_types": [
+        "ev"
+      ],
+      "production_status": "active",
+      "china_market_status": "BYD's mid-size electric sedan.",
+      "export_relevance": "Referenced in market guides for Kenya, UAE.",
+      "common_export_regions": [
+        "Kenya",
+        "UAE"
+      ],
+      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "byd-seal-g1",
+          "name": "First Generation",
+          "production_years": [
+            2022,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "byd-seal-g1-ev550",
+              "name": "EV 550km",
+              "powertrain": "ev",
+              "production_years": [
+                2022,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4800,
+                "width_mm": 1875,
+                "height_mm": 1460,
+                "wheelbase_mm": 2920,
+                "motor_power_kw": 150,
+                "battery_capacity_kwh": 61.4,
+                "range_km": 550,
+                "drive_type": "rwd",
+                "seats": 5,
+                "acceleration_0_100_s": 7.5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.byd.com/eu/car/seal",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.byd.com/eu/car/seal",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.byd.com/eu/car/seal",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "geely-monjaro-g1",
-     "name": "First Generation",
-     "production_years": [
-      2021,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "geely-monjaro-g1-2wd",
-       "name": "2.0T 2WD",
-       "powertrain": "ice",
-       "production_years": [
-        2021,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4770,
-        "width_mm": 1895,
-        "height_mm": 1689,
-        "wheelbase_mm": 2845,
-        "engine": "2.0T",
-        "engine_displacement_cc": 1969,
-        "transmission": "7DCT",
-        "drive_type": "fwd",
-        "seats": 5,
-        "max_speed_kmh": 210
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "chery-tiggo-8",
-   "brand_id": "chery",
-   "name": "Tiggo 8",
-   "name_zh": "瑞虎8",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "geely-monjaro",
+      "brand_id": "geely",
+      "name": "Monjaro (Xingyue L)",
+      "name_zh": "星越L",
+      "aliases": [
+        "Xingyue L"
+      ],
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "Geely's mid-size SUV, sold in China as the Xingyue L and exported as the Monjaro.",
+      "export_relevance": "Referenced in market guides for Saudi Arabia, Tanzania, Kazakhstan, Uzbekistan.",
+      "common_export_regions": [
+        "Saudi Arabia",
+        "Tanzania",
+        "Kazakhstan",
+        "Uzbekistan"
+      ],
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "geely-monjaro-g1",
+          "name": "First Generation",
+          "production_years": [
+            2021,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "geely-monjaro-g1-2wd",
+              "name": "2.0T 2WD",
+              "powertrain": "ice",
+              "production_years": [
+                2021,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4770,
+                "width_mm": 1895,
+                "height_mm": 1689,
+                "wheelbase_mm": 2845,
+                "engine": "2.0T",
+                "engine_displacement_cc": 1969,
+                "transmission": "7DCT",
+                "drive_type": "fwd",
+                "seats": 5,
+                "max_speed_kmh": 210
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": null,
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "medium",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": null,
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "medium",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "chery-tiggo-8-g1",
-     "name": "First Generation",
-     "production_years": [
-      2018,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "chery-tiggo-8-g1-15t",
-       "name": "1.5T",
-       "powertrain": "ice",
-       "production_years": [
-        2018,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4700,
-        "width_mm": 1860,
-        "height_mm": 1746,
-        "wheelbase_mm": 2710,
-        "engine": "1.5T",
-        "engine_displacement_cc": 1498,
-        "transmission": "6DCT",
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "great-wall-haval-h6",
-   "brand_id": "great-wall",
-   "name": "Haval H6",
-   "name_zh": "哈弗H6",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "chery-tiggo-8",
+      "brand_id": "chery",
+      "name": "Tiggo 8",
+      "name_zh": "瑞虎8",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "Chery's mid-size SUV and a mainstay of its export lineup.",
+      "export_relevance": "Referenced in market guides for Kenya, Tanzania, Nigeria, Kazakhstan, Uzbekistan.",
+      "common_export_regions": [
+        "Kenya",
+        "Tanzania",
+        "Nigeria",
+        "Kazakhstan",
+        "Uzbekistan"
+      ],
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "chery-tiggo-8-g1",
+          "name": "First Generation",
+          "production_years": [
+            2018,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "chery-tiggo-8-g1-15t",
+              "name": "1.5T",
+              "powertrain": "ice",
+              "production_years": [
+                2018,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4700,
+                "width_mm": 1860,
+                "height_mm": 1746,
+                "wheelbase_mm": 2710,
+                "engine": "1.5T",
+                "engine_displacement_cc": 1498,
+                "transmission": "6DCT",
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": null,
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "medium",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": null,
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "medium",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "great-wall-haval-h6-g1",
-     "name": "Third Generation",
-     "production_years": [
-      2020,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "great-wall-haval-h6-g1-15t",
-       "name": "1.5T",
-       "powertrain": "ice",
-       "production_years": [
-        2020,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4653,
-        "width_mm": 1886,
-        "height_mm": 1730,
-        "wheelbase_mm": 2738,
-        "engine": "1.5T",
-        "engine_displacement_cc": 1499,
-        "transmission": "7DCT",
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "changan-cs75-plus",
-   "brand_id": "changan",
-   "name": "CS75 Plus",
-   "name_zh": "CS75 PLUS",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "great-wall-haval-h6",
+      "brand_id": "great-wall",
+      "name": "Haval H6",
+      "name_zh": "哈弗H6",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "One of Great Wall Motor's best-known compact SUVs in the Chinese market.",
+      "export_relevance": "Referenced in market guides for Saudi Arabia, Kazakhstan.",
+      "common_export_regions": [
+        "Saudi Arabia",
+        "Kazakhstan"
+      ],
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "great-wall-haval-h6-g1",
+          "name": "Third Generation",
+          "production_years": [
+            2020,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "great-wall-haval-h6-g1-15t",
+              "name": "1.5T",
+              "powertrain": "ice",
+              "production_years": [
+                2020,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4653,
+                "width_mm": 1886,
+                "height_mm": 1730,
+                "wheelbase_mm": 2738,
+                "engine": "1.5T",
+                "engine_displacement_cc": 1499,
+                "transmission": "7DCT",
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.gwm-global.com/haval-h6",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.gwm-global.com/haval-h6",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.gwm-global.com/haval-h6",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "changan-cs75-plus-g1",
-     "name": "First Generation",
-     "production_years": [
-      2019,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "changan-cs75-plus-g1-15t",
-       "name": "1.5T",
-       "powertrain": "ice",
-       "production_years": [
-        2019,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4690,
-        "width_mm": 1865,
-        "height_mm": 1700,
-        "wheelbase_mm": 2710,
-        "engine": "1.5T",
-        "engine_displacement_cc": 1499,
-        "transmission": "6AT",
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "li-auto-l7",
-   "brand_id": "li-auto",
-   "name": "L7",
-   "name_zh": "理想L7",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "changan-cs75-plus",
+      "brand_id": "changan",
+      "name": "CS75 Plus",
+      "name_zh": "CS75 PLUS",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "A core Changan SUV in the Chinese compact-SUV segment.",
+      "export_relevance": "Referenced in market guides for Saudi Arabia.",
+      "common_export_regions": [
+        "Saudi Arabia"
+      ],
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "changan-cs75-plus-g1",
+          "name": "First Generation",
+          "production_years": [
+            2019,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "changan-cs75-plus-g1-15t",
+              "name": "1.5T",
+              "powertrain": "ice",
+              "production_years": [
+                2019,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4690,
+                "width_mm": 1865,
+                "height_mm": 1700,
+                "wheelbase_mm": 2710,
+                "engine": "1.5T",
+                "engine_displacement_cc": 1499,
+                "transmission": "6AT",
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": null,
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "medium",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": null,
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "medium",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "li-auto-l7-g1",
-     "name": "First Generation",
-     "production_years": [
-      2023,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "li-auto-l7-g1-reev",
-       "name": "EREV",
-       "powertrain": "phev",
-       "production_years": [
-        2023,
-        2025
-       ],
-       "specs": {
-        "length_mm": 5050,
-        "width_mm": 1995,
-        "height_mm": 1750,
-        "wheelbase_mm": 3005,
-        "battery_capacity_kwh": 42.8,
-        "range_km": 210,
-        "drive_type": "awd",
-        "seats": 5,
-        "acceleration_0_100_s": 5.3
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "nio-es6",
-   "brand_id": "nio",
-   "name": "ES6",
-   "name_zh": "蔚来ES6",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "li-auto-l7",
+      "brand_id": "li-auto",
+      "name": "L7",
+      "name_zh": "理想L7",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "erev"
+      ],
+      "production_status": "active",
+      "china_market_status": "Li Auto's extended-range electric SUV.",
+      "export_relevance": "Referenced in market guides for UAE.",
+      "common_export_regions": [
+        "UAE"
+      ],
+      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "li-auto-l7-g1",
+          "name": "First Generation",
+          "production_years": [
+            2023,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "li-auto-l7-g1-reev",
+              "name": "EREV",
+              "powertrain": "erev",
+              "production_years": [
+                2023,
+                2025
+              ],
+              "specs": {
+                "length_mm": 5050,
+                "width_mm": 1995,
+                "height_mm": 1750,
+                "wheelbase_mm": 3005,
+                "battery_capacity_kwh": 42.8,
+                "range_km": 210,
+                "drive_type": "awd",
+                "seats": 5,
+                "acceleration_0_100_s": 5.3
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": null,
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "medium",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": null,
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "medium",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "nio-es6-g1",
-     "name": "First Generation",
-     "production_years": [
-      2019,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "nio-es6-g1-ev",
-       "name": "EV 75kWh",
-       "powertrain": "ev",
-       "production_years": [
-        2023,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4854,
-        "width_mm": 1995,
-        "height_mm": 1703,
-        "wheelbase_mm": 2915,
-        "battery_capacity_kwh": 75,
-        "range_km": 490,
-        "drive_type": "awd",
-        "seats": 5,
-        "acceleration_0_100_s": 4.5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "xpeng-g6",
-   "brand_id": "xpeng",
-   "name": "G6",
-   "name_zh": "小鹏G6",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "nio-es6",
+      "brand_id": "nio",
+      "name": "ES6",
+      "name_zh": "蔚来ES6",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ev"
+      ],
+      "production_status": "active",
+      "china_market_status": "NIO's mid-size electric SUV.",
+      "export_relevance": "Referenced in market guides for UAE.",
+      "common_export_regions": [
+        "UAE"
+      ],
+      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "nio-es6-g1",
+          "name": "First Generation",
+          "production_years": [
+            2019,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "nio-es6-g1-ev",
+              "name": "EV 75kWh",
+              "powertrain": "ev",
+              "production_years": [
+                2023,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4854,
+                "width_mm": 1995,
+                "height_mm": 1703,
+                "wheelbase_mm": 2915,
+                "battery_capacity_kwh": 75,
+                "range_km": 490,
+                "drive_type": "awd",
+                "seats": 5,
+                "acceleration_0_100_s": 4.5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.nio.com/es6",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.nio.com/es6",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.nio.com/es6",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "xpeng-g6-g1",
-     "name": "First Generation",
-     "production_years": [
-      2023,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "xpeng-g6-g1-ev580",
-       "name": "EV 580km",
-       "powertrain": "ev",
-       "production_years": [
-        2023,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4753,
-        "width_mm": 1920,
-        "height_mm": 1650,
-        "wheelbase_mm": 2890,
-        "battery_capacity_kwh": 66,
-        "range_km": 580,
-        "drive_type": "rwd",
-        "seats": 5,
-        "acceleration_0_100_s": 6.6
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "gac-gs4",
-   "brand_id": "gac",
-   "name": "GS4",
-   "name_zh": "传祺GS4",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "xpeng-g6",
+      "brand_id": "xpeng",
+      "name": "G6",
+      "name_zh": "小鹏G6",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ev"
+      ],
+      "production_status": "active",
+      "china_market_status": "XPeng's mid-size electric SUV.",
+      "export_relevance": null,
+      "common_export_regions": null,
+      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "xpeng-g6-g1",
+          "name": "First Generation",
+          "production_years": [
+            2023,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "xpeng-g6-g1-ev580",
+              "name": "EV 580km",
+              "powertrain": "ev",
+              "production_years": [
+                2023,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4753,
+                "width_mm": 1920,
+                "height_mm": 1650,
+                "wheelbase_mm": 2890,
+                "battery_capacity_kwh": 66,
+                "range_km": 580,
+                "drive_type": "rwd",
+                "seats": 5,
+                "acceleration_0_100_s": 6.6
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.xpeng.com/g6",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.xpeng.com/g6",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.xpeng.com/g6",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "gac-gs4-g1",
-     "name": "Second Generation",
-     "production_years": [
-      2019,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "gac-gs4-g1-15t",
-       "name": "1.5T",
-       "powertrain": "ice",
-       "production_years": [
-        2019,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4545,
-        "width_mm": 1856,
-        "height_mm": 1700,
-        "wheelbase_mm": 2680,
-        "engine": "1.5T",
-        "engine_displacement_cc": 1495,
-        "transmission": "6AT",
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "saic-mg-zs",
-   "brand_id": "saic",
-   "name": "MG ZS",
-   "name_zh": "名爵ZS",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "gac-gs4",
+      "brand_id": "gac",
+      "name": "GS4",
+      "name_zh": "传祺GS4",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "GAC Motor's compact SUV.",
+      "export_relevance": "Referenced in market guides for Tanzania, Nigeria.",
+      "common_export_regions": [
+        "Tanzania",
+        "Nigeria"
+      ],
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "gac-gs4-g1",
+          "name": "Second Generation",
+          "production_years": [
+            2019,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "gac-gs4-g1-15t",
+              "name": "1.5T",
+              "powertrain": "ice",
+              "production_years": [
+                2019,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4545,
+                "width_mm": 1856,
+                "height_mm": 1700,
+                "wheelbase_mm": 2680,
+                "engine": "1.5T",
+                "engine_displacement_cc": 1495,
+                "transmission": "6AT",
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.gacmotor.com/gs4",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.gacmotor.com/gs4",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.gacmotor.com/gs4",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "saic-mg-zs-g1",
-     "name": "First Generation",
-     "production_years": [
-      2017,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "saic-mg-zs-g1-ev",
-       "name": "EV 440km",
-       "powertrain": "ev",
-       "production_years": [
-        2022,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4323,
-        "width_mm": 1809,
-        "height_mm": 1625,
-        "wheelbase_mm": 2585,
-        "battery_capacity_kwh": 51.1,
-        "range_km": 440,
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      },
-      {
-       "trim_id": "saic-mg-zs-g1-15",
-       "name": "1.5L",
-       "powertrain": "ice",
-       "production_years": [
-        2017,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4314,
-        "width_mm": 1809,
-        "height_mm": 1648,
-        "wheelbase_mm": 2585,
-        "engine": "1.5L",
-        "engine_displacement_cc": 1498,
-        "transmission": "CVT",
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "toyota-rav4",
-   "brand_id": "toyota",
-   "name": "RAV4",
-   "name_zh": "荣放",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "saic-mg-zs",
+      "brand_id": "saic",
+      "name": "MG ZS",
+      "name_zh": "名爵ZS",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ev",
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "SAIC's compact SUV sold under the MG brand, offered with EV and combustion powertrains.",
+      "export_relevance": null,
+      "common_export_regions": null,
+      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "saic-mg-zs-g1",
+          "name": "First Generation",
+          "production_years": [
+            2017,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "saic-mg-zs-g1-ev",
+              "name": "EV 440km",
+              "powertrain": "ev",
+              "production_years": [
+                2022,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4323,
+                "width_mm": 1809,
+                "height_mm": 1625,
+                "wheelbase_mm": 2585,
+                "battery_capacity_kwh": 51.1,
+                "range_km": 440,
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.mg.co.uk/new-cars/mg-zs",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            },
+            {
+              "trim_id": "saic-mg-zs-g1-15",
+              "name": "1.5L",
+              "powertrain": "ice",
+              "production_years": [
+                2017,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4314,
+                "width_mm": 1809,
+                "height_mm": 1648,
+                "wheelbase_mm": 2585,
+                "engine": "1.5L",
+                "engine_displacement_cc": 1498,
+                "transmission": "CVT",
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.mg.co.uk/new-cars/mg-zs",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.mg.co.uk/new-cars/mg-zs",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.mg.co.uk/new-cars/mg-zs",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "toyota-rav4-g5",
-     "name": "Fifth Generation (China)",
-     "production_years": [
-      2019,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "toyota-rav4-g5-20",
-       "name": "2.0L",
-       "powertrain": "ice",
-       "production_years": [
-        2019,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4600,
-        "width_mm": 1855,
-        "height_mm": 1680,
-        "wheelbase_mm": 2690,
-        "engine": "2.0L",
-        "engine_displacement_cc": 1987,
-        "transmission": "CVT",
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "volkswagen-tiguan-l",
-   "brand_id": "volkswagen",
-   "name": "Tiguan L",
-   "name_zh": "途观L",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "toyota-rav4",
+      "brand_id": "toyota",
+      "name": "RAV4",
+      "name_zh": "荣放",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "Toyota's compact SUV, produced in China for the domestic market.",
+      "export_relevance": null,
+      "common_export_regions": null,
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "toyota-rav4-g5",
+          "name": "Fifth Generation (China)",
+          "production_years": [
+            2019,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "toyota-rav4-g5-20",
+              "name": "2.0L",
+              "powertrain": "ice",
+              "production_years": [
+                2019,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4600,
+                "width_mm": 1855,
+                "height_mm": 1680,
+                "wheelbase_mm": 2690,
+                "engine": "2.0L",
+                "engine_displacement_cc": 1987,
+                "transmission": "CVT",
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.toyota.com/rav4/",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.toyota.com/rav4/",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.toyota.com/rav4/",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "volkswagen-tiguan-l-g1",
-     "name": "Tiguan L (China)",
-     "production_years": [
-      2017,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "volkswagen-tiguan-l-g1-20t",
-       "name": "2.0T",
-       "powertrain": "ice",
-       "production_years": [
-        2017,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4712,
-        "width_mm": 1839,
-        "height_mm": 1673,
-        "wheelbase_mm": 2791,
-        "engine": "2.0T",
-        "engine_displacement_cc": 1984,
-        "transmission": "7DSG",
-        "drive_type": "fwd",
-        "seats": 5,
-        "max_speed_kmh": 210
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "bmw-3-series-long",
-   "brand_id": "bmw",
-   "name": "3 Series LWB",
-   "name_zh": "宝马3系长轴",
-   "body_type": "sedan",
-   "status": "active",
-   "generations": [
+      "model_id": "volkswagen-tiguan-l",
+      "brand_id": "volkswagen",
+      "name": "Tiguan L",
+      "name_zh": "途观L",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "Volkswagen's long-wheelbase compact SUV for the Chinese market.",
+      "export_relevance": null,
+      "common_export_regions": null,
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "volkswagen-tiguan-l-g1",
+          "name": "Tiguan L (China)",
+          "production_years": [
+            2017,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "volkswagen-tiguan-l-g1-20t",
+              "name": "2.0T",
+              "powertrain": "ice",
+              "production_years": [
+                2017,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4712,
+                "width_mm": 1839,
+                "height_mm": 1673,
+                "wheelbase_mm": 2791,
+                "engine": "2.0T",
+                "engine_displacement_cc": 1984,
+                "transmission": "7DSG",
+                "drive_type": "fwd",
+                "seats": 5,
+                "max_speed_kmh": 210
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.volkswagen.com/en/models/tiguan",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.volkswagen.com/en/models/tiguan",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.volkswagen.com/en/models/tiguan",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "bmw-3-series-g28",
-     "name": "G28 (China LWB)",
-     "production_years": [
-      2019,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "bmw-3-series-g28-320li",
-       "name": "320Li",
-       "powertrain": "ice",
-       "production_years": [
-        2019,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4829,
-        "width_mm": 1827,
-        "height_mm": 1463,
-        "wheelbase_mm": 2961,
-        "engine": "2.0T",
-        "engine_displacement_cc": 1998,
-        "transmission": "8AT",
-        "drive_type": "rwd",
-        "seats": 5,
-        "max_speed_kmh": 230
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "mercedes-c-class-lwb",
-   "brand_id": "mercedes-benz",
-   "name": "C-Class LWB",
-   "name_zh": "奔驰C级长轴",
-   "body_type": "sedan",
-   "status": "active",
-   "generations": [
+      "model_id": "bmw-3-series-long",
+      "brand_id": "bmw",
+      "name": "3 Series LWB",
+      "name_zh": "宝马3系长轴",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "sedan",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "BMW's long-wheelbase 3 Series, built in China.",
+      "export_relevance": null,
+      "common_export_regions": null,
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "bmw-3-series-g28",
+          "name": "G28 (China LWB)",
+          "production_years": [
+            2019,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "bmw-3-series-g28-320li",
+              "name": "320Li",
+              "powertrain": "ice",
+              "production_years": [
+                2019,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4829,
+                "width_mm": 1827,
+                "height_mm": 1463,
+                "wheelbase_mm": 2961,
+                "engine": "2.0T",
+                "engine_displacement_cc": 1998,
+                "transmission": "8AT",
+                "drive_type": "rwd",
+                "seats": 5,
+                "max_speed_kmh": 230
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": null,
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "medium",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": null,
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "medium",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "mercedes-c-class-w206l",
-     "name": "W206 LWB (China)",
-     "production_years": [
-      2021,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "mercedes-c-class-w206l-c260l",
-       "name": "C260L",
-       "powertrain": "ice",
-       "production_years": [
-        2021,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4882,
-        "width_mm": 1820,
-        "height_mm": 1461,
-        "wheelbase_mm": 2954,
-        "engine": "1.5T",
-        "engine_displacement_cc": 1496,
-        "transmission": "9AT",
-        "drive_type": "rwd",
-        "seats": 5,
-        "max_speed_kmh": 236
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "honda-cr-v",
-   "brand_id": "honda",
-   "name": "CR-V",
-   "name_zh": "本田CR-V",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "mercedes-c-class-lwb",
+      "brand_id": "mercedes-benz",
+      "name": "C-Class LWB",
+      "name_zh": "奔驰C级长轴",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "sedan",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "Mercedes-Benz's long-wheelbase C-Class, built in China.",
+      "export_relevance": null,
+      "common_export_regions": null,
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "mercedes-c-class-w206l",
+          "name": "W206 LWB (China)",
+          "production_years": [
+            2021,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "mercedes-c-class-w206l-c260l",
+              "name": "C260L",
+              "powertrain": "ice",
+              "production_years": [
+                2021,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4882,
+                "width_mm": 1820,
+                "height_mm": 1461,
+                "wheelbase_mm": 2954,
+                "engine": "1.5T",
+                "engine_displacement_cc": 1496,
+                "transmission": "9AT",
+                "drive_type": "rwd",
+                "seats": 5,
+                "max_speed_kmh": 236
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": null,
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "medium",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": null,
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "medium",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "honda-cr-v-g6",
-     "name": "Sixth Generation (China)",
-     "production_years": [
-      2022,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "honda-cr-v-g6-15t",
-       "name": "1.5T",
-       "powertrain": "ice",
-       "production_years": [
-        2022,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4703,
-        "width_mm": 1866,
-        "height_mm": 1680,
-        "wheelbase_mm": 2701,
-        "engine": "1.5T",
-        "engine_displacement_cc": 1498,
-        "transmission": "CVT",
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
-    }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  },
-  {
-   "model_id": "hyundai-tucson-l",
-   "brand_id": "hyundai",
-   "name": "Tucson L",
-   "name_zh": "途胜L",
-   "body_type": "suv",
-   "status": "active",
-   "generations": [
+      "model_id": "honda-cr-v",
+      "brand_id": "honda",
+      "name": "CR-V",
+      "name_zh": "本田CR-V",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "Honda's compact SUV, produced in China.",
+      "export_relevance": null,
+      "common_export_regions": null,
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "honda-cr-v-g6",
+          "name": "Sixth Generation (China)",
+          "production_years": [
+            2022,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "honda-cr-v-g6-15t",
+              "name": "1.5T",
+              "powertrain": "ice",
+              "production_years": [
+                2022,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4703,
+                "width_mm": 1866,
+                "height_mm": 1680,
+                "wheelbase_mm": 2701,
+                "engine": "1.5T",
+                "engine_displacement_cc": 1498,
+                "transmission": "CVT",
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": null,
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "medium",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": null,
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "medium",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": null,
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "medium",
+      "last_verified": "2026-10-06"
+    },
     {
-     "generation_id": "hyundai-tucson-l-g4",
-     "name": "Fourth Generation (China)",
-     "production_years": [
-      2021,
-      2025
-     ],
-     "trims": [
-      {
-       "trim_id": "hyundai-tucson-l-g4-15t",
-       "name": "1.5T",
-       "powertrain": "ice",
-       "production_years": [
-        2021,
-        2025
-       ],
-       "specs": {
-        "length_mm": 4670,
-        "width_mm": 1865,
-        "height_mm": 1690,
-        "wheelbase_mm": 2755,
-        "engine": "1.5T",
-        "engine_displacement_cc": 1497,
-        "transmission": "7DCT",
-        "drive_type": "fwd",
-        "seats": 5
-       },
-       "spec_source": "Manufacturer published specifications",
-       "spec_source_url": null,
-       "spec_source_date": "2026-10-04",
-       "confidence": "medium"
-      }
-     ]
+      "model_id": "hyundai-tucson-l",
+      "brand_id": "hyundai",
+      "name": "Tucson L",
+      "name_zh": "途胜L",
+      "aliases": null,
+      "vehicle_type": "passenger_car",
+      "body_type": "suv",
+      "powertrain_types": [
+        "ice"
+      ],
+      "production_status": "active",
+      "china_market_status": "Hyundai's long-wheelbase compact SUV for the Chinese market.",
+      "export_relevance": null,
+      "common_export_regions": null,
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "market_considerations": null,
+      "parts_availability_notes": null,
+      "charging_standard_notes": null,
+      "homologation_notes": null,
+      "generations": [
+        {
+          "generation_id": "hyundai-tucson-l-g4",
+          "name": "Fourth Generation (China)",
+          "production_years": [
+            2021,
+            2025
+          ],
+          "platform": null,
+          "facelift": null,
+          "trims": [
+            {
+              "trim_id": "hyundai-tucson-l-g4-15t",
+              "name": "1.5T",
+              "powertrain": "ice",
+              "production_years": [
+                2021,
+                2025
+              ],
+              "specs": {
+                "length_mm": 4670,
+                "width_mm": 1865,
+                "height_mm": 1690,
+                "wheelbase_mm": 2755,
+                "engine": "1.5T",
+                "engine_displacement_cc": 1497,
+                "transmission": "7DCT",
+                "drive_type": "fwd",
+                "seats": 5
+              },
+              "source_name": "Manufacturer published specifications",
+              "source_url": "https://www.hyundai.com/worldwide/en/suv/tucson",
+              "source_type": "manufacturer",
+              "checked_date": "2026-10-06",
+              "confidence": "high",
+              "last_verified": "2026-10-06"
+            }
+          ],
+          "source_name": "Manufacturer published specifications",
+          "source_url": "https://www.hyundai.com/worldwide/en/suv/tucson",
+          "source_type": "manufacturer",
+          "checked_date": "2026-10-06",
+          "confidence": "high",
+          "last_verified": "2026-10-06"
+        }
+      ],
+      "source_name": "Manufacturer published specifications",
+      "source_url": "https://www.hyundai.com/worldwide/en/suv/tucson",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-06",
+      "confidence": "high",
+      "last_verified": "2026-10-06"
     }
-   ],
-   "source": "Manufacturer published specifications",
-   "source_url": null,
-   "source_date": "2026-10-04",
-   "confidence": "medium"
-  }
- ]
+  ]
 }

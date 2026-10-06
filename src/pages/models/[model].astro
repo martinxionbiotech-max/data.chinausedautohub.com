@@ -14,12 +14,12 @@ import {
   specRows,
   confidenceLow,
   confidenceLevel,
+  sourceTypeLabel,
   POWERTRAIN_LABELS,
   BODY_TYPE_LABELS,
   breadcrumbJsonLd,
 } from "../../lib/helpers";
-import { marketPosition, MARKET_POSITION_SOURCE, MARKET_POSITION_CONFIDENCE, MARKET_POSITION_CHECKED } from "../../lib/market-position";
-import { modelOverview } from "../../lib/vehicle-overview";
+import { modelOverview, quickFacts, exportIntelligence } from "../../lib/vehicle-overview";
 import { modelMarketLinks, modelGuideLinks, modelToolLinks } from "../../lib/model-links";
 import { getModelNote, relatedInventoryHref } from "../../lib/model-notes";
 
@@ -40,12 +40,13 @@ const prodLabel =
   prodStart != null ? (prodStart === prodEnd ? `${prodStart}` : `${prodStart}–${prodEnd}`) : "Not available";
 
 const pws = modelPowertrains(model);
-const modelLevel = confidenceLevel(model.confidence, model.source_url);
+const modelLevel = confidenceLevel(model.confidence);
+const sourceType = sourceTypeLabel(model.source_type);
 
 const relatedModels = getModelsByBrand(model.brand_id).filter((m) => m.model_id !== model.model_id);
-const position = marketPosition[model.model_id];
-const positionLevel = confidenceLevel(MARKET_POSITION_CONFIDENCE);
-const overview = modelOverview(model);
+const facts = quickFacts(model, brand);
+const overview = modelOverview(model, brand);
+const exportRows = exportIntelligence(model);
 const marketLinks = modelMarketLinks(model.model_id);
 const guideLinks = modelGuideLinks(model);
 const toolLinks = modelToolLinks(model);
@@ -60,7 +61,6 @@ const breadcrumbs = [
 ];
 
 // Maps a five-level confidence label to the shared badge colour class.
-// Kept in the page layer (not the shared component) as required by Phase 2.
 function confidenceClass(level: string): string {
   switch (level) {
     case "Source-backed":
@@ -107,19 +107,26 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     {countTrims(model)} {countTrims(model) === 1 ? "trim" : "trims"}
   </p>
 
-  <!-- Basic identification + Vehicle Overview (P3.4) -->
+  <!-- §12 Quick Facts — ten structured rows -->
+  <section class="consider quick-facts">
+    <h2>Quick Facts</h2>
+    <table class="overview-table">
+      <tbody>
+        {facts.map((row) => (
+          <tr>
+            <th scope="row">{row.label}</th>
+            <td>{row.available ? row.value : <span class="vary">{row.value}</span>}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <!-- §8 Vehicle Overview -->
   <section class="consider">
     <h2>Vehicle Overview</h2>
     <table class="overview-table">
       <tbody>
-        <tr>
-          <th scope="row">Basic identification</th>
-          <td>
-            {model.name}
-            {model.name_zh && <> ({model.name_zh})</>} · Model ID <code>{model.model_id}</code> ·{" "}
-            {brand ? brand.name : model.brand_id}
-          </td>
-        </tr>
         {overview.map((row) => (
           <tr>
             <th scope="row">{row.label}</th>
@@ -137,13 +144,14 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
   </section>
 
   <SourceNote
-    source={model.source}
+    source={model.source_name}
     sourceUrl={model.source_url}
-    sourceDate={model.source_date}
+    sourceDate={model.checked_date}
     confidence={model.confidence}
   />
   <p class="confidence-line">
-    Confidence level: <span class={`badge ${confidenceClass(modelLevel)}`}>{modelLevel}</span>
+    Source type: {sourceType} · Confidence level:{" "}
+    <span class={`badge ${confidenceClass(modelLevel)}`}>{modelLevel}</span>
   </p>
   {confidenceLow(model.confidence) && (
     <p class="vary">Data may vary by market / trim / source.</p>
@@ -153,10 +161,19 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     <h2>Verification Status</h2>
     <ul>
       <li>
-        <strong>Source:</strong> {model.source ?? "Not available"}
+        <strong>Source:</strong> {model.source_name ?? "Not available"}
+        {model.source_url && (
+          <> (<a href={model.source_url} rel="noopener">{model.source_url}</a>)</>
+        )}
       </li>
       <li>
-        <strong>Last checked:</strong> {model.source_date ?? "Not available"}
+        <strong>Source type:</strong> {sourceType}
+      </li>
+      <li>
+        <strong>Last checked:</strong> {model.checked_date ?? "Not available"}
+      </li>
+      <li>
+        <strong>Last verified:</strong> {model.last_verified ?? "Not available"}
       </li>
       <li>
         <strong>Verification level:</strong>{" "}
@@ -173,7 +190,7 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
         g.trims.map((t) => {
           const rows = specRows(t.specs);
           const low = confidenceLow(t.confidence);
-          const trimLevel = confidenceLevel(t.confidence, t.spec_source_url);
+          const trimLevel = confidenceLevel(t.confidence);
           return (
             <div class="trim">
               <h3>{t.name}</h3>
@@ -189,13 +206,14 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
                 <p class="vary">No specifications available for this trim.</p>
               )}
               <SourceNote
-                source={t.spec_source}
-                sourceUrl={t.spec_source_url}
-                sourceDate={t.spec_source_date}
+                source={t.source_name}
+                sourceUrl={t.source_url}
+                sourceDate={t.checked_date}
                 confidence={t.confidence}
               />
               <p class="confidence-line">
-                Confidence level: <span class={`badge ${confidenceClass(trimLevel)}`}>{trimLevel}</span>
+                Source type: {sourceTypeLabel(t.source_type)} · Confidence level:{" "}
+                <span class={`badge ${confidenceClass(trimLevel)}`}>{trimLevel}</span>
               </p>
               {low && <p class="vary">Data may vary by market / trim / source.</p>}
             </div>
@@ -207,33 +225,23 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     </section>
   ))}
 
+  <!-- §8/§9 Export Relevance — structured, non-marketing -->
   <section class="consider">
-    <h2>Export Considerations</h2>
-    <ul>
-      <li>
-        <strong>Drive side:</strong> vehicles in this database are produced for the
-        Chinese domestic market (left-hand drive). For right-hand-drive destinations
-        such as Kenya, Tanzania or Nigeria, confirm RHD availability with the
-        exporter. See the <a href={`${MARKET_SITE_URL}/countries/kenya/`}>Kenya market guide</a>.
-      </li>
-      <li>
-        <strong>Powertrain:</strong>{" "}
-        {pws.length ? pws.map((p) => POWERTRAIN_LABELS[p] ?? p).join(", ") : "Not available"}.
-        {pws.some((p) => p === "ev" || p === "phev")
-          ? " EV and PHEV models may benefit from duty relief in some markets — see the "
-            + "EV import rules on the " + MARKET_SITE_URL + " EV guides."
-          : ""}
-        {" "}
-        {pws.some((p) => p === "ev" || p === "phev") && (
-          <a href={`${MARKET_SITE_URL}/countries/kenya/#ev-rules`}>Kenya EV rules</a>
-        )}
-      </li>
-      <li>
-        <strong>Vehicle age:</strong> some markets restrict used-vehicle age (for
-        example Kenya's eight-year rule). Production years {prodLabel} — check the{" "}
-        <a href={`${MARKET_SITE_URL}/countries/kenya/`}>Kenya age rules</a>.
-      </li>
-    </ul>
+    <h2>Export Relevance</h2>
+    <table class="overview-table">
+      <tbody>
+        {exportRows.map((row) => (
+          <tr>
+            <th scope="row">{row.label}</th>
+            <td>{row.available ? row.value : <span class="vary">{row.value}</span>}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="vary">
+      Export intelligence is structured data, not marketing copy. Fields without
+      verified information are marked "Not yet verified".
+    </p>
   </section>
 
   {modelNote && (
@@ -279,13 +287,12 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
 
   <section class="consider">
     <h2>China Market Position</h2>
-    {position ? (
+    {model.china_market_status ? (
       <>
-        <p>{position}</p>
+        <p>{model.china_market_status}</p>
         <p class="confidence-line">
-          Source: {MARKET_POSITION_SOURCE} · Confidence level:{" "}
-          <span class={`badge ${confidenceClass(positionLevel)}`}>{positionLevel}</span> ·{" "}
-          Last checked: {MARKET_POSITION_CHECKED}
+          Source type: Market observation · Confidence level:{" "}
+          <span class="badge badge-medium">Reported</span>
         </p>
       </>
     ) : (
@@ -376,6 +383,7 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     .overview-table { width: 100%; border-collapse: collapse; }
     .overview-table th, .overview-table td { text-align: left; padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--color-border); vertical-align: top; }
     .overview-table th { width: 30%; color: var(--color-text-soft); font-weight: 600; white-space: nowrap; }
+    .quick-facts .overview-table th { width: 24%; }
     .related .zh { font-size: 14px; }
     .cta-buttons { display: flex; gap: var(--space-3); flex-wrap: wrap; margin: var(--space-4) 0; }
     .cta-primary { display: inline-block; background: var(--color-primary); color: #fff; padding: 10px 20px; border-radius: var(--radius-md); font-weight: 600; }

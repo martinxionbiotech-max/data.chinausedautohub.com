@@ -11,6 +11,8 @@ import {
   POWERTRAIN_LABELS,
   BODY_TYPE_LABELS,
   COUNTRY_LABELS,
+  sourceTypeLabel,
+  confidenceLevel,
   breadcrumbJsonLd,
 } from "../../lib/helpers";
 import { brandMarketLinks } from "../../lib/ecosystem";
@@ -86,11 +88,15 @@ const jsonLd = [
   </div>
 
   <SourceNote
-    source={brand.source}
+    source={brand.source_name}
     sourceUrl={brand.source_url}
-    sourceDate={brand.source_date}
+    sourceDate={brand.checked_date}
     confidence={brand.confidence}
   />
+  <p class="confidence-line">
+    Source type: {sourceTypeLabel(brand.source_type)} · Confidence level:{" "}
+    <span class="badge badge-high">{confidenceLevel(brand.confidence)}</span>
+  </p>
 
   <h2>Models</h2>
   {brandModels.length === 0 ? (
@@ -144,5 +150,6 @@ const jsonLd = [
     .card h3 { margin: 0; }
     .meta { color: var(--color-text-soft); font-size: 13px; }
     .links li { margin: var(--space-2) 0; }
+    .confidence-line { font-size: 13px; color: var(--color-text-soft); margin: var(--space-2) 0; }
   </style>
 </BaseLayout>

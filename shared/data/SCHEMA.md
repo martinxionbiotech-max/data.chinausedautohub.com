@@ -2,7 +2,26 @@
 
 本文件定义 shared/data/*.json 的精确 JSON Schema。
 **所有权**：DATA 站维护 brands/models；MARKET 站维护 countries/importrules/taxrules/ports/routes；COMPANIES 站维护 companies；TOOLS 站维护 fx。
-**通用规则**：实体 ID 全小写连字符；禁止编造数据；无来源数字不得写入；时效数据必须带 last_checked。
+**通用规则**：实体 ID 全小写连字符；禁止编造数据；无来源数字不得写入；时效数据必须带 last_checked / last_verified。
+
+## 溯源五元组（Provenance，§5）
+
+每个品牌/车型/代际/trim 都带五元组溯源字段：
+
+```json
+{
+  "source_name": "Manufacturer published specifications",
+  "source_url": "https://…",
+  "source_type": "official|manufacturer|government|regulatory|industry|reputable_media|database|market_observation|calculated|estimated",
+  "checked_date": "2026-10-06",
+  "confidence": "high|medium|low"
+}
+```
+
+- `source_type` 十值枚举（§5）：`official` / `manufacturer` / `government` / `regulatory` / `industry` / `reputable_media` / `database` / `market_observation` / `calculated` / `estimated`。
+- `confidence` 三值：`high` / `medium` / `low`。manufacturer 规格 = `high`；二手/估算/市场观察 = `medium` 或 `low`；**estimated/calculated 不得伪装成 fact**。
+- `source_url` 无法核实必须为 `null`，不得填猜测 URL。
+- `last_verified`（§16）：核心数据核验日期，具体日期可用时填 `2026-10-06`；无法确认的数据不标实时日期。
 
 ## brands.json（DATA 维护）
 ```json
@@ -13,15 +32,20 @@
     "name_zh": "比亚迪",
     "origin_country": "CN",
     "founded": 2003,
-    "powertrains": ["ev","phev"],
-    "vehicle_types": ["suv","sedan","mpv","hatchback"],
-    "source": "Official brand history",
-    "source_url": null,
-    "source_date": null,
-    "confidence": "high|medium|low|unknown"
+    "powertrains": ["phev","ev"],
+    "vehicle_types": ["suv","sedan"],
+    "status": "active",
+    "source_name": "Official brand history",
+    "source_url": "https://www.byd.com/",
+    "source_type": "official",
+    "checked_date": "2026-10-06",
+    "confidence": "high",
+    "last_verified": "2026-10-06"
   }]
 }
 ```
+- `powertrains`：品牌在库车型动力类型的**并集**（与实际车型一致，P1-5）。
+- `status`：`active|inactive`。
 
 ## models.json（DATA 维护）— 最重要
 ```json
@@ -31,17 +55,32 @@
     "brand_id": "byd",
     "name": "Song Plus",
     "name_zh": "宋PLUS",
+    "aliases": null,
+    "vehicle_type": "passenger_car",
     "body_type": "suv",
-    "status": "active|discontinued",
+    "powertrain_types": ["phev","ev"],
+    "production_status": "active",
+    "china_market_status": "…",
+    "export_relevance": "…",
+    "common_export_regions": ["Kenya","UAE"],
+    "powertrain_export_relevance": "…",
+    "right_hand_drive_relevance": "…",
+    "left_hand_drive_relevance": "…",
+    "market_considerations": null,
+    "parts_availability_notes": null,
+    "charging_standard_notes": "…",
+    "homologation_notes": null,
     "generations": [{
       "generation_id": "byd-song-plus-g1",
       "name": "First Generation",
-      "production_years": [2020, 2023],
+      "production_years": [2020, 2025],
+      "platform": null,
+      "facelift": null,
       "trims": [{
         "trim_id": "byd-song-plus-g1-dmi110",
         "name": "DM-i 110km",
-        "powertrain": "ev|phev|hev|ice",
-        "production_years": [2021, 2023],
+        "powertrain": "ev|phev|hev|ice|erev",
+        "production_years": [2021, 2025],
         "specs": {
           "length_mm": 4705, "width_mm": 1890, "height_mm": 1680,
           "wheelbase_mm": 2765, "curb_weight_kg": null,
@@ -53,17 +92,25 @@
           "max_speed_kmh": null, "acceleration_0_100_s": null,
           "charging": "DC fast charging"
         },
-        "spec_source": "BYD official spec sheet",
-        "spec_source_url": "https://...",
-        "spec_source_date": "2026-10-04",
-        "confidence": "high|medium|low|unknown"
-      }]
+        "source_name": "Manufacturer published specifications",
+        "source_url": "https://…",
+        "source_type": "manufacturer",
+        "checked_date": "2026-10-06",
+        "confidence": "high",
+        "last_verified": "2026-10-06"
+      }],
+      "source_name": "…", "source_url": "…", "source_type": "manufacturer",
+      "checked_date": "2026-10-06", "confidence": "high", "last_verified": "2026-10-06"
     }],
-    "source": "...", "source_url": "...", "source_date": "...", "confidence": "high"
+    "source_name": "…", "source_url": "…", "source_type": "manufacturer",
+    "checked_date": "2026-10-06", "confidence": "high", "last_verified": "2026-10-06"
   }]
 }
 ```
-- 未知参数写 null 或省略；页面渲染为 "Not available"
+- Model 级字段：`aliases`（别名数组或 null）、`vehicle_type`（passenger_car 等）、`powertrain_types`（动力类型数组）、`production_status`（active|discontinued）、`china_market_status`（中国市场定位，市场观察类 source_type=market_observation，confidence=medium）、`export_relevance` 及 Export Intelligence 九字段（见下）。
+- **Export Intelligence 九字段（§9）**：`export_relevance` / `common_export_regions` / `powertrain_export_relevance` / `right_hand_drive_relevance` / `left_hand_drive_relevance` / `market_considerations` / `parts_availability_notes` / `charging_standard_notes` / `homologation_notes`。**有据才填，否则 `null` 或 `"Not yet verified"`**，不得 AI 猜测。
+- Generation 级字段：`platform`（平台，null 安全）、`facelift`（改款 bool|null）、+ 溯源五元组。
+- 未知参数写 null 或省略；页面渲染为 "Not available" / "Not yet verified"
 - 数据冲突：不偷偷选一个，页面标注 "Data may vary by market / trim / source"
 - 代际必须分开（不同 production_years 不能混在一个 generation）
 
@@ -75,15 +122,15 @@
     "name": "Example Auto Export Co., Ltd.",
     "business_type": "automaker|exporter|dealer|supplier|inspection|logistics|shipping|other",
     "province": "Shandong", "city": "Qingdao", "established": null,
-    "business_scope": "...",
+    "business_scope": "…",
     "export_markets": ["uae","kenya"],
     "main_brands": ["byd","geely"],
     "vehicle_types": ["suv","sedan"],
     "inspection_capability": null, "warehouse": null,
     "website": null, "email": null, "phone": null, "whatsapp": null,
     "verification_status": "verified|publicly_listed|source-backed|unverified",
-    "verification_evidence": "...",
-    "source": "...", "source_url": "...", "last_checked": "2026-10-04",
+    "verification_evidence": "…",
+    "source": "…", "source_url": "…", "last_checked": "2026-10-04",
     "status": "active|inactive"
   }]
 }
@@ -138,7 +185,7 @@
     "origin_port_id": "cn-tianjin", "destination_port_id": "ke-mombasa",
     "est_days_min": 18, "est_days_max": 28,
     "shipping_method": "roro|container",
-    "source": "...", "source_url": null, "last_checked": "2026-10-04",
+    "source": "…", "source_url": null, "last_checked": "2026-10-04",
     "confidence": "low|medium"
   }]
 }
