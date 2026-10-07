@@ -1,0 +1,50 @@
+---
+import LegalPage from "../../../shared/components/LegalPage.astro";
+import { DATA_SITE_URL } from "../../../shared/config/config";
+
+const sections = [
+  {
+    h: "Information we collect",
+    p: [
+      "The Vehicle Data sub-site is a reference database of vehicle specifications. It does not run contact forms or request forms, and it does not collect personal information through the site itself. If you contact us by email or WhatsApp, we receive only the details you choose to send.",
+    ],
+  },
+  {
+    h: "How we use your information",
+    p: [
+      "We use information you send us solely to respond to your enquiry and to provide the sourcing and export services you request. We do not sell your information or share it with third parties for marketing.",
+    ],
+  },
+  {
+    h: "Storage",
+    p: [
+      "Enquiries are kept only as long as needed to respond to you and to keep a record of the conversation. This site is static and does not run advertising or analytics trackers.",
+    ],
+  },
+  {
+    h: "Your rights",
+    p: [
+      "You may ask us to access, correct or delete the personal data you have provided. We do not currently appoint a representative in any specific jurisdiction; our data practices are described here as they actually operate.",
+    ],
+  },
+  {
+    h: "Contact",
+    p: [
+      "For privacy questions, email {email} or message us on WhatsApp: {whatsapp}.",
+    ],
+  },
+];
+---
+
+<LegalPage
+  siteTitle="China Used Car Database"
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title="Privacy Policy — China Used Car Database"
+  description="How the Vehicle Data sub-site handles information: a static reference database with no forms and no advertising or analytics trackers."
+  canonical="/privacy/"
+  h1="Privacy Policy"
+  intro="This policy explains how the Vehicle Data sub-site (part of China Used Auto Hub) handles information. This site is a static reference database; it does not run forms or trackers."
+  sections={sections}
+  lastUpdated="2026-10-07"
+/>

@@ -3,11 +3,10 @@ import { MAIN_SITE_URL, CONTACT } from "../config/config";
 const { siteUrl, lastUpdated } = Astro.props;
 
 const legalLinks = [
-  { label: "Privacy", href: `${MAIN_SITE_URL}/privacy/` },
-  { label: "Terms", href: `${MAIN_SITE_URL}/terms/` },
-  { label: "Legal Notice", href: `${MAIN_SITE_URL}/legal-notice/` },
-  { label: "Cookies", href: `${MAIN_SITE_URL}/cookies/` },
-  { label: "Disclaimer", href: `${MAIN_SITE_URL}/disclaimer/` },
+  { label: "Privacy", href: "/privacy/" },
+  { label: "Terms", href: "/terms/" },
+  { label: "Cookies", href: "/cookies/" },
+  { label: "Disclaimer", href: "/disclaimer/" },
 ];
 ---
 <footer class="site-footer">
@@ -32,6 +31,7 @@ const legalLinks = [
           {legalLinks.map((l) => (
             <li><a href={l.href}>{l.label}</a></li>
           ))}
+          <li><a href={`${MAIN_SITE_URL}/legal-notice/`} rel="noopener noreferrer">Full legal suite (main site)</a></li>
         </ul>
       </nav>
     </div>

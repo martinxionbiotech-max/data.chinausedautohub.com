@@ -1,0 +1,56 @@
+---
+import LegalPage from "../../../shared/components/LegalPage.astro";
+import { DATA_SITE_URL } from "../../../shared/config/config";
+
+const sections = [
+  {
+    h: "Service description",
+    p: [
+      "The Vehicle Data sub-site is a structured reference database of Chinese-market vehicle brands, models, generations, trims and technical specifications. It is provided for information and comparison purposes to support vehicle sourcing and export.",
+    ],
+  },
+  {
+    h: "Data accuracy",
+    p: [
+      "We publish specification data compiled from manufacturer materials and public sources, and we record a source and confidence level where available. Figures can differ between markets, model years and trims, and they may change without notice.",
+    ],
+  },
+  {
+    h: "No guarantee of availability",
+    p: [
+      "A model or trim listed in the database does not mean a specific vehicle is available for purchase. Inventory, price and availability are confirmed separately through the main site.",
+    ],
+  },
+  {
+    h: "Licence",
+    p: [
+      "Where stated, structured dataset content is published under a Creative Commons Attribution-ShareAlike licence. Brand names, model names and logos remain the property of their respective owners and are used for identification only.",
+    ],
+  },
+  {
+    h: "Governing law",
+    p: [
+      "Unless mandatory law in your jurisdiction provides otherwise, these terms and your use of this website are governed by the laws of the People's Republic of China.",
+    ],
+  },
+  {
+    h: "Contact",
+    p: [
+      "For questions about these terms, email {email}.",
+    ],
+  },
+];
+---
+
+<LegalPage
+  siteTitle="China Used Car Database"
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title="Terms of Use — China Used Car Database"
+  description="Terms of use for the Vehicle Data sub-site: a source-tracked reference database with no availability guarantee."
+  canonical="/terms/"
+  h1="Terms of Use"
+  intro="By using this website you agree to these terms. The Vehicle Data sub-site is a reference database published as part of China Used Auto Hub."
+  sections={sections}
+  lastUpdated="2026-10-07"
+/>

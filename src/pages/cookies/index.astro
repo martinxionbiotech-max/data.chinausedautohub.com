@@ -1,0 +1,44 @@
+---
+import LegalPage from "../../../shared/components/LegalPage.astro";
+import { DATA_SITE_URL } from "../../../shared/config/config";
+
+const sections = [
+  {
+    h: "Cookies we use",
+    p: [
+      "This site is a static reference database and does not use advertising or analytics cookies. We do not set tracking cookies, advertising cookies or cross-site tracking identifiers.",
+    ],
+  },
+  {
+    h: "No tracking — no consent required",
+    p: [
+      "Because this site sets no non-essential cookies and runs no third-party tracking scripts, it does not require a cookie-consent banner under data-protection rules that apply to non-essential cookies.",
+    ],
+  },
+  {
+    h: "Managing cookies",
+    p: [
+      "You can control or delete cookies through your browser settings. This site does not depend on cookies for basic browsing, so disabling them should not affect your ability to use it.",
+    ],
+  },
+  {
+    h: "Contact",
+    p: [
+      "For questions about this cookie policy, email {email}.",
+    ],
+  },
+];
+---
+
+<LegalPage
+  siteTitle="China Used Car Database"
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title="Cookie Policy — China Used Car Database"
+  description="Cookie policy for the Vehicle Data sub-site: a static site with no tracking cookies, no analytics and no consent banner required."
+  canonical="/cookies/"
+  h1="Cookie Policy"
+  intro="This page describes the cookies used on this website."
+  sections={sections}
+  lastUpdated="2026-10-07"
+/>

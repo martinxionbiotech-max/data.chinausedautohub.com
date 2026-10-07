@@ -1,0 +1,56 @@
+---
+import LegalPage from "../../../shared/components/LegalPage.astro";
+import { DATA_SITE_URL, MAIN_SITE_URL } from "../../../shared/config/config";
+
+const sections = [
+  {
+    h: "Data accuracy",
+    p: [
+      "Vehicle specifications on this site are compiled from manufacturer materials and public sources and are presented for reference. While we aim for accuracy, we do not guarantee that every figure is current, complete or free of error. Specifications change between model years, markets and trims.",
+    ],
+  },
+  {
+    h: "Model-level data, not real-time inventory",
+    p: [
+      "This site describes model lines — generations and trims — not individual vehicles for sale. It is not a real-time inventory or stock feed, and a listing here does not mean a vehicle is available. Actual inventory, price and availability are shown on the {mainSite} main site.",
+    ],
+  },
+  {
+    h: "Specification-level data vs a single vehicle",
+    p: [
+      "Published specifications are model-level (typical or catalogue) values. A specific used vehicle may differ from these figures because of configuration, trim, condition, wear, modification or regional build. Always confirm details against the individual vehicle before purchase.",
+    ],
+  },
+  {
+    h: "Third-party manufacturer sources",
+    p: [
+      "Specification data is sourced from manufacturer publications and third-party public references, and we record the source and confidence level where available. We do not independently re-verify every manufacturer figure. Where a detail is not publicly documented, we say so rather than guessing.",
+    ],
+  },
+  {
+    h: "Not professional advice",
+    p: [
+      "Nothing on this site is legal, tax, financial, import or other professional advice. For decisions with legal or financial consequences, consult a qualified adviser in your jurisdiction.",
+    ],
+  },
+  {
+    h: "Contact",
+    p: [
+      "If you believe information here is incorrect or out of date, email {email} or message us on WhatsApp: {whatsapp}.",
+    ],
+  },
+];
+---
+
+<LegalPage
+  siteTitle="China Used Car Database"
+  siteUrl={DATA_SITE_URL}
+  currentSection="data"
+  title="Disclaimer — China Used Car Database"
+  description="Vehicle data disclaimer: model-level specifications from manufacturer sources, not real-time inventory and not verified against individual vehicles."
+  canonical="/disclaimer/"
+  h1="Disclaimer"
+  intro="The vehicle data on this website is provided for general information and comparison only."
+  sections={sections}
+  lastUpdated="2026-10-07"
+/>

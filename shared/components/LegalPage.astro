@@ -1,0 +1,64 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import { CONTACT, MAIN_SITE_URL } from "../config/config";
+
+const SITE_NAME = "China Used Auto Hub";
+
+interface Section { h: string; p: string[] }
+interface Props {
+  siteTitle: string;
+  siteUrl: string;
+  currentSection: string;
+  title: string;
+  description: string;
+  canonical: string;
+  h1: string;
+  intro?: string;
+  sections: Section[];
+  lastUpdated?: string;
+}
+const {
+  siteTitle, siteUrl, currentSection, title, description, canonical,
+  h1, intro, sections, lastUpdated,
+} = Astro.props;
+
+function render(p: string): string {
+  return p
+    .replaceAll('{siteName}', SITE_NAME)
+    .replaceAll('{mainSite}', `<a href="${MAIN_SITE_URL}" target="_blank" rel="noopener noreferrer">${SITE_NAME}</a>`)
+    .replaceAll('{email}', `<a href="mailto:${CONTACT.email}">${CONTACT.email}</a>`)
+    .replaceAll('{whatsapp}', `<a href="${CONTACT.whatsappLink}" target="_blank" rel="noopener noreferrer">${CONTACT.whatsapp}</a>`);
+}
+---
+
+<BaseLayout
+  siteTitle={siteTitle}
+  siteUrl={siteUrl}
+  currentSection={currentSection}
+  title={title}
+  description={description}
+  canonical={canonical}
+  breadcrumbs={[{ name: "Home", url: "/" }, { name: h1, url: canonical }]}
+  lastUpdated={lastUpdated}
+>
+  <h1>{h1}</h1>
+  {lastUpdated && <p class="legal-meta">Last updated: {lastUpdated}</p>}
+  {intro && <p class="lede">{intro}</p>}
+  <div class="legal">
+    {sections.map((s) => (
+      <section>
+        <h2>{s.h}</h2>
+        {s.p.map((p) => <p set:html={render(p)} />)}
+      </section>
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  .lede { font-size: 17px; color: var(--color-text-soft); max-width: 68ch; }
+  .legal-meta { color: var(--color-text-soft); font-size: 14px; margin: var(--space-2) 0 0; }
+  .legal section { margin-top: var(--space-5); }
+  .legal h2 { font-size: 19px; margin: 0 0 var(--space-2); }
+  .legal p { margin: var(--space-2) 0; max-width: 72ch; }
+  .legal a { color: var(--color-accent); }
+</style>
