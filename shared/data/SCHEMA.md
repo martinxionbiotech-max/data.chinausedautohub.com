@@ -109,7 +109,21 @@
 ```
 - Model 级字段：`aliases`（别名数组或 null）、`vehicle_type`（passenger_car 等）、`powertrain_types`（动力类型数组）、`production_status`（active|discontinued）、`china_market_status`（中国市场定位，市场观察类 source_type=market_observation，confidence=medium）、`export_relevance` 及 Export Intelligence 九字段（见下）。
 - **Export Intelligence 九字段（§9）**：`export_relevance` / `common_export_regions` / `powertrain_export_relevance` / `right_hand_drive_relevance` / `left_hand_drive_relevance` / `market_considerations` / `parts_availability_notes` / `charging_standard_notes` / `homologation_notes`。**有据才填，否则 `null` 或 `"Not yet verified"`**，不得 AI 猜测。
-- Generation 级字段：`platform`（平台，null 安全）、`facelift`（改款 bool|null）、+ 溯源五元组。
+- **分析四字段（Phase 2 做深，§3）**：`used_market_considerations` / `destination_market_considerations` / `parts_service_considerations` / `known_limitations`。每个字段是**结构化分析注记**对象（无据时为 `null`，页面渲染 "Not yet verified"）：
+
+```json
+{
+  "text": "…",
+  "source_name": "…",
+  "source_url": "https://…",
+  "source_type": "manufacturer|reputable_media|industry|market_observation|database|official",
+  "checked_date": "2026-10-07",
+  "confidence": "high|medium|low"
+}
+```
+
+  纪律：**web 检索有据才写**（车型平台共享 / 电池供应商 / 出口市场反馈等官方或可靠来源）；无据写 `null`（渲染 "Not yet verified"），不推测、不编造。
+- Generation 级字段：`platform`（平台，null 安全）、`facelift`（改款 bool|null）、`platform_source`（平台溯源五元组对象，可选）、+ 溯源五元组。
 - 未知参数写 null 或省略；页面渲染为 "Not available" / "Not yet verified"
 - 数据冲突：不偷偷选一个，页面标注 "Data may vary by market / trim / source"
 - 代际必须分开（不同 production_years 不能混在一个 generation）

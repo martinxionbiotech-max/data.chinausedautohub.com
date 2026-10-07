@@ -142,7 +142,39 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-07",
       "confidence": "high",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "The Song Plus is BYD's best-selling SUV in China, passing 1 million cumulative NEV units (DM-i plus EV) in July 2024. It uses BYD's in-house Blade LFP battery (8.3–26.6 kWh DM-i, 71.7–87.04 kWh EV).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Song_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The Song Plus is sold as the BYD Seal U in Europe and as the BYD Sealion 6 in Australia, New Zealand, Thailand, Singapore, Japan, the Philippines, South Korea and Vietnam. It holds Euro NCAP 5 stars (Seal U) and ANCAP 5 stars (Sealion 6), with RHD production for Australia, Thailand and Singapore.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Song_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The Song Plus uses BYD's vertically-integrated Blade LFP battery and is assembled in Xi'an (China), Jizzakh (Uzbekistan, UzAuto) and Rayong (Thailand), supporting local supply in export markets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Song_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "BYD removed the Song Plus from its China website in January 2026, with the larger Sealion 06 becoming its domestic successor, meaning the model's China-market lifecycle is ending while export versions continue.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Song_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "byd-qin-plus",
@@ -284,7 +316,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The Qin Plus is a China-market compact sedan (DM-i PHEV and EV) using BYD's Blade LFP battery. From February 2024 it is also sold in the UAE, Saudi Arabia and Qatar as the Qin Plus PHEV.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Qin_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The Qin Plus is exported mainly to Middle East markets (UAE, Saudi Arabia, Qatar) as the Qin Plus PHEV. It holds a 5-star C-NCAP result (2019 Qin Pro EV) with no Euro NCAP or ANCAP rating listed, and is left-hand-drive only.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Qin_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The Qin Plus uses BYD's in-house Blade LFP battery (8.32/18.32 kWh for DM-i, 47.5–71.7 kWh for EV), supplied by BYD's vertically-integrated battery unit.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Qin_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The Qin Plus only carries a C-NCAP rating (2019 protocol, 84.5% overall) with a relatively low 72.41% vulnerable-road-user score, and has no European or Australasian safety rating listed.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Qin_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "byd-atto-3",
@@ -321,7 +385,7 @@
             2022,
             2025
           ],
-          "platform": null,
+          "platform": "e-Platform 3.0",
           "facelift": null,
           "trims": [
             {
@@ -357,7 +421,14 @@
           "source_type": "manufacturer",
           "checked_date": "2026-10-06",
           "confidence": "high",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Atto 3",
+            "source_url": "https://en.wikipedia.org/wiki/BYD_Atto_3",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Manufacturer published specifications",
@@ -365,7 +436,39 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-07",
       "confidence": "high",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "China sales were 275,223 units in 2024 (309,835 in 2023), with 1 million cumulative global sales reached by June 2025; powered by BYD's in-house Blade LFP battery (49.92/60.48 kWh) on e-Platform 3.0.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Atto_3",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Marketed as the Yuan Plus in China and Atto 3 overseas, with a dedicated right-hand-drive production line; sold in Europe, Australia, Japan, Thailand, India (locally assembled near Chennai) and others, and rated five stars by Euro NCAP (2022) and ANCAP (2022).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Atto_3",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Powered by BYD's proprietary Blade LFP battery (in-house) on the 400-volt e-Platform 3.0; supports DC fast charging up to 70–88 kW and AC charging of 7/11 kW.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Atto_3",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "On 30 September 2024 BYD recalled 96,714 Dolphin/Yuan Plus vehicles (built Nov 2022–Dec 2023) over a CEPS steering-column controller defect posing a short-circuit/fire risk; DC fast charging is capped around 80–88 kW, and Australian deliveries were briefly halted in 2022 over an ADR child-seat top-tether non-compliance.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Atto_3",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "byd-han",
@@ -401,7 +504,7 @@
             2020,
             2025
           ],
-          "platform": null,
+          "platform": "e-Platform 2.0",
           "facelift": null,
           "trims": [
             {
@@ -464,7 +567,14 @@
           "source_type": "manufacturer",
           "checked_date": "2026-10-06",
           "confidence": "high",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Han",
+            "source_url": "https://en.wikipedia.org/wiki/BYD_Han",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Manufacturer published specifications",
@@ -472,7 +582,32 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-06",
       "confidence": "high",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "BYD's flagship E-segment sedan, offered as the battery-electric Han EV and plug-in hybrid Han DM-i/DM-p; uses BYD's in-house Blade LFP battery (60.48/76.9/85.44 kWh) on the e-Platform 2.0.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Han",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Marketed in Europe, where BYD's official EU site lists the 'HAN EV' with WLTP electric range, AWD dual-motor option and a 0.23 drag coefficient.",
+        "source_name": "byd.com",
+        "source_url": "https://www.byd.com/eu/car/han",
+        "source_type": "official",
+        "checked_date": "2026-10-07",
+        "confidence": "high"
+      },
+      "parts_service_considerations": {
+        "text": "Powered by BYD's proprietary Blade LFP battery and e-Platform 2.0, with the Han EV claiming 30–80% fast charging in 25 minutes.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Han",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "byd-seal",
@@ -551,7 +686,32 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-07",
       "confidence": "high",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "Offered with BYD's in-house Blade LFP battery in 61.4 kWh or 82.5 kWh packs; sold in China plus Australia, Thailand, Brazil, Indonesia and Malaysia, among others.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Seal",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Sold in Australia (from 2023, in right-hand-drive) and Europe, among others; rated five stars by ANCAP (2023, aligned with Euro NCAP), Euro NCAP (2023) and ASEAN NCAP.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Seal",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Uses BYD's in-house Blade LFP battery (61.4/82.5 kWh) with no external cell-supplier dependency, supporting AC (220V) and DC fast charging.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Seal",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "geely-monjaro",
@@ -590,7 +750,7 @@
             2021,
             2025
           ],
-          "platform": null,
+          "platform": "CMA",
           "facelift": null,
           "trims": [
             {
@@ -626,7 +786,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Monjaro (Xingyue L)",
+            "source_url": "https://en.wikipedia.org/wiki/Geely_Xingyue_L",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Reputable media specifications",
@@ -634,7 +801,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Geely's compact crossover on the CMA platform, sold in China as the Xingyue L with 2.0-litre turbo petrol plus Hi-X/Hi-F (i-HEV) and Hi-P (PHEV) hybrid options; the PHEV uses a 41.2 kWh NMC battery (39.6 kWh usable).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Xingyue_L",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Exported as the Geely Monjaro (e.g. Vietnam and Middle East) and sold in Russia as the Volga K50; the same CMA platform underpins the Renault Grand Koleos built by Renault Korea.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Xingyue_L",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Built on the Compact Modular Architecture (CMA) shared with the Geely Xingyue S and Renault Grand Koleos, giving platform commonality across Geely, Volvo-derived and Renault models.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Xingyue_L",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The plug-in hybrid (Hi-P) variant uses a 41.2 kWh NMC battery (39.6 kWh usable) for about 207.5 km WLTC electric range — modest for a mid-size SUV.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Xingyue_L",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "chery-tiggo-8",
@@ -672,7 +871,7 @@
             2018,
             2025
           ],
-          "platform": null,
+          "platform": "T1X",
           "facelift": null,
           "trims": [
             {
@@ -707,7 +906,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Tiggo 8",
+            "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_8",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Reputable media specifications",
@@ -715,7 +921,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The Tiggo 8 is a three-row SUV on Chery's T1X platform, with the PHEV variant using an 18.3 kWh LFP battery and 90 km WLTP electric range.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_8",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The Tiggo 8 is exported as Tiggo 8 Pro/Pro Max to Australia, Russia, Mexico (Chirey Tiggo 8), Indonesia, Malaysia, Pakistan, the Philippines, Iran, South Africa and Europe (DR 7.0 in Italy, Ebro S800 in Spain). It holds ANCAP 5 stars (2023 and 2025) but only a 4-star Euro NCAP rating.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_8",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The Tiggo 8 PHEV uses an 18.3 kWh LFP battery and shares the T1X platform with the Tiggo 7. It is locally assembled in Brazil, Indonesia, Malaysia, Iran, Pakistan and Russia.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_8",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The Tiggo 8 received a 4-star Euro NCAP rating (81% adult, 77% child occupant) — lower than its 5-star ANCAP result — indicating weaker performance under the European safety protocol.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_8",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "great-wall-haval-h6",
@@ -983,7 +1221,7 @@
             2019,
             2025
           ],
-          "platform": null,
+          "platform": "NT2.0",
           "facelift": null,
           "trims": [
             {
@@ -1018,7 +1256,14 @@
           "source_type": "manufacturer",
           "checked_date": "2026-10-06",
           "confidence": "high",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — ES6",
+            "source_url": "https://en.wikipedia.org/wiki/Nio_ES6",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "NIO ES6 export / homologation reference (industry)",
@@ -1026,7 +1271,39 @@
       "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The NIO ES6 is a mid-size luxury electric crossover SUV built on NIO's NT2.0 platform (second generation, from 2023), with battery options of 75 kWh, 100 kWh and 150 kWh and an all-aluminum body, produced in Hefei.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Nio_ES6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The second-generation ES6 went on sale in Northern Europe as the Nio EL6 in June 2023, after NIO renamed it because Audi considered the 'ES6' name too close to its S6 model.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Nio_ES6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The ES6/EL6 battery packs are compatible with NIO's battery-swap stations, and the model is closely related to the NIO EC6 on the same platform, supporting battery and component interchangeability within the NIO lineup.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Nio_ES6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The ES6 relies on NIO's proprietary battery-swap infrastructure for its fastest 'recharging', which is limited outside NIO's swap-network markets, and in Europe the model had to be renamed EL6 due to a trademark conflict with Audi's S6.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Nio_ES6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "xpeng-g6",
@@ -1071,7 +1348,7 @@
             2023,
             2025
           ],
-          "platform": null,
+          "platform": "SEPA 2.0",
           "facelift": null,
           "trims": [
             {
@@ -1106,7 +1383,14 @@
           "source_type": "manufacturer",
           "checked_date": "2026-10-06",
           "confidence": "high",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — G6",
+            "source_url": "https://en.wikipedia.org/wiki/XPeng_G6",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "XPeng export news (reputable media) + manufacturer export pages",
@@ -1114,7 +1398,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Mid-size coupe SUV built on XPeng's SEPA 2.0 platform, produced since June 2023 and offered with CALB-supplied LFP (66/68.5/80.8 kWh) and NMC (80.8/87.5 kWh) battery packs.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/XPeng_G6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "First XPeng model launched in Australia (September 2024), then rolled out to Europe (June 2025), Malaysia, Singapore, Thailand and Indonesia, with Euro NCAP and ANCAP testing carried out in 2024.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/XPeng_G6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Batteries supplied by CALB; SEPA 2.0 platform shared with other XPeng models; assembled in Guangzhou (China) plus contract/local assembly by Magna Steyr (Graz, Austria), HIM (Indonesia) and EPMB (Malaysia).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/XPeng_G6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Euro NCAP's 2024 assessment found weak protection of the rear passenger's chest in the full-width rigid-barrier test and penalised the G6 for occupant-to-occupant head contact in the far-side impact.",
+        "source_name": "euroncap.com",
+        "source_url": "https://www.euroncap.com/assessments/xpeng/g6/1086/",
+        "source_type": "industry",
+        "checked_date": "2026-10-07",
+        "confidence": "high"
+      }
     },
     {
       "model_id": "gac-gs4",
@@ -1300,7 +1616,39 @@
       "source_type": "industry",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "MG ZS subcompact crossover (with the ZS EV/EZS electric version) is MG Motor's best-selling international model, reaching 999,612 cumulative global sales by December 2023.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/MG_ZS_(crossover)",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The ZS EV is sold in the UK, Europe, Thailand, India, New Zealand, Australia and Pakistan (marketed as EZS in China), with right-hand-drive production for the UK, Australia, New Zealand, India and Pakistan markets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/MG_ZS_(crossover)",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Facelift ZS EV uses a 72.6 kWh battery with a smaller 51 kWh LFP option; assembled at SAIC-CP Laem Chabang (Thailand) and SGMW Indonesia (Cikarang).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/MG_ZS_(crossover)",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The Chinese-market MG EZS was discontinued shortly after its 2019 launch, and ZS domestic-market sales ended after the 2022 model year, leaving export markets as the model's primary channel.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/MG_ZS_(crossover)",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "toyota-rav4",
@@ -1792,7 +2140,7 @@
             2018,
             2025
           ],
-          "platform": null,
+          "platform": "PF-C",
           "facelift": null,
           "trims": [
             {
@@ -1830,7 +2178,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — CS35 Plus",
+            "source_url": "https://en.wikipedia.org/wiki/Changan_CS35_Plus",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Changan export data (industry reference)",
@@ -1838,7 +2193,32 @@
       "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The Changan CS35 Plus is a subcompact crossover SUV produced since 2018 on the Changan PF-C platform, powered by 1.4L turbocharged and 1.6L naturally aspirated petrol engines.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_CS35_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The CS35 Plus is rebadged as the Saipa 421P in Iran, the DR 5 in Belgium and the DR Stilnovo 5 in Italy, and is assembled in Belarus (Apchak) and Iran (Tehran, by Pars Khodro).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_CS35_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The CS35 Plus is built on the Changan PF-C platform and uses a 1.4L turbo (158 hp) or 1.6L JL478QEP petrol engine with manual, CVT, 6-speed automatic or 7-speed DCT transmissions.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_CS35_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "changan-cs55-plus",
@@ -1920,7 +2300,32 @@
       "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The Changan CS55 Plus is a compact crossover SUV produced since 2017 with a 1.5L turbocharged petrol engine (156 hp); a full-electric CS55 EV version was announced on 9 July 2020.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_CS55_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The second-generation CS55 Plus is marketed as the Changan UNI-S in the Middle East, and the model is assembled in Kashan, Iran by Saipa.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_CS55_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The CS55 Plus uses the 1.5L JL476ZQCD turbocharged petrol engine and is related to the larger Changan CS75, with 6-speed manual or 6-speed automatic transmissions.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_CS55_Plus",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "changan-uni-t",
@@ -2002,7 +2407,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Changan UNI-T is a petrol-only compact crossover (1.5L/2.0L turbo, no EV/battery) produced by Changan Automobile since 2020. China retail sales fell from 28,721 units in 2023 to 6,961 in 2024, pointing to a thin domestic used-vehicle pool.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_UNI-T",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The UNI-T received a 5-star C-NCAP safety certification from CATARC on 15 September 2021. Deliveries in Russia began in summer 2023, and it is rebadged as the OSCA MT6 for Italy by DR Automobiles; there is no RHD production.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_UNI-T",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The UNI-T is related to the Changan CS55 Plus in dimensions and uses Aisin-sourced transmissions (7-speed DCT or 8-speed automatic). Being petrol-only, it has no battery-supplier service footprint.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_UNI-T",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "No hybrid or EV variant is offered, and China retail sales collapsed from 28,721 (2023) to 1,107 (2025), suggesting an end-of-lifecycle model with no EV/OTA ecosystem for overseas use.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_UNI-T",
+        "source_type": "market_observation",
+        "checked_date": "2026-10-07",
+        "confidence": "low"
+      }
     },
     {
       "model_id": "changan-uni-k",
@@ -2084,7 +2521,39 @@
       "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Changan UNI-K is a mid-size crossover SUV produced since 2020, offered as a 2.0L turbo petrol and as the UNI-K iDD plug-in hybrid (30.74 kWh battery, 130 km NEDC electric range). China retail sales were 12,932 (UNI-K) and 7,541 (iDD) in 2023.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_UNI-K",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The UNI-K is sold in Russia (certified October 2021, in dealers from June 2022) and Mexico (430 units in 2023); no RHD or ANCAP/Euro NCAP rating is documented.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_UNI-K",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The UNI-K uses an Aisin 8-speed automatic transmission, and the UNI-K iDD is Changan's first model with its Blue Whale iDD hybrid system (1.5L turbo + Blue Whale 3-clutch DHT gearbox).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_UNI-K",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The UNI-K iDD is aimed at fuel saving rather than electromobility, with only a 130 km NEDC electric range; the petrol UNI-K offers no EV/charging ecosystem for export markets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Changan_UNI-K",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "deepal-s07",
@@ -2167,7 +2636,32 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Exported to Australia (November 2024), Thailand (from 2023), Indonesia, Brunei, Mexico and South Africa (October 2025); offered as both a battery EV (66.8/68.8/79.97 kWh) and an EREV range-extender (18.99–39.0 kWh).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Deepal_S07",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Rated five stars by Euro NCAP in 2024 (Adult Occupant 95%, Child Occupant 87%, Vulnerable Road Users 74%, Safety Assist 77%).",
+        "source_name": "euroncap.com",
+        "source_url": "https://www.euroncap.com/en/results/deepal/s07/53561",
+        "source_type": "regulatory",
+        "checked_date": "2026-10-07",
+        "confidence": "high"
+      },
+      "parts_service_considerations": {
+        "text": "Battery cells are sourced from CALB (18.99 kWh LFP; 66.8/79.97 kWh NMC) and CATL (31.73/39.0/68.8 kWh LFP); developed by Changan jointly with Huawei and CATL and shares its platform with the Deepal L07.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Deepal_S07",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "deepal-sl03",
@@ -2491,7 +2985,39 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "The NIO ET5 offers 75 kWh LFP (CATL), 100 kWh NMC (CATL/CALB) and 150 kWh semi-solid-state (WeLion) batteries with battery-swap compatibility. China sales were 40,848 ET5 plus 21,361 ET5T in 2023.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/NIO_ET5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The ET5 holds a 5-star Euro NCAP rating (2023, 96% adult occupant) and is sold in Europe, with NIO battery-swap stations available in China, Norway and Germany.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/NIO_ET5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "ET5 batteries are supplied by CATL (LFP), CATL/CALB (NMC) and WeLion (semi-solid-state), and the car is compatible with Nio Power battery-swap stations.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/NIO_ET5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The 150 kWh semi-solid-state battery is only available as a short-term rental at swap stations rather than for purchase, and NIO's battery-swap network is limited to China, Norway and Germany.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/NIO_ET5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "nio-es8",
@@ -2575,7 +3101,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The ES8 uses CATL/CALB batteries (75–100 kWh, plus a 150 kWh WeLion semi-solid-state option) with battery-swap support. China sales declined from 20,943 (2021) to 9,188 (2024).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/NIO_ES8",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The ES8 was NIO's first Europe launch (Norway, September 2021) and is sold in Europe as the NIO EL8. It holds Euro NCAP 5 stars (2021) and C-NCAP 5 stars (88.4%, 2018).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/NIO_ES8",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "ES8 batteries are supplied by CATL (LFP/NMC hybrid and NMC) with a 150 kWh WeLion semi-solid-state rental option, supported by NIO's swappable battery system.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/NIO_ES8",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The 150 kWh semi-solid-state pack is rental-only at swap stations (not purchasable), and NIO's battery-swap infrastructure is limited outside China (European launch centred on Norway).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/NIO_ES8",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "xpeng-p7",
@@ -2661,7 +3219,32 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "Executive fastback sedan positioned as a Tesla Model 3 competitor; first generation assembled in Zhaoqing with LFP (CATL) and NMC (CALB) batteries from 60.2 to 80.9 kWh.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/XPeng_P7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Euro NCAP tested the P7 (80 kWh, LHD) in 2023 and C-NCAP tested it under the 2018 protocol; the second-generation P7 (revealed May 2025) is designed for global markets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/XPeng_P7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Batteries from CATL (LFP 60.2/80.9 kWh), CALB (NMC 70.8/86.2 kWh) and EVE Energy (LFP 64.4 kWh); second-generation uses EVE Energy LFP (74.9 kWh) and CALB NMC (92.2 kWh).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/XPeng_P7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "xpeng-g9",
@@ -2700,7 +3283,7 @@
             2022,
             2025
           ],
-          "platform": null,
+          "platform": "Edward",
           "facelift": null,
           "trims": [
             {
@@ -2738,7 +3321,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — G9",
+            "source_url": "https://en.wikipedia.org/wiki/XPeng_G9",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "XPeng Europe H1 2026 sales G6/G9/P7+ (reputable media: ievchina.com)",
@@ -2746,7 +3336,32 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "Mid-size SUV on XPeng's Edward platform (shared with the Volkswagen ID. Unyx 08), offered with EVE Energy LFP (78.2 kWh) and CALB LFP (79/93.1 kWh) and NMC (98 kWh) batteries; the first XPeng designed for global markets from the outset.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/XPeng_G9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Launched in Europe in June 2025 alongside the G6, with contract assembly by Magna Steyr in Graz, Austria; Euro NCAP and C-NCAP tested; 800V SiC architecture.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/XPeng_G9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Batteries from EVE Energy (LFP) and CALB (LFP/NMC); Edward platform shared with the Volkswagen ID. Unyx 08 under the VW-XPeng partnership; Magna Steyr contract assembly in Austria.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/XPeng_G9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "li-auto-l6",
@@ -2783,7 +3398,7 @@
             2024,
             2025
           ],
-          "platform": null,
+          "platform": "Li Auto L-series EREV platform (shared with L7/L8/L9)",
           "facelift": null,
           "trims": [
             {
@@ -2821,7 +3436,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — L6",
+            "source_url": "https://en.wikipedia.org/wiki/Li_L6",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Li Auto overseas expansion coverage (EqualOcean / GNEENEV)",
@@ -2829,7 +3451,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The Li L6 is a mid-size range-extender (EREV) SUV powered by a 36.8 kWh LFP battery supplied by CATL; it became Li Auto's best-selling model, surpassing 200,000 cumulative deliveries within nine months of its April 2024 launch, indicating a large domestic used-car pool.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Li_L6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The Li L6 is sold in China only; as of July 2024 CarNewsChina reported Li Auto had only hinted at overseas expansion beginning in 2025, so there is no export version, overseas renaming, NCAP/ANCAP rating, or RHD production for the L6.",
+        "source_name": "carnewschina.com",
+        "source_url": "https://carnewschina.com/2024/07/06/sunday-china-drive-li-auto-l6-chinas-top-nev-startup-hints-at-going-overseas-in-2025/",
+        "source_type": "reputable_media",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The L6 shares its L-series platform and much of its component set with the larger Li L7, L8 and L9, and uses a CATL-supplied 36.8 kWh LFP battery pack, aiding parts availability across the Li Auto lineup.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Li_L6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The Li L6 charges via the China-specific GB/T 20234 standard (90 kW DC, 7 kW AC) and, unlike other L-series models, is not offered with air suspension (only continuous damping control), which ties it to the Chinese charging ecosystem.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Li_L6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "li-auto-l9",
@@ -2868,7 +3522,7 @@
             2022,
             2025
           ],
-          "platform": null,
+          "platform": "Li Auto L-series EREV platform (shared with L7/L8)",
           "facelift": null,
           "trims": [
             {
@@ -2906,7 +3560,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — L9",
+            "source_url": "https://en.wikipedia.org/wiki/Li_Auto_L9",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Li Auto L9 Kazakhstan / overseas expansion (reputable media)",
@@ -2914,7 +3575,32 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Li Auto L9 is a range-extender (EREV) full-size SUV sold primarily in China, with annual China sales of 38,973 (2022), 114,377 (2023) and 85,817 (2024) units per Gasgoo data. It uses a CATL NMC battery pack (42.6 kWh through 2023, 52.3 kWh from 2024).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Li_Auto_L9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Wikipedia lists L9 production as China 2022–2026 and export 2025–2027, with an assembly site in Kostanay, Kazakhstan, indicating export production only began in 2025. The model is a left-hand-drive China-market design with no RHD production listed.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Li_Auto_L9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The L9 uses CATL NMC battery packs (42.6, 52.3 and 72.7 kWh across model years) and shares Li Auto's L-series range-extender platform with the L7 and L8, aiding parts commonality.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Li_Auto_L9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "leapmotor-c10",
@@ -3348,7 +4034,7 @@
             2019,
             2025
           ],
-          "platform": null,
+          "platform": "Jianghuai C platform",
           "facelift": null,
           "trims": [
             {
@@ -3386,7 +4072,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — J7",
+            "source_url": "https://en.wikipedia.org/wiki/JAC_Jiayue_A5",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "JAC J7 export markets (manufacturer: jac-saudiarabia.com)",
@@ -3394,7 +4087,32 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "The JAC J7 (sold domestically as the Sehol A5 / JAC Jiayue A5) is a C-segment five-door liftback produced in Hefei since 2019, offered with a 1.5-litre turbo petrol engine and, in EV form, 50.1 kWh or 64.5 kWh lithium-ion batteries.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/JAC_Jiayue_A5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The model is exported under the 'JAC J7' name to Kazakhstan, Mexico, Russia and the Middle East, while its electric version is sold as the JAC E J7 (Mexico) and KMC EJ7 (Iran).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/JAC_Jiayue_A5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The J7 is built on the Jianghuai C platform and is related to the Sehol A5 Plus; its EV variants use a permanent-magnet synchronous motor with 50.1 or 64.5 kWh lithium-ion batteries.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/JAC_Jiayue_A5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "baic-bj40",
@@ -3477,7 +4195,32 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "The BAIC (Beijing) BJ40 is a body-on-frame off-road SUV produced since 2014 with 2.0L, 2.3L and 2.4L turbocharged petrol engines and no electrified variant, positioned as a Jeep Wrangler-derived hard off-roader.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BAIC_BJ40",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The BJ40 is rebadged overseas as the Innoson IVM G40 / Nord A7 (Nigeria), Mobius 3 (Kenya) and Aras 3 (Iran), and is locally assembled via CKD in Algeria (Batna), Pakistan (Lahore), Indonesia (Purwakarta) and Russia (Kaliningrad).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BAIC_BJ40",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Sazgar signed an agreement with BAIC to produce the BJ40 in complete knock-down (CKD) form in Pakistan, with production starting on 29 May 2021; the model uses turbocharged petrol engines including a 2.0L HYCET unit in some export markets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BAIC_BJ40",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "baic-x55",
@@ -3756,7 +4499,7 @@
             2022,
             2025
           ],
-          "platform": null,
+          "platform": "Fengon ix7 (first generation)",
           "facelift": null,
           "trims": [
             {
@@ -3794,7 +4537,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — M7",
+            "source_url": "https://en.wikipedia.org/wiki/AITO_M7",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "AITO M7 export/wholesale listings (evautopro / bymotorcar)",
@@ -3802,7 +4552,39 @@
       "source_type": "industry",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "AITO M7 is a full-size luxury SUV by Seres (with Huawei), available as EREV and (2nd gen) battery-electric; 1st gen uses a 40 kWh ternary battery, while the 2nd gen uses CATL 37 kWh LFP / 53.4 kWh NMC / 100 kWh NMC packs. China sales reached 193,599 units in 2024.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/AITO_M7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Exported as the 'Seres 7' (Europe, shown at Munich 2023) and 'Seres M7' (Russia), with all Huawei logos removed due to Huawei's sensitivity in Western markets. No RHD, ANCAP or Euro NCAP rating is documented.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/AITO_M7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The 2nd-gen M7 uses Huawei 'Jujing' battery packs supplied by CATL and Huawei DriveONE motors, with Huawei ADS 4 ADAS; the 1st gen is based on the Fengon ix7 platform.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/AITO_M7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "A 26 April 2024 rear-end collision in Yuncheng, Shanxi caused a fire that killed three occupants after the doors could not be opened, and drew criticism of Huawei's 'far ahead' AEB marketing; AITO stated the vehicle speed (115 km/h) exceeded the AEB operating range.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/AITO_M7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "aito-m9",
@@ -3884,7 +4666,39 @@
       "source_type": "industry",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "AITO M9 is a full-size luxury EV/EREV SUV by Seres under the AITO brand (Huawei HIMA alliance), using CATL NMC batteries (42/52/100 kWh). Cumulative deliveries exceeded 200,000 by December 2024, making it a top seller in China's >CNY500,000 segment.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/AITO_M9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Exported as the 'AITO 9'; it became the first AITO/HIMA vehicle sold outside China in the UAE on 6 February 2026 (via Performance Plus Motors / Abu Dhabi Motors). It holds a 'super' 5-star C-NCAP (2021) result with a 93.9% score, the highest in C-NCAP history.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/AITO_M9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "All battery packs are CATL-sourced NMC; the M9 runs Huawei technology including the HarmonyOS cockpit, ADS 2.0/3.0/4 ADAS and Huawei DriveONE, with Huawei Xinghe satellite communications.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/AITO_M9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Overseas sales only began in the UAE in February 2026, so the global service/OTA footprint is minimal, and the vehicle is heavily dependent on Huawei software (HarmonyOS, ADS, Xinghe satellite) that is not distributed in most Western markets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/AITO_M9",
+        "source_type": "market_observation",
+        "checked_date": "2026-10-07",
+        "confidence": "low"
+      }
     },
     {
       "model_id": "seres-5",
@@ -4084,7 +4898,7 @@
             2017,
             2025
           ],
-          "platform": null,
+          "platform": "T1X",
           "facelift": null,
           "trims": [
             {
@@ -4122,7 +4936,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Tiggo 5X",
+            "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_5x",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Chery Tiggo 5X 1-million export milestone (Gasgoo / AutoIndustriya)",
@@ -4130,7 +4951,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The Tiggo 5x (Tiggo 4 globally) is a subcompact crossover on Chery's T1X platform; the CSH hybrid uses a 1.8 kWh LFP battery and the China-only Tiggo e EV used a 53.6 kWh lithium-ion pack.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_5x",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The Tiggo 5x is sold as Tiggo 4 Pro / Tiggo 4 in Australia, Europe (UK), Mexico (Chirey Tiggo 4), Indonesia, Malaysia, the Middle East, Pakistan, the Philippines and South Africa, plus DR 5.0 (Italy), MVM X55 (Iran) and Ebro S400 (Spain). It earned ANCAP 5 stars (2023) but only a 4-star Euro NCAP rating.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_5x",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The Tiggo 5x uses a 1.8 kWh LFP battery for the CSH hybrid and is locally assembled in Brazil, Egypt, Indonesia, Iran, Pakistan, Malaysia and Russia, sharing the T1X platform.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_5x",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The Tiggo 5x received a 4-star Euro NCAP rating (79% adult occupant) versus 5-star ANCAP, indicating weaker European-protocol safety performance than its Australasian result.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_5x",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "chery-tiggo-7",
@@ -4169,7 +5022,7 @@
             2016,
             2025
           ],
-          "platform": null,
+          "platform": "T1X",
           "facelift": null,
           "trims": [
             {
@@ -4207,7 +5060,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Tiggo 7",
+            "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_7",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Chery Tiggo 7 export reference (reputable media)",
@@ -4215,7 +5075,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Tiggo 7 is a compact SUV built on Chery's T1X platform (shared with the Exeed LX); China sales were 52,754 units in 2023 and 56,556 in 2024. The PHEV variant uses an 18.3 kWh LFP battery.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The Tiggo 7 is exported under names including Tiggo 7 Pro/Pro Max, Chirey Tiggo 7 (Mexico), DR 6.0 (Italy), Ebro S700 (Spain) and Xcite X-Cross 7 (Russia). It earned ANCAP 5 stars (2023 and 2025) and Euro NCAP 5 stars, and is RHD-produced for Australia, Malaysia, Indonesia and South Africa.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The Tiggo 7 PHEV uses an 18.3 kWh LFP battery (48V lithium-ion for the mild-hybrid) and is locally assembled in Brazil, Indonesia, Malaysia, Iran, Russia and Spain. It shares the T1X platform with the Exeed LX.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The pre-2025 Tiggo 7 scored only 4 stars in Euro NCAP (later facelifts reached 5). The 2026 Australian facelift dropped the driver's knee airbag, full-size spare wheel, integrated satellite navigation and Sony audio system.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Chery_Tiggo_7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "chery-arrizo-8",
@@ -4656,7 +5548,7 @@
             2020,
             2025
           ],
-          "platform": null,
+          "platform": "L.E.M.O.N. (B30)",
           "facelift": null,
           "trims": [
             {
@@ -4694,7 +5586,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Jolion",
+            "source_url": "https://en.wikipedia.org/wiki/Haval_Jolion",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Haval Jolion export reference (industry)",
@@ -4702,7 +5601,39 @@
       "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Haval Jolion is a compact crossover by GWM Haval that has been export-only since China sales ended in 2021. It is sold across Australia, South Africa, Russia, Thailand and other markets, and is based on the L.E.M.O.N. (B30) platform shared with the Haval Big Dog and H6.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Haval_Jolion",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The Jolion holds a 5-star ANCAP rating (2022, aligned with Euro NCAP) and is assembled in Thailand (Rayong), Russia (Tula), Indonesia, Pakistan and Sri Lanka; RHD versions are produced for Thailand, Indonesia, South Africa and Australia.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Haval_Jolion",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The HEV version uses a BorgWarner DHT115 permanent-magnet motor with a 1.6 kWh lithium-ion battery; local CKD assembly in multiple markets (Thailand, Russia, Indonesia, Pakistan, Sri Lanka) supports parts availability.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Haval_Jolion",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "In the 2026 Global NCAP (Africa) test the Jolion scored 30.33/34.00 adult and 31.52/49.00 child occupant protection (2 stars adult / 3 stars child), well below its 5-star ANCAP result, reflecting lower-spec African-market equipment.",
+        "source_name": "globalncap.org",
+        "source_url": "https://www.globalncap.org/s/GWMHavalJolion-factsheet-2026.pdf/",
+        "source_type": "regulatory",
+        "checked_date": "2026-10-07",
+        "confidence": "high"
+      }
     },
     {
       "model_id": "haval-h9",
@@ -5107,7 +6038,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Wey Coffee 01 (China name Wey Mocha) is a mid-size luxury PHEV crossover by GWM under the Wey brand, using a 45 kWh (2021-23) then 35.04 kWh NMC battery. China sales fell from 5,037 in 2023 to 1,915 in 2025, indicating very low volume.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/WEY_Coffee_01",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Sold in Europe as the Wey Coffee 01 (until end of 2023) and then renamed GWM Wey 05 from 2024; it achieved a 5-star Euro NCAP rating (2022) as the 'GWM Wey 05 (Coffee 01)'.",
+        "source_name": "euroncap.com",
+        "source_url": "https://www.euroncap.com/en/results/gwm/wey+05+(coffee+01)/50973",
+        "source_type": "regulatory",
+        "checked_date": "2026-10-07",
+        "confidence": "high"
+      },
+      "parts_service_considerations": {
+        "text": "The Coffee 01/Mocha is a plug-in hybrid with a 35.04 kWh NMC battery (2024-onwards) and a 9-speed DCT or multi-mode DHT; assembly is in Tianjin, China.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/WEY_Coffee_01",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "China sales are very low and declining (5,037 in 2023 to 1,915 in 2025), and the model was renamed in Europe from Coffee 01 to Wey 05 in 2024, creating brand-consistency and low-volume parts/service risk.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/WEY_Coffee_01",
+        "source_type": "market_observation",
+        "checked_date": "2026-10-07",
+        "confidence": "low"
+      }
     },
     {
       "model_id": "ora-good-cat",
@@ -5193,7 +6156,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Great Wall Motor's Ora Good Cat (Funky Cat in Europe, GWM Ora 03 from 2024, GWM Ora in Australia) compact hatchback, offered with CATL LFP (47.8 kWh), SVOLT LFP (57.7 kWh) and CATL NMC (59.1/63.1 kWh) batteries.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Ora_Good_Cat",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Sold in Europe (Funky Cat, then Ora 03), Australia (GWM Ora), Thailand, Malaysia, Indonesia and New Zealand; Euro NCAP tested 2022 with an ANCAP-aligned rating.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Ora_Good_Cat",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Batteries supplied by CATL and SVOLT; locally assembled at GWM Thailand (Rayong) from January 2024, with Australian-market cars also sourced from Thailand from August 2025.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Ora_Good_Cat",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "GWM Thailand announced the end of Good Cat sales in February 2026 in favour of its Ora 5 successor.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Ora_Good_Cat",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "ora-ballet-cat",
@@ -5307,7 +6302,7 @@
             2022,
             2025
           ],
-          "platform": null,
+          "platform": "GEP 3.0",
           "facelift": null,
           "trims": [
             {
@@ -5345,7 +6340,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Aion Y Plus",
+            "source_url": "https://en.wikipedia.org/wiki/Aion_Y",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Aion Y Plus Thailand/Malaysia/Indonesia RHD launch (manufacturer + reputable media)",
@@ -5353,7 +6355,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Aion Y Plus is a battery-electric compact crossover by GAC Aion, exported since 2023. China sales of the Aion Y/Y Plus line peaked at 204,027 units in 2023 and were 152,357 in 2024.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Aion_Y",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Exported since 2023 with right-hand-drive production, launching in Thailand (Sept 2023), Malaysia (May 2024), Indonesia (June 2024), Singapore, the Philippines and Vietnam; it is assembled in Thailand (Rayong) and Indonesia and also sold as Elaris Leo/Lenn (Germany) and UMO 5 (Russia).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Aion_Y",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The Aion Y/Y Plus uses GAC's in-house 'Magazine Battery' (LFP or NMC, 37.9-76.8 kWh) on the GEP 3.0 electric platform rather than a third-party cell supplier.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Aion_Y",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Battery packs are GAC in-house 'Magazine Battery' cells rather than CATL, and no Euro NCAP or ANCAP rating is documented for the Aion Y/Y Plus despite sales in Germany (Elaris) and Australia-bound ASEAN markets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Aion_Y",
+        "source_type": "market_observation",
+        "checked_date": "2026-10-07",
+        "confidence": "low"
+      }
     },
     {
       "model_id": "aion-s",
@@ -5633,7 +6667,7 @@
             2023,
             2025
           ],
-          "platform": null,
+          "platform": "SGMW GSEV (Global Small Electric Vehicle)",
           "facelift": null,
           "trims": [
             {
@@ -5671,7 +6705,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Bingo",
+            "source_url": "https://en.wikipedia.org/wiki/Wuling_Binguo",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "SAIC-GM-Wuling RHD export models (manufacturer)",
@@ -5679,7 +6720,39 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "China retail sales reached 210,374 units in 2024 (167,764 in 2023), confirming large domestic supply; the car is offered with 17.3, 31.9 and 37.9 kWh LFP battery packs and 30 kW or 50 kW front-mounted motors.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Wuling_Binguo",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "First overseas launch was Indonesia (November 2023); also sold in Thailand (from July 2024), Malaysia as the TQ Wuling Bingo EV (CKD by Tan Chong Motor) and Pakistan as the MG Binguo EV, with local assembly in Indonesia (Cikarang), Thailand (Laem Chabang) and Malaysia (Segambut) — all right-hand-drive markets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Wuling_Binguo",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Rides on SGMW's 'Global Small Electric Vehicle' platform shared with the Binguo Plus, Binguo S and Binguo Pro; assembled in China (Liuzhou), Indonesia (Cikarang), Thailand (Laem Chabang) and Malaysia (Segambut).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Wuling_Binguo",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Both the 30 kW and 50 kW motor variants are limited to a top speed of 100 km/h, a constraint for highway-capable markets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Wuling_Binguo",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "wuling-hongguang-mini",
@@ -5960,7 +7033,7 @@
             2022,
             2025
           ],
-          "platform": null,
+          "platform": "MSP (Modular Scalable Platform / Nebula)",
           "facelift": null,
           "trims": [
             {
@@ -5998,7 +7071,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — MG4 EV",
+            "source_url": "https://en.wikipedia.org/wiki/MG4_EV",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Euro NCAP + MG Motor homologation reference (reputable media)",
@@ -6006,7 +7086,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The MG4 EV is built on SAIC's Modular Scalable (Nebula) platform with CATL batteries (49–51 kWh LFP, 64–77 kWh NMC). It was the most-exported Chinese EV in 2023 (138,736 units) and the UK's second-best-selling EV that year.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/MG4_EV",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The MG4 EV is sold across Europe, Australia, Thailand, Indonesia, Malaysia, Singapore, Taiwan, Vietnam and Mexico, with Euro NCAP 5 stars (2022) and ANCAP 5 stars. It is RHD-produced for the UK, Australia, Thailand, Malaysia and Singapore.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/MG4_EV",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "All MG4 EV batteries are supplied by CATL, using a thin 110mm 'One Pack' (Rubik's Cube) cell-to-pack design that is designed to be swappable. The car is assembled in China (Ningde/Nanjing), Thailand, Indonesia and Taiwan.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/MG4_EV",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "UK reviews note the MG4's infotainment system stutters occasionally and the seats can be uncomfortable for larger occupants (Top Gear). DC fast charging is capped at 88–144 kW depending on battery pack.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/MG4_EV",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "mg-5",
@@ -6498,7 +7610,39 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "SAIC Maxus MIFA 9 electric MPV, the EV sibling of the petrol Maxus G90, powered by a 90 kWh CATL ternary lithium-ion battery with around 520 km of range.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Maxus_MIFA_9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Sold as LDV Mifa 9 in Australia, MG M9 EV/Mifa 9 in India, the Philippines, Singapore and Thailand, and Maxus Mifa 9 in Europe; Euro NCAP and ANCAP tested in 2022.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Maxus_MIFA_9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "90 kWh CATL battery; local assembly began June 2025 at PT National Assemblers (Indomobil) in Indonesia, with units otherwise imported from China.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Maxus_MIFA_9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Euro NCAP's 2022 assessment noted the MIFA 9 lacks a system to prevent secondary collisions after an impact.",
+        "source_name": "euroncap.com",
+        "source_url": "https://www.euroncap.com/assessments/maxus/mifa+9/0985/",
+        "source_type": "industry",
+        "checked_date": "2026-10-07",
+        "confidence": "high"
+      }
     },
     {
       "model_id": "im-motors-l6",
@@ -6580,7 +7724,39 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "IM L6 is a battery-electric compact executive car by IM Motors (SAIC/Alibaba/Pudong JV), with CALB LFP and CATL NMC batteries plus a Qingtao semi-solid-state 'Lightyear' pack. China sales were 23,705 in 2024 and 19,775 in 2025.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/IM_L6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Exported as the 'MG IM5' and distributed through the MG Motor network; it launched in Australia (June 2025), Singapore (Sept 2025) and Thailand (March 2026), and holds 5-star ANCAP and 5-star Euro NCAP ratings (2025).",
+        "source_name": "euroncap.com",
+        "source_url": "https://www.euroncap.com/en/results/im/im5/57080",
+        "source_type": "regulatory",
+        "checked_date": "2026-10-07",
+        "confidence": "high"
+      },
+      "parts_service_considerations": {
+        "text": "Uses multiple battery suppliers: CALB (74-76.5 kWh LFP), CATL (83-103.3 kWh NMC) and Qingtao (123.7 kWh semi-solid-state 'Lightyear'); exported models are serviced through MG Motor dealers.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/IM_L6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The 'solid-state' Lightyear battery marketed by IM is actually a semi-solid-state pack from Qingtao Energy (nano-scale electrolyte, dry-process solid-layer), a clarification IM made after initially calling it solid-state.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/IM_L6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "im-motors-ls6",
@@ -6742,7 +7918,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The BYD Song Pro is a high-volume compact SUV; since 2022 it is offered only as the Song Pro DM-i plug-in hybrid (the petrol and EV variants were dropped), using 12.9 kWh or 18.3 kWh LFP Blade battery packs.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Song_Pro",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The Song Pro is exported under the name BYD Sealion 5 DM-i in the Philippines, Australia, Thailand and Cambodia, and is sold as the Song Pro DM-i in Brazil, Mexico and South Africa; Brazilian local assembly began in 2025 as BYD's first Brazil-made model.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Song_Pro",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The Song Pro DM-i uses BYD's in-house Blade (LFP) battery and DM-i 5.0 plug-in hybrid powertrain, and is assembled at multiple Chinese plants (Xi'an, Hefei, Zhengzhou, Jinan) plus Rayong, Thailand and Camaçari, Brazil.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Song_Pro",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The battery-electric Song Pro EV (71 kWh ternary lithium battery, 502 km NEDC) was discontinued after the 2021 model year, leaving only the plug-in hybrid version, which affects used-EV parts and support for the discontinued variant.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Song_Pro",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "byd-qin-l",
@@ -6905,7 +8113,39 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Export name of the BYD Song Plus (Seal U in Europe), a compact SUV sold as DM-i plug-in hybrid and EV with LFP Blade battery (71.7/71.8 kWh EV).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Sealion_6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Sold as BYD Seal U in Europe (from 2023/2024) and as BYD Sealion 6 in Australia, New Zealand, the Philippines and Thailand (2024); Euro NCAP tested 2023 with an ANCAP-aligned rating.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Sealion_6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Blade LFP batteries (71.8/87 kWh EV; 18.3/26.6 kWh PHEV); locally assembled in Thailand (Rayong) and Uzbekistan (UzAuto).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Sealion_6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The battery-electric Seal U is not offered in right-hand-drive markets such as the UK and Ireland, and the Song Plus was removed from BYD's China website in January 2026 as the Sealion 06 took over domestically.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Sealion_6",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "byd-sealion-07",
@@ -6943,7 +8183,7 @@
             2024,
             2025
           ],
-          "platform": null,
+          "platform": "e-Platform 3.0 (Evo for 91.3 kWh)",
           "facelift": null,
           "trims": [
             {
@@ -6981,7 +8221,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Sealion 07",
+            "source_url": "https://en.wikipedia.org/wiki/BYD_Sealion_7",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "BYD Sealion 7 manufacturer export page (Australia)",
@@ -6989,7 +8236,39 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "BYD Sealion 7 (Sealion 07 EV in China, model code UKE) mid-size SUV on e-Platform 3.0 (Evo for the 91.3 kWh model), with BYD Blade LFP batteries of 71.8/80.64/82.56/91.3 kWh; related to the Song L EV and Denza N7.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Sealion_7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "First launched outside China in Hong Kong (September 2024), then Europe (October 2024), Australia, India, Indonesia, Malaysia, the Philippines and Thailand; Euro NCAP tested 2025 with an ANCAP-aligned rating.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Sealion_7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "In-house BYD Blade LFP batteries (FinDreams) on e-Platform 3.0 shared with the Seal and Song L EV; assembled in Xi'an and Changzhou, China.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Sealion_7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Standard export models use the older 400V e-Platform 3.0 with DC fast-charging limited to 150 kW, while only the top-spec European 91.3 kWh model gets the 800V Evo platform (230 kW); the model was also removed from BYD's Chinese domestic line-up in 2026.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Sealion_7",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "byd-dolphin",
@@ -7030,7 +8309,7 @@
             2021,
             2025
           ],
-          "platform": null,
+          "platform": "e-Platform 3.0",
           "facelift": null,
           "trims": [
             {
@@ -7068,7 +8347,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Dolphin",
+            "source_url": "https://en.wikipedia.org/wiki/BYD_Dolphin",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "BYD Dolphin export / homologation references (reputable media + manufacturer)",
@@ -7076,7 +8362,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Subcompact-to-compact hatchback on BYD's e-Platform 3.0, sharing its 60.48 kWh Blade LFP battery and underpinnings with the Atto 3/Yuan Plus; exported since 2023 with a lengthened 4,290 mm global body.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Dolphin",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Exported to Europe, Australia and Southeast Asia since 2023, including right-hand-drive versions for Australia, Thailand, Malaysia and New Zealand; Euro NCAP tested in 2023 with an ANCAP-aligned rating.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Dolphin",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "In-house BYD (FinDreams) Blade LFP batteries (44.9/50.25/60.48 kWh); local assembly in Thailand (Rayong) from 2024; 60.48 kWh pack shared with the Atto 3.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Dolphin",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "BYD recalled 96,714 Dolphin and Yuan Plus vehicles in China on 30 September 2024 over a CEPS steering-controller defect that posed a fire risk — at the time BYD's largest recall to date.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/BYD_Dolphin",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "byd-frigate-07",
@@ -7269,7 +8587,7 @@
             2022,
             2025
           ],
-          "platform": null,
+          "platform": "e-Platform 3.0 (EV) / DM-i (PHEV)",
           "facelift": null,
           "trims": [
             {
@@ -7307,7 +8625,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — D9",
+            "source_url": "https://en.wikipedia.org/wiki/Denza_D9",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Denza D9 Singapore launch (reputable media)",
@@ -7315,7 +8640,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The Denza D9 is BYD's premium large MPV, offered as a DM-i plug-in hybrid (20.39 or 40.06 kWh lithium-ion) and a pure EV with a 103.36 kWh BYD Blade LFP battery, built on e-Platform 3.0 (EV) and the DM-i platform (PHEV).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Denza_D9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The D9 was launched in Hong Kong on 24 June 2024 as the first right-hand-drive (RHD) version and Denza's first overseas operation, and has since been marketed in Australia, Indonesia, Malaysia, the Philippines, Singapore and Thailand; it was renamed Danza D9 in Indonesia on 1 October 2026 following a trademark dispute.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Denza_D9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The D9 uses BYD's Blade (LFP) battery for the EV and is locally assembled in Indonesia (Subang, West Java) from 2026, with the EV built on BYD's e-Platform 3.0 and the PHEV on the DM-i platform.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Denza_D9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "In most export and RHD markets the D9 is offered EV-only (the DM-i hybrid is generally limited to China), and the China-market D9 EV has dual charging ports on both rear quarter panels rather than a single international-standard port.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Denza_D9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "denza-n7",
@@ -7595,7 +8952,7 @@
             2018,
             2025
           ],
-          "platform": null,
+          "platform": "BMA",
           "facelift": null,
           "trims": [
             {
@@ -7633,7 +8990,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Coolray (Binyue)",
+            "source_url": "https://en.wikipedia.org/wiki/Geely_Binyue",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Geely Coolray / Proton X50 RHD markets (reputable media: Wikipedia Geely Binyue)",
@@ -7641,7 +9005,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "China retail sales reached 118,866 units in 2025 (88,594 in 2024); powered by 1.0-litre and 1.5-litre turbo petrol engines (including the JLH-3G15TD 1.5T three-cylinder and BHE15-EFZ 1.5T four-cylinder) on the Geely BMA platform.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Binyue",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Sold overseas as the Geely Coolray (Philippines 2019, Russia 2020, Vietnam 2025, Indonesia and South Africa 2026), as the Proton X50 in Malaysia (locally assembled, right-hand-drive) and the BelGee X50 in Belarus and Russia.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Binyue",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Based on the Geely BMA platform shared with the Geely Icon and Lynk & Co 06; assembled in China (Ningbo), Malaysia (Tanjung Malim, by Proton) and Belarus (BelGee).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Binyue",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Sold primarily as a petrol ICE model; the only electrified variant (Binyue PHEV) uses a small 11.3 kWh lithium battery giving roughly 62 km pure-electric range.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Binyue",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "geely-emgrand",
@@ -7677,7 +9073,7 @@
             2009,
             2025
           ],
-          "platform": null,
+          "platform": "BMA (4th generation, SS11)",
           "facelift": null,
           "trims": [
             {
@@ -7715,7 +9111,14 @@
           "source_type": "reputable_media",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Emgrand",
+            "source_url": "https://en.wikipedia.org/wiki/Geely_Emgrand",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Geely Emgrand Philippines RHD (manufacturer: geelyph.com)",
@@ -7723,7 +9126,39 @@
       "source_type": "manufacturer",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "Geely Emgrand is a compact sedan produced by Geely Auto since 2009; the 4th generation (SS11, 2021-present) sits on the Geely BMA platform. China retail sales were 139,327 in 2023 and 105,009 in 2025.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Emgrand",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Rebadged and re-engineered as the Proton S70 for Malaysia (5-star ASEAN NCAP), and as the BelGee S50 for Belarus; it is also assembled in Egypt (6th of October City) and was sold as the Tobe M'way (Taiwan) and Matchedje X3 (Mozambique). The first-gen EC7 scored 4 stars in Euro NCAP (2011).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Emgrand",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The 4th-gen Emgrand uses the BMA platform and Volvo-architecture-derived engines (JLH-3G15T for the Proton S70); a methanol-hybrid version (JLC-4M18H) was launched for taxi fleets.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Emgrand",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The first-generation EC7 built by Derways in Russia was recalled (more than 27,500 units made 23 May-21 Nov 2014) due to brake-hose problems, and the 2011 EC7 only achieved a 4-star Euro NCAP rating.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Geely_Emgrand",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "galaxy-l7",
@@ -8084,7 +9519,7 @@
             2021,
             2025
           ],
-          "platform": null,
+          "platform": "SEA1 (Sustainable Experience Architecture)",
           "facelift": null,
           "trims": [
             {
@@ -8122,7 +9557,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Zeekr 001",
+            "source_url": "https://en.wikipedia.org/wiki/Zeekr_001",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Zeekr export guide (industry)",
@@ -8130,7 +9572,32 @@
       "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Executive shooting brake on Geely's SEA1 platform, shared with the Polestar 4, Lotus Eletre and Lynk & Co Z10, powered by CATL Qilin batteries (86/100/140 kWh).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Zeekr_001",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Went on sale in Europe in 2023; Euro NCAP assessed the 001 in 2024.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Zeekr_001",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "CATL Qilin battery; early 2021–2022 cars used Denso motors, switched to Geely's VREMT motors for the 2023 model year; SEA-platform parts commonality with the Polestar 4 and Lotus Eletre.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Zeekr_001",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "zeekr-007",
@@ -8168,7 +9635,7 @@
             2023,
             2025
           ],
-          "platform": null,
+          "platform": "PMA2+ (SEA-derived)",
           "facelift": null,
           "trims": [
             {
@@ -8206,7 +9673,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Zeekr 007",
+            "source_url": "https://en.wikipedia.org/wiki/Zeekr_007",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Zeekr export guide (industry)",
@@ -8214,7 +9688,32 @@
       "source_type": "industry",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "China sedan sales were 46,903 units in 2024, falling to 6,346 in 2025 as demand shifted to the 007 GT estate (37,013 units in 2025); offered with a 75 kWh 800-volt LFP or 100 kWh NMC battery.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Zeekr_007",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The shooting-brake variant is exported as the Zeekr 7 GT (007 GT in China) and achieved a five-star Euro NCAP rating in 2026 (Safe driving 79%, Crash avoidance 89%, Crash protection 93%, Post crash 95%).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Zeekr_007",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Built on the PMA2+ platform derived from Geely's SEA architecture, shared with the Zeekr 7X and Geely Galaxy E8, with a high-voltage 800V system.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Zeekr_007",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "zeekr-x",
@@ -8378,7 +9877,32 @@
       "source_type": "industry",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The FAW Bestune T77 is a compact crossover SUV produced 2018–2025 in China with 1.2L and 1.5L turbocharged petrol engines (6-speed manual or 7-speed DCT), and was the first model sold internationally under the 'Bestune' name.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Bestune_T77",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The T77 has been exported since 2020; in Russia it debuted as the Besturn X60 in fall 2020, and a planned rebadge as the Lada X-Cross 5 (with assembly at Lada's St. Petersburg plant) was cancelled.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Bestune_T77",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The T77 uses FAW Group's CA4GA12TD (1.2L) and CA4GB15TD-30 (1.5L) turbocharged petrol engines, with a 6-speed manual or 7-speed dual-clutch transmission.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Bestune_T77",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": null
     },
     {
       "model_id": "faw-bestune-t90",
@@ -8704,7 +10228,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-06",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The Hongqi E-HS9 is a full-size luxury electric SUV with a dual-motor all-wheel-drive layout and an 84–120 kWh NMC lithium-ion battery supplied by CATL, with a maximum WLTP range of 548 km.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Hongqi_E-HS9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "A facelifted E-HS9 entered right-hand-drive (RHD) markets in 2026, launching first in Singapore (Singapore Motorshow 2026 via Eurokars Group) and then Thailand (June 2026), as part of FAW Hongqi's RHD expansion into Singapore, Thailand, Indonesia and Hong Kong, with Australia, Malaysia and the UK planned later.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Hongqi_E-HS9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The E-HS9 uses a CATL-supplied battery pack (updated in the facelift) and CCS-plug DC charging at up to 108 kW, with dual permanent-magnet synchronous motors.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Hongqi_E-HS9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Norwegian E-HS9 owners pursued a class action over poor winter charging performance and incorrectly marketed range, with the Norwegian outlet Motor.no reporting that poor winter charging was the main complaint, alongside faults and over-stated range.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Hongqi_E-HS9",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "dongfeng-aeolus-yixuan",
@@ -8740,7 +10296,7 @@
             2019,
             2025
           ],
-          "platform": null,
+          "platform": "PSA CMP (EMP1)",
           "facelift": null,
           "trims": [
             {
@@ -8778,7 +10334,14 @@
           "source_type": "database",
           "checked_date": "2026-10-06",
           "confidence": "medium",
-          "last_verified": "2026-10-06"
+          "last_verified": "2026-10-06",
+          "platform_source": {
+            "source_name": "Wikipedia — Aeolus Yixuan",
+            "source_url": "https://en.wikipedia.org/wiki/Aeolus_Yixuan",
+            "source_type": "database",
+            "checked_date": "2026-10-07",
+            "confidence": "medium"
+          }
         }
       ],
       "source_name": "Dongfeng Aeolus export markets (reputable media: Wikipedia Aeolus Yixuan)",
@@ -8786,7 +10349,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "Aeolus Yixuan is a compact sedan by Dongfeng under the Aeolus brand, offered with 1.0L I3 and 1.5L I4 turbo petrol engines. China sales fell from 73,053 in 2022 to 10,859 in 2025.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Aeolus_Yixuan",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Exported under several names: Dongfeng Aeolus A30 (Egypt), Lamari Echo (Iran) and Dongfeng Shine (global). It is built on the PSA CMP (EMP1) platform.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Aeolus_Yixuan",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The EV variant rides on the Aeolus eCMP electric platform with a 47.7 kWh lithium-ion battery and a front permanent-magnet synchronous motor (120 kW), while the petrol line uses the shared PSA CMP platform.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Aeolus_Yixuan",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "China sales are declining sharply (73,053 in 2022 to 10,859 in 2025), and the Yixuan uses a torsion-beam non-independent rear suspension; no ANCAP or Euro NCAP rating is documented.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Aeolus_Yixuan",
+        "source_type": "market_observation",
+        "checked_date": "2026-10-07",
+        "confidence": "low"
+      }
     },
     {
       "model_id": "dongfeng-forthing-t5",
@@ -8870,7 +10465,39 @@
       "source_type": "industry",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-07"
+      "last_verified": "2026-10-07",
+      "used_market_considerations": {
+        "text": "China sales were 15,612 units in 2024 (15,521 in 2023); a compact/mid-size crossover (C-segment) powered by 1.5-litre, 1.6-litre and 1.8-litre turbo petrol engines.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Forthing_T5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Exported under several local names — Farda T5 (Iran, locally assembled by FMC), IVM/Innoson G5T (Nigeria), Dongfeng SX6 Pro (Peru) and Cirelli 3zero3 (Italy).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Forthing_T5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Shares underpinnings with the Dongfeng Fengxing Jingyi X5 and Forthing Yacht; the 1.6T 'CE16' engine is derived from the BMW N13 (retaining Valvetronic variable valve lift).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Forthing_T5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Offered only with conventional turbo petrol powertrains (1.5/1.6/1.8-litre); no hybrid or battery-electric variant is listed.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Forthing_T5",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "voyah-free",
@@ -9116,7 +10743,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "The world's best-selling passenger vehicle; offered with 60–81 kWh lithium-ion batteries — LFP on standard-range variants and Li-NMC elsewhere — with LG Chem signed (November 2020) to supply cells for Model Y production in China.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "Built across Gigafactories in Fremont, Austin, Berlin and Shanghai; right-hand-drive units for Australia, New Zealand and the UK are imported from Gigafactory Shanghai, and the car is rated five stars by Euro NCAP (2022) and ANCAP (2022).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "Uses multiple battery cell suppliers — LG Chem for China production and new 4680 structural cells at Giga Berlin/Texas — combined with Tesla's standardized global Supercharger and service network.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "Multiple recalls, including a February 2025 recall of more than 370,000 Model 3/Model Y for possible loss of power-assisted steering and an August 2025 Australian recall of 7,301 units over a window-pinch software flaw.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "tesla-model-3",
@@ -9201,7 +10860,39 @@
       "source_type": "reputable_media",
       "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-06",
+      "used_market_considerations": {
+        "text": "Model 3 batteries vary by plant: Panasonic 2170 NCA cells (Fremont), LG Energy Solution NMC cells (Shanghai), and CATL LFP prismatic cells for lower-cost models. It was the first EV to pass 1 million global sales (June 2021), with China as its second-largest market.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "destination_market_considerations": {
+        "text": "The Model 3 is assembled at Fremont (US) and Gigafactory Shanghai; Shanghai-built cars are exported to Europe, the Middle East, Australia and Japan. Region-specific charging connectors include CCS2, GB/T and NACS.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "parts_service_considerations": {
+        "text": "The Model 3 sources battery cells from Panasonic (Fremont), LG Energy Solution (Shanghai NMC) and CATL (LFP), and Tesla remediates many issues via over-the-air software updates rather than physical service visits.",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      },
+      "known_limitations": {
+        "text": "The Model 3 has had numerous recalls, including 356,309 units for rear-view camera wiring (December 2021), plus OTA software recalls for intermittent tail lamps (2022), Full Self-Driving Beta (2023) and Autosteer (2023).",
+        "source_name": "en.wikipedia.org",
+        "source_url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+        "source_type": "database",
+        "checked_date": "2026-10-07",
+        "confidence": "medium"
+      }
     },
     {
       "model_id": "ford-mondeo",

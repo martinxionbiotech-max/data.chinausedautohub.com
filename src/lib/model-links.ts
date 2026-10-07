@@ -9,6 +9,8 @@ import type { Model } from "./helpers";
 // Model → market country links. Grounded in the MARKET site's published
 // popular-model data (countryContent.popularModelIds) plus brand-level market
 // presence from src/lib/ecosystem.ts. Only canonical country pages are linked.
+// Fallback: models without a curated entry derive links from their own sourced
+// `common_export_regions` data, mapped to canonical country ids.
 const MODEL_MARKETS: Record<string, string[]> = {
   "byd-song-plus": ["kenya", "uzbekistan", "uae"],
   "byd-qin-plus": ["kenya", "nigeria", "uae"],
@@ -42,8 +44,51 @@ export interface RelatedLink {
   url: string;
 }
 
-export function modelMarketLinks(modelId: string): RelatedLink[] {
-  return (MODEL_MARKETS[modelId] ?? []).map((id) => ({
+// Region display names (as written in models.json `common_export_regions`) →
+// canonical market country ids. Only names that map to a real country page are
+// listed; regional blocs (ASEAN, Europe, Africa, Middle East, Latin America,
+// CIS, Caribbean, etc.) and countries without a published page are omitted.
+const REGION_TO_COUNTRY: Record<string, string> = {
+  "Australia": "australia",
+  "Azerbaijan": "azerbaijan",
+  "Bahrain": "bahrain",
+  "Cambodia": "cambodia",
+  "Egypt": "egypt",
+  "Indonesia": "indonesia",
+  "Kazakhstan": "kazakhstan",
+  "Kenya": "kenya",
+  "Malaysia": "malaysia",
+  "Mexico": "mexico",
+  "Myanmar": "myanmar",
+  "New Zealand": "new-zealand",
+  "Nigeria": "nigeria",
+  "Philippines": "philippines",
+  "Qatar": "qatar",
+  "Russia": "russia",
+  "Saudi Arabia": "saudi-arabia",
+  "South Africa": "south-africa",
+  "Sri Lanka": "sri-lanka",
+  "Tanzania": "tanzania",
+  "Thailand": "thailand",
+  "UAE": "uae",
+  "United Arab Emirates": "uae",
+  "Uzbekistan": "uzbekistan",
+};
+
+export function modelMarketLinks(modelId: string, regions?: string[] | null): RelatedLink[] {
+  const ids: string[] = [];
+  const seen = new Set<string>();
+  const push = (id: string) => {
+    if (id && !seen.has(id)) { seen.add(id); ids.push(id); }
+  };
+  // 1. Curated, grounded model→market mapping.
+  for (const id of MODEL_MARKETS[modelId] ?? []) push(id);
+  // 2. Data-driven fallback from the model's own sourced export regions.
+  for (const r of regions ?? []) {
+    const id = REGION_TO_COUNTRY[r];
+    if (id) push(id);
+  }
+  return ids.map((id) => ({
     label: id,
     url: `${MARKET_SITE_URL}/countries/${id}/`,
   }));

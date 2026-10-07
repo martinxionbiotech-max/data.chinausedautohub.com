@@ -5,7 +5,7 @@
 // renders "Not available" / "Not yet verified" for any field the source data
 // does not carry. Never fabricates a value.
 
-import type { Model, Brand } from "./helpers";
+import type { Model, Brand, AnalysisNote } from "./helpers";
 import {
   BODY_TYPE_LABELS,
   DRIVE_LABELS,
@@ -168,6 +168,23 @@ export function modelOverview(model: Model, brand?: Brand): OverviewRow[] {
   ];
 
   return rows;
+}
+
+export interface AnalysisRow {
+  label: string;
+  note: AnalysisNote | null;
+}
+
+// PHASE 2 deepening — four evidence-backed analysis fields.
+// Each is a structured note with its own source/confidence/checked_date,
+// or null when no verified information exists (renders "Not yet verified").
+export function analysisIntelligence(model: Model): AnalysisRow[] {
+  return [
+    { label: "Used-market considerations", note: model.used_market_considerations ?? null },
+    { label: "Destination-market considerations", note: model.destination_market_considerations ?? null },
+    { label: "Parts/service considerations", note: model.parts_service_considerations ?? null },
+    { label: "Known limitations", note: model.known_limitations ?? null },
+  ];
 }
 
 // §9 Export Intelligence — nine structured fields. Null → "Not yet verified".

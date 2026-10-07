@@ -19,7 +19,7 @@ import {
   BODY_TYPE_LABELS,
   breadcrumbJsonLd,
 } from "../../lib/helpers";
-import { modelOverview, quickFacts, exportIntelligence } from "../../lib/vehicle-overview";
+import { modelOverview, quickFacts, exportIntelligence, analysisIntelligence } from "../../lib/vehicle-overview";
 import { modelMarketLinks, modelGuideLinks, modelToolLinks } from "../../lib/model-links";
 import { getModelNote, relatedInventoryHref } from "../../lib/model-notes";
 
@@ -47,7 +47,8 @@ const relatedModels = getModelsByBrand(model.brand_id).filter((m) => m.model_id 
 const facts = quickFacts(model, brand);
 const overview = modelOverview(model, brand);
 const exportRows = exportIntelligence(model);
-const marketLinks = modelMarketLinks(model.model_id);
+const analysisRows = analysisIntelligence(model);
+const marketLinks = modelMarketLinks(model.model_id, model.common_export_regions);
 const guideLinks = modelGuideLinks(model);
 const toolLinks = modelToolLinks(model);
 const modelNote = getModelNote(model.model_id);
@@ -186,6 +187,18 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     <section class="generation">
       <h2>{g.name}</h2>
       <p class="meta">Production years: {formatYears(g.production_years)}</p>
+      {g.platform && (
+        <p class="meta">
+          Platform: {g.platform}
+          {g.platform_source?.source_url && (
+            <> (<a href={g.platform_source.source_url} rel="noopener">{g.platform_source.source_url}</a>)</>
+          )}
+          {g.facelift != null && <> · Facelift: {g.facelift ? "Yes" : "No"}</>}
+        </p>
+      )}
+      {!g.platform && g.facelift != null && (
+        <p class="meta">Facelift: {g.facelift ? "Yes" : "No"}</p>
+      )}
       {g.trims && g.trims.length > 0 ? (
         g.trims.map((t) => {
           const rows = specRows(t.specs);
@@ -242,6 +255,40 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
       Export intelligence is structured data, not marketing copy. Fields without
       verified information are marked "Not yet verified".
     </p>
+  </section>
+
+  <!-- §3 Analysis deepening — four evidence-backed considerations -->
+  <section class="consider">
+    <h2>Sourcing Considerations</h2>
+    <p>
+      Evidence-backed sourcing notes for buyers. Each statement carries its own
+      source, confidence and check date; fields without verified information are
+      marked "Not yet verified" rather than estimated.
+    </p>
+    {analysisRows.map((row) => (
+      <div class="analysis-item">
+        <h3>{row.label}</h3>
+        {row.note ? (
+          <>
+            <p>{row.note.text}</p>
+            <SourceNote
+              source={row.note.source_name}
+              sourceUrl={row.note.source_url}
+              sourceDate={row.note.checked_date}
+              confidence={row.note.confidence}
+            />
+            <p class="confidence-line">
+              Source type: {sourceTypeLabel(row.note.source_type)} · Confidence level:{" "}
+              <span class={`badge ${confidenceClass(confidenceLevel(row.note.confidence))}`}>
+                {confidenceLevel(row.note.confidence)}
+              </span>
+            </p>
+          </>
+        ) : (
+          <p class="vary">Not yet verified — no reliable source found.</p>
+        )}
+      </div>
+    ))}
   </section>
 
   {modelNote && (
@@ -379,6 +426,8 @@ const jsonLd = [vehicleLd, breadcrumbJsonLd(breadcrumbs, DATA_SITE_URL)];
     .confidence-line { font-size: 13px; color: var(--color-text-soft); margin: var(--space-2) 0; }
     .consider { border-top: 1px solid var(--color-border); margin-top: var(--space-5); padding-top: var(--space-4); }
     .consider li { margin: var(--space-2) 0; }
+    .analysis-item { margin: var(--space-4) 0; }
+    .analysis-item h3 { margin: var(--space-2) 0 var(--space-1); }
     .related li { margin: var(--space-1) 0; }
     .overview-table { width: 100%; border-collapse: collapse; }
     .overview-table th, .overview-table td { text-align: left; padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--color-border); vertical-align: top; }

@@ -39,6 +39,13 @@ export interface Generation {
   name: string;
   production_years?: number[];
   platform?: string | null;
+  platform_source?: {
+    source_name?: string | null;
+    source_url?: string | null;
+    source_type?: string | null;
+    checked_date?: string | null;
+    confidence?: string | null;
+  } | null;
   facelift?: boolean | null;
   trims?: Trim[];
   source_name?: string | null;
@@ -47,6 +54,20 @@ export interface Generation {
   checked_date?: string | null;
   confidence?: string | null;
   last_verified?: string | null;
+}
+
+/**
+ * A single evidence-backed analysis note (PHASE 2 deepening).
+ * Text is written only when a source exists; otherwise the field is null
+ * and renders as "Not available" / "Not yet verified".
+ */
+export interface AnalysisNote {
+  text: string;
+  source_name: string;
+  source_url: string | null;
+  source_type: string;
+  checked_date: string;
+  confidence: string;
 }
 
 export interface Model {
@@ -69,6 +90,10 @@ export interface Model {
   parts_availability_notes?: string | null;
   charging_standard_notes?: string | null;
   homologation_notes?: string | null;
+  used_market_considerations?: AnalysisNote | null;
+  destination_market_considerations?: AnalysisNote | null;
+  parts_service_considerations?: AnalysisNote | null;
+  known_limitations?: AnalysisNote | null;
   generations?: Generation[];
   source_name?: string | null;
   source_url?: string | null;
