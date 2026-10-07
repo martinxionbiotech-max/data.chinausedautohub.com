@@ -5,3 +5,10 @@ export const DATA_SITE_URL = process.env.DATA_SITE_URL || `https://data.${BASE_D
 export const COMPANIES_SITE_URL = process.env.COMPANIES_SITE_URL || `https://company.${BASE_DOMAIN}`;
 export const TOOLS_SITE_URL = process.env.TOOLS_SITE_URL || `https://tool.${BASE_DOMAIN}`;
 export const MARKET_SITE_URL = process.env.MARKET_SITE_URL || `https://market.${BASE_DOMAIN}`;
+
+// 运营主体联系触点 — 与主站 src/data/site.json 一致（真实触点，禁虚构）。
+export const CONTACT = {
+  email: 'landengltd@gmail.com',
+  whatsapp: '+86 13323237275',
+  whatsappLink: 'https://wa.me/8613323237275',
+};

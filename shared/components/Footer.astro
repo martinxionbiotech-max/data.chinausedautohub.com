@@ -1,5 +1,14 @@
 ---
+import { MAIN_SITE_URL, CONTACT } from "../config/config";
 const { siteUrl, lastUpdated } = Astro.props;
+
+const legalLinks = [
+  { label: "Privacy", href: `${MAIN_SITE_URL}/privacy/` },
+  { label: "Terms", href: `${MAIN_SITE_URL}/terms/` },
+  { label: "Legal Notice", href: `${MAIN_SITE_URL}/legal-notice/` },
+  { label: "Cookies", href: `${MAIN_SITE_URL}/cookies/` },
+  { label: "Disclaimer", href: `${MAIN_SITE_URL}/disclaimer/` },
+];
 ---
 <footer class="site-footer">
   <div class="container">
@@ -8,8 +17,31 @@ const { siteUrl, lastUpdated } = Astro.props;
       prices change — verify with official authorities before any transaction.
     </p>
     {lastUpdated && <p class="meta">Last updated: {lastUpdated}</p>}
+
+    <div class="legal">
+      <p class="operated">
+        China Used Auto Hub is operated via its contact channels; no separately
+        registered corporate entity is published.
+      </p>
+      <p class="contact">
+        Contact: <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a> ·
+        WhatsApp: <a href={CONTACT.whatsappLink} target="_blank" rel="noopener noreferrer">{CONTACT.whatsapp}</a>
+      </p>
+      <nav aria-label="Legal">
+        <ul>
+          {legalLinks.map((l) => (
+            <li><a href={l.href}>{l.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </div>
   </div>
 </footer>
 <style>
   .site-footer { background: var(--color-bg-alt); border-top: 1px solid var(--color-border); margin-top: var(--space-7); padding: var(--space-5) 0; font-size: 13px; color: var(--color-text-soft); }
+  .legal { margin-top: var(--space-4); border-top: 1px solid var(--color-border); padding-top: var(--space-4); }
+  .legal ul { list-style: none; display: flex; flex-wrap: wrap; gap: var(--space-3); padding: 0; margin: var(--space-3) 0 0; }
+  .legal a { color: var(--color-text-soft); }
+  .legal a:hover { color: var(--color-primary); }
+  .operated, .contact { margin: var(--space-1) 0; }
 </style>
