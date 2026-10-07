@@ -1208,14 +1208,21 @@
       ],
       "production_status": "active",
       "china_market_status": "SAIC's compact SUV sold under the MG brand, offered with EV and combustion powertrains.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "export_relevance": "MG ZS (ZS EV) compact SUV, globally distributed by SAIC under the British MG marque — sold in right-hand drive in the UK, Australia, India and Thailand, and in left-hand drive for Europe and the Middle East.",
+      "common_export_regions": [
+        "United Kingdom",
+        "Australia",
+        "India",
+        "Thailand",
+        "Europe",
+        "Middle East"
+      ],
+      "powertrain_export_relevance": "Offered in combustion (ICE) and battery-electric (ZS EV) forms — EV trims may qualify for import-duty relief in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "Right-hand-drive production available — MG ZS sold in RHD form in the UK, Australia, India, Thailand and other RHD markets.",
+      "left_hand_drive_relevance": "Left-hand drive available for Europe and the Middle East; assembly runs in China, Thailand, India, Taiwan and Indonesia — confirm origin for destination.",
       "market_considerations": null,
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility; regional export units may carry other inlets.",
       "homologation_notes": null,
       "generations": [
         {
@@ -1288,12 +1295,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Manufacturer published specifications",
-      "source_url": "https://www.mg.co.uk/new-cars/mg-zs",
-      "source_type": "manufacturer",
-      "checked_date": "2026-10-06",
-      "confidence": "high",
-      "last_verified": "2026-10-06"
+      "source_name": "MG ZS RHD/export market listings (industry: evautopro.com MG ZS)",
+      "source_url": "https://evautopro.com/brands/saic/mg-zs/",
+      "source_type": "industry",
+      "checked_date": "2026-10-07",
+      "confidence": "medium",
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "toyota-rav4",
@@ -2412,14 +2419,20 @@
       ],
       "production_status": "active",
       "china_market_status": "NIO's mid-size electric sedan, sold in China since 2022.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "export_relevance": "NIO ET5 (ET5 Touring) electric sedan, sold in Europe (Norway, Germany, Netherlands, Sweden, Denmark and other markets) under NIO's direct-sales model.",
+      "common_export_regions": [
+        "Norway",
+        "Germany",
+        "Netherlands",
+        "Sweden",
+        "Denmark"
+      ],
+      "powertrain_export_relevance": "Battery-electric (EV) — may qualify for import-duty relief in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — NIO sells left-hand drive in continental Europe; UK right-hand-drive expansion announced.",
+      "left_hand_drive_relevance": "Standard — China domestic-market and European-market production is left-hand drive.",
       "market_considerations": null,
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility; European units use CCS2.",
       "homologation_notes": null,
       "generations": [
         {
@@ -2470,12 +2483,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/Nio_ET5",
-      "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "source_name": "NIO ET5 Europe sales (manufacturer: NIO news)",
+      "source_url": "https://www.nio.com/news/20250603003",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "nio-es8",
@@ -2574,14 +2587,22 @@
       ],
       "production_status": "active",
       "china_market_status": "XPeng's mid-size electric sedan, delivered in China since 2020.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "export_relevance": "XPeng P7 electric sedan, sold in Europe (Norway, Sweden, Denmark, Netherlands, Germany, France and the UK) under XPeng's direct-sales model.",
+      "common_export_regions": [
+        "Norway",
+        "Sweden",
+        "Denmark",
+        "Netherlands",
+        "Germany",
+        "France",
+        "United Kingdom"
+      ],
+      "powertrain_export_relevance": "Battery-electric (EV) — may qualify for import-duty relief in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — XPeng sells left-hand drive in continental Europe; UK right-hand-drive launch announced.",
+      "left_hand_drive_relevance": "Standard — China domestic-market and European-market production is left-hand drive.",
       "market_considerations": null,
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility; European units use CCS2.",
       "homologation_notes": null,
       "generations": [
         {
@@ -2632,12 +2653,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/Xpeng_P7",
-      "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "source_name": "XPeng P7 Europe sales (manufacturer: XPeng news)",
+      "source_url": "https://www.xpeng.com/news/018e845e27ef8dc5f9d32c9e8bfb0917",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "xpeng-g9",
@@ -2652,14 +2673,21 @@
       ],
       "production_status": "active",
       "china_market_status": "XPeng's mid-size electric SUV, launched in China in 2022.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "export_relevance": "XPeng G9 electric SUV, sold in Europe (Denmark, Norway, Sweden, Netherlands, Germany and France) under XPeng's direct-sales model.",
+      "common_export_regions": [
+        "Denmark",
+        "Norway",
+        "Sweden",
+        "Netherlands",
+        "Germany",
+        "France"
+      ],
+      "powertrain_export_relevance": "Battery-electric (EV) — may qualify for import-duty relief in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "Not standard — XPeng sells left-hand drive in continental Europe.",
+      "left_hand_drive_relevance": "Standard — China domestic-market and European-market production is left-hand drive.",
       "market_considerations": null,
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility; European units use CCS2.",
       "homologation_notes": null,
       "generations": [
         {
@@ -2710,12 +2738,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/XPeng_G9",
+      "source_name": "XPeng Europe H1 2026 sales G6/G9/P7+ (reputable media: ievchina.com)",
+      "source_url": "https://ievchina.com/data/xpeng-europe-h1-2026-sales-tripled-g6-g9-p7-plus/",
       "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "li-auto-l6",
@@ -3290,11 +3318,16 @@
       ],
       "production_status": "active",
       "china_market_status": "A JAC compact sedan sold in export markets.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
+      "export_relevance": "JAC J7 sedan, exported to Saudi Arabia, Brazil (including the e-J7 electric variant) and other Middle East and Latin America markets.",
+      "common_export_regions": [
+        "Saudi Arabia",
+        "Brazil",
+        "Middle East",
+        "Latin America"
+      ],
+      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; an electric e-J7 variant exists for some markets.",
       "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": null,
@@ -3348,12 +3381,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://www.zigwheels.ae/new-cars/jac/j7/specifications",
-      "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "source_name": "JAC J7 export markets (manufacturer: jac-saudiarabia.com)",
+      "source_url": "https://jac-saudiarabia.com/",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "baic-bj40",
@@ -3368,11 +3401,16 @@
       ],
       "production_status": "active",
       "china_market_status": "A body-on-frame off-road SUV sold in China.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "BAIC BJ40 (B40 Plus) off-road SUV, exported to the Middle East, Russia and Africa; sold in right-hand drive in South Africa.",
+      "common_export_regions": [
+        "South Africa",
+        "Middle East",
+        "Russia",
+        "Africa"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "right_hand_drive_relevance": "Right-hand-drive production available — BJ40 sold in RHD form in South Africa.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; LHD units sold in the Middle East and Russia.",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": null,
@@ -3426,12 +3464,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
+      "source_name": "BAIC BJ40 RHD South Africa (reputable media: Wikipedia Beijing BJ40)",
       "source_url": "https://en.wikipedia.org/wiki/Beijing_BJ40",
       "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "baic-x55",
@@ -3446,11 +3484,14 @@
       ],
       "production_status": "active",
       "china_market_status": "A compact SUV sold in China as the BAIC X55 (Mofang).",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "BAIC X55 (Beijing Mofang) compact SUV, exported to Russia and the Middle East; locally assembled at Avtotor's Kaliningrad plant in Russia since 2023.",
+      "common_export_regions": [
+        "Russia",
+        "Middle East"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
       "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; LHD units assembled in Russia (Avtotor Kaliningrad).",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": null,
@@ -3504,12 +3545,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/baic-x55-1.5t-185hp-dct-54031",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "BAIC X55 Russia assembly (industry: MarkLines Avtotor Kaliningrad)",
+      "source_url": "https://www.marklines.com/en/news/293039",
+      "source_type": "industry",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "arcfox-alpha-s",
@@ -5949,11 +5990,16 @@
       ],
       "production_status": "active",
       "china_market_status": "An MG compact sedan sold in China and exported to SEA.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "MG5 compact sedan, sold in right-hand drive in the UK, Thailand and Australia, and exported globally under the SAIC MG brand.",
+      "common_export_regions": [
+        "United Kingdom",
+        "Thailand",
+        "Australia",
+        "Middle East"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "right_hand_drive_relevance": "Right-hand-drive production available — MG5 sold in RHD form in the UK, Thailand and Australia.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; RHD units sourced from MG regional export production.",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": null,
@@ -6007,12 +6053,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/mg-mg5-ii-generation-8893",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "MG5 RHD market listings (reputable media: Wikipedia MG5)",
+      "source_url": "https://en.wikipedia.org/wiki/MG5_(automobile)",
+      "source_type": "reputable_media",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "mg-hs",
@@ -6027,11 +6073,16 @@
       ],
       "production_status": "active",
       "china_market_status": "MG's global compact SUV, launched 2018.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "MG HS compact SUV, produced in right-hand drive at SAIC's Thailand (Laem Chabang) plant and sold in the UK and Australia; also exported in left-hand drive to Europe and the Middle East.",
+      "common_export_regions": [
+        "United Kingdom",
+        "Australia",
+        "Thailand",
+        "Middle East"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "right_hand_drive_relevance": "Right-hand-drive production available — MG HS built in RHD at SAIC's Thailand (Laem Chabang) plant and sold in the UK and Australia.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; RHD units sourced from SAIC's Thailand plant.",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": null,
@@ -6085,12 +6136,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/mg-hs-i-generation-6860",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "MG HS RHD assembly (reputable media: Wikipedia MG HS)",
+      "source_url": "https://en.wikipedia.org/wiki/MG_HS",
+      "source_type": "reputable_media",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "roewe-rx5",
@@ -7320,11 +7371,14 @@
       ],
       "production_status": "active",
       "china_market_status": "Yangwang's premium extended-range off-road SUV.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
+      "export_relevance": "BYD's premium Yangwang U8 extended-range (EREV) luxury SUV, officially launched in the UAE (via Al-Futtaim) and Saudi Arabia.",
+      "common_export_regions": [
+        "United Arab Emirates",
+        "Saudi Arabia"
+      ],
+      "powertrain_export_relevance": "Extended-range electric (EREV) powertrain — EV/PHEV duty-relief eligibility varies by market; confirm per destination.",
       "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "left_hand_drive_relevance": "Standard — China domestic-market production and Middle East export units are left-hand drive.",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
@@ -7378,12 +7432,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/yangwang-u8-2.0t-1197hp-extended-range-pure-electric-4wd-51283",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Yangwang U8 UAE/Saudi launch (manufacturer: yangwanguae.ae)",
+      "source_url": "https://www.yangwanguae.ae/en/",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "fangchengbao-bao-5",
@@ -7476,11 +7530,17 @@
       ],
       "production_status": "active",
       "china_market_status": "Sold in China as the Binyue; Coolray is the export name.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Geely Coolray (Binyue) compact SUV, exported to the Philippines (RHD), Russia, the Middle East and Latin America; also built in right-hand drive as the Proton X50 in Malaysia.",
+      "common_export_regions": [
+        "Philippines",
+        "Malaysia",
+        "Russia",
+        "Middle East",
+        "Latin America"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "right_hand_drive_relevance": "Right-hand-drive production available — sold in RHD form in the Philippines (Geely Philippines) and built as the Proton X50 in Malaysia.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; LHD units sold in Russia, the Middle East and Latin America.",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": null,
@@ -7534,12 +7594,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/geely-coolray-facelift-2023-1.5t-181hp-dct-57697",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Geely Coolray / Proton X50 RHD markets (reputable media: Wikipedia Geely Binyue)",
+      "source_url": "https://en.wikipedia.org/wiki/Geely_Binyue",
+      "source_type": "reputable_media",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "geely-emgrand",
@@ -7554,11 +7614,15 @@
       ],
       "production_status": "active",
       "china_market_status": "Geely's compact sedan, sold in China.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Geely Emgrand compact sedan, exported to the Philippines (RHD) and other Southeast Asia, Russia and Middle East markets.",
+      "common_export_regions": [
+        "Philippines",
+        "Russia",
+        "Middle East"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "right_hand_drive_relevance": "Right-hand-drive production available — Emgrand sold in RHD form in the Philippines (Geely Philippines).",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": null,
@@ -7612,12 +7676,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/Geely_Emgrand",
-      "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "source_name": "Geely Emgrand Philippines RHD (manufacturer: geelyph.com)",
+      "source_url": "https://www.geelyph.com/models/new-emgrand",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "galaxy-l7",
@@ -8602,11 +8666,15 @@
       ],
       "production_status": "active",
       "china_market_status": "Dongfeng Aeolus compact sedan.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Dongfeng Aeolus Yixuan compact sedan, exported to Russia, the Middle East and Africa under Dongfeng's Aeolus sub-brand.",
+      "common_export_regions": [
+        "Russia",
+        "Middle East",
+        "Africa"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
       "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": null,
@@ -8660,12 +8728,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/aeolus-yixuan-1.5t-197hp-dct-53902",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Dongfeng Aeolus export markets (reputable media: Wikipedia Aeolus Yixuan)",
+      "source_url": "https://en.wikipedia.org/wiki/Aeolus_Yixuan",
+      "source_type": "reputable_media",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "dongfeng-forthing-t5",
@@ -8680,11 +8748,17 @@
       ],
       "production_status": "active",
       "china_market_status": "Dongfeng Forthing T5 Evo compact SUV.",
-      "export_relevance": null,
-      "common_export_regions": null,
+      "export_relevance": "Dongfeng Forthing T5 Evo SUV, exported to Russia, the Middle East and Africa; sold in right-hand drive in Malaysia and in left-hand drive in Saudi Arabia under Dongfeng's Forthing sub-brand.",
+      "common_export_regions": [
+        "Malaysia",
+        "Saudi Arabia",
+        "Russia",
+        "Middle East",
+        "Africa"
+      ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
+      "right_hand_drive_relevance": "Right-hand-drive production available — Forthing T5 sold in RHD form in Malaysia.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; LHD units sold in Saudi Arabia and Russia.",
       "market_considerations": null,
       "parts_availability_notes": null,
       "charging_standard_notes": null,
@@ -8738,12 +8812,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/forthing-t5-evo-1.5-td-197hp-dct-49898",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Forthing T5 RHD Malaysia + Saudi listing (industry: bitauto.my + forthing.com.sa)",
+      "source_url": "https://www.bitauto.my/en/forthing/t5/",
+      "source_type": "industry",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "voyah-free",
