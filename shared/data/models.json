@@ -2758,14 +2758,19 @@
       ],
       "production_status": "active",
       "china_market_status": "Li Auto's extended-range electric SUV, sold in China since April 2024.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "Li Auto L6 extended-range (EREV) mid-size SUV; exported to Kazakhstan, the UAE and Uzbekistan, with Kazakhstan selected as Li Auto's first overseas production base (Allur, Kostanay).",
+      "common_export_regions": [
+        "Kazakhstan",
+        "United Arab Emirates",
+        "Uzbekistan",
+        "Russia"
+      ],
+      "powertrain_export_relevance": "Extended-range (EREV) — EREV/PHEV duty classification differs from BEV in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "No right-hand-drive production documented — Li Auto models are left-hand drive.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
+      "market_considerations": "EREV positioning is a differentiator for markets with limited charging infrastructure; Kazakhstan local assembly announced.",
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "EREV carries a small battery with China-market GB/T charging; confirm destination connector compatibility.",
       "homologation_notes": null,
       "generations": [
         {
@@ -2816,10 +2821,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/Li_L6",
+      "source_name": "Li Auto overseas expansion coverage (EqualOcean / GNEENEV)",
+      "source_url": "https://equalocean.com/news/2026072722055-li-auto-selects-kazakhstan-its-first-overseas-production-base",
       "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -3160,14 +3165,14 @@
       ],
       "production_status": "active",
       "china_market_status": "Xiaomi Auto's electric SUV, launched in mid-2025.",
-      "export_relevance": null,
+      "export_relevance": "Xiaomi YU7 battery-electric SUV; primarily China domestic (200,000+ orders within minutes of launch). Overseas export plans are emerging but no established RHD production or major-market entry confirmed.",
       "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "powertrain_export_relevance": "Battery-electric (EV) — may qualify for import-duty relief in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "No right-hand-drive production documented.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
+      "market_considerations": "High domestic demand limits export availability; verify export-readiness with the dealer.",
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector compatibility.",
       "homologation_notes": null,
       "generations": [
         {
@@ -3218,10 +3223,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/Xiaomi_YU7",
+      "source_name": "Xiaomi SU7/YU7 export coverage (ArenaEV / Automotion Global)",
+      "source_url": "https://www.arenaev.com/xiaomi_is_getting_ready_to_export_its_su7_overseas-news-4409.php",
       "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -3721,14 +3726,18 @@
       ],
       "production_status": "active",
       "china_market_status": "A range-extended/full-electric SUV by AITO (Seres/Huawei), sold in China.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "AITO M7 extended-range (EREV) SUV from the Seres × Huawei partnership; exported via wholesale channels to Kazakhstan, Russia and the Middle East.",
+      "common_export_regions": [
+        "Kazakhstan",
+        "Russia",
+        "Middle East"
+      ],
+      "powertrain_export_relevance": "Extended-range (EREV) — EREV/PHEV duty classification differs from BEV in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "No right-hand-drive production documented — AITO models are left-hand drive.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
+      "market_considerations": "Huawei-branded smart SUV; EREV positioning suits markets with limited charging infrastructure.",
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "EREV carries a small battery with China-market GB/T charging; confirm destination connector compatibility.",
       "homologation_notes": null,
       "generations": [
         {
@@ -3779,10 +3788,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/AITO_M7",
-      "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "source_name": "AITO M7 export/wholesale listings (evautopro / bymotorcar)",
+      "source_url": "https://evautopro.com/export/aito-m7-to-kazakhstan/",
+      "source_type": "industry",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -3799,14 +3808,18 @@
       ],
       "production_status": "active",
       "china_market_status": "AITO's flagship SUV (Seres/Huawei), sold in China.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "AITO M9 flagship extended-range (EREV) SUV from the Seres × Huawei partnership; exported via wholesale channels to Kazakhstan, Russia and the Middle East.",
+      "common_export_regions": [
+        "Kazakhstan",
+        "Russia",
+        "Middle East"
+      ],
+      "powertrain_export_relevance": "Extended-range (EREV) — EREV/PHEV duty classification differs from BEV in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "No right-hand-drive production documented — AITO models are left-hand drive.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
+      "market_considerations": "Huawei-branded flagship SUV positioned against premium German SUVs at a lower price point.",
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "EREV carries a small battery with China-market GB/T charging; confirm destination connector compatibility.",
       "homologation_notes": null,
       "generations": [
         {
@@ -3857,10 +3870,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/AITO_M9",
-      "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "source_name": "AITO M9 export/wholesale listings (evautopro / redteamcar)",
+      "source_url": "https://evautopro.com/export/aito-m9-to-kazakhstan/",
+      "source_type": "industry",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -3877,14 +3890,17 @@
       ],
       "production_status": "active",
       "china_market_status": "Seres SF5 in China; sold as the Seres 5 in Europe.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "Seres 5 mid-size SUV sold as both BEV and EREV; launched in Europe (2023) and sold in the UAE.",
+      "common_export_regions": [
+        "Europe",
+        "United Arab Emirates"
+      ],
+      "powertrain_export_relevance": "Offered as BEV and EREV — EV/EREV duty classification differs per market; confirm per destination.",
+      "right_hand_drive_relevance": "No right-hand-drive production documented — Seres 5 export units are left-hand drive.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
+      "market_considerations": "Dual BEV/EREV offering; EREV suits markets with limited charging infrastructure.",
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "China-market GB/T charging for the domestic EREV; European BEV units carry CCS2 — confirm destination inlet.",
       "homologation_notes": null,
       "generations": [
         {
@@ -3935,10 +3951,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Reputable media specifications",
-      "source_url": "https://en.wikipedia.org/wiki/Seres_SF5",
-      "source_type": "reputable_media",
-      "checked_date": "2026-10-06",
+      "source_name": "Seres 5 manufacturer site (global-seres.com)",
+      "source_url": "https://www.global-seres.com/seres5/",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -4036,12 +4052,18 @@
       ],
       "production_status": "active",
       "china_market_status": "A Chery compact SUV sold in the Chinese market.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "Chery Tiggo 5X subcompact SUV; surpassed 1 million cumulative global exports (second Chery Tiggo model after the Tiggo 7 to reach the milestone), sold as Tiggo 4 in some markets.",
+      "common_export_regions": [
+        "Latin America",
+        "Middle East",
+        "Africa",
+        "Southeast Asia",
+        "Russia"
+      ],
+      "powertrain_export_relevance": "Combustion (ICE) — no EV-specific import-duty relief applies; standard duty rates per destination.",
+      "right_hand_drive_relevance": "Right-hand-drive production available in some export markets (sold as Tiggo 4); confirm per destination.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
+      "market_considerations": "One of Chery's highest-volume export models; broad global distribution.",
       "parts_availability_notes": null,
       "charging_standard_notes": null,
       "homologation_notes": null,
@@ -4094,10 +4116,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/chery-tiggo-5x-1.5-147hp-dct-33048",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Chery Tiggo 5X 1-million export milestone (Gasgoo / AutoIndustriya)",
+      "source_url": "https://autonews.gasgoo.com/articles/market-industry/cherys-tiggo-5x-hits-1-million-unit-global-export-milestone-70036114",
+      "source_type": "reputable_media",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -6156,12 +6178,17 @@
       ],
       "production_status": "active",
       "china_market_status": "A Roewe compact SUV launched 2016.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "Roewe RX5 compact SUV exported by SAIC Motor; sold in right-hand drive in the Philippines and Myanmar and in left-hand drive in selected Middle East and CIS markets.",
+      "common_export_regions": [
+        "Philippines",
+        "Myanmar",
+        "Middle East",
+        "CIS"
+      ],
+      "powertrain_export_relevance": "Combustion (ICE) — no EV-specific import-duty relief applies; standard duty rates per destination.",
+      "right_hand_drive_relevance": "Right-hand-drive production available — Roewe RX5 is produced in RHD form for the Philippines and Myanmar.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; RHD units sourced from SAIC regional export production.",
+      "market_considerations": "Compact SUV; RHD production makes sourcing viable for right-hand-drive destinations.",
       "parts_availability_notes": null,
       "charging_standard_notes": null,
       "homologation_notes": null,
@@ -6214,10 +6241,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/roewe-rx5-generation-6336",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Roewe RX5 RHD market listings (chinamobil.ru)",
+      "source_url": "https://www.chinamobil.ru/eng/roewe/rx5/",
+      "source_type": "industry",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -6234,12 +6261,12 @@
       ],
       "production_status": "active",
       "china_market_status": "A Roewe compact sedan launched 2018.",
-      "export_relevance": null,
+      "export_relevance": "Roewe i5 subcompact sedan by SAIC Motor; primarily China domestic-market. SAIC's export channel for this segment is the MG-branded equivalent (MG 5); direct Roewe i5 export footprint is limited.",
       "common_export_regions": null,
-      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "powertrain_export_relevance": "Combustion (ICE) — no EV-specific import-duty relief applies.",
+      "right_hand_drive_relevance": "No direct right-hand-drive production documented for the Roewe i5; the MG 5 equivalent is sold RHD in some markets.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
+      "market_considerations": "Primarily domestic; buyers should consider the MG 5 (SAIC export equivalent) for export sourcing.",
       "parts_availability_notes": null,
       "charging_standard_notes": null,
       "homologation_notes": null,
@@ -6292,10 +6319,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/roewe-i5-facelift-2023-generation-11430",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Roewe i5 (Wikipedia) + Roewe brand export profile (CN Auto HR)",
+      "source_url": "https://en.wikipedia.org/wiki/Roewe_i5",
+      "source_type": "reputable_media",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -7452,14 +7479,16 @@
       ],
       "production_status": "active",
       "china_market_status": "Fangchengbao Bao 5, a DMO plug-in hybrid off-road SUV.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "Fangchengbao Bao 5 plug-in hybrid off-road SUV (BYD); sold overseas as the Denza B5, with Australia (right-hand-drive) evaluation units spotted but no confirmed RHD production.",
+      "common_export_regions": [
+        "Australia (planned)"
+      ],
+      "powertrain_export_relevance": "Plug-in hybrid (DMO) — PHEV duty classification differs from BEV in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "RHD status unconfirmed — overseas rebadge (Denza B5) was road-tested in Australia in left-hand-drive form; no confirmed RHD production.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
+      "market_considerations": "BYD premium off-road PHEV; overseas rollout via the Denza B5 rebadge.",
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "PHEV (DMO) — China-market GB/T charging; confirm destination connector compatibility.",
       "homologation_notes": null,
       "generations": [
         {
@@ -7510,10 +7539,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/fangchengbao-bao-5-dmo-1.5t-31.8-kwh-687hp-plug-in-hybrid-4wd-e-cvt-55330",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Fangchengbao Bao 5 / Denza B5 overseas coverage (CarNewsChina / Drive.com.au)",
+      "source_url": "https://carnewschina.com/2025/01/07/byds-fang-cheng-bao-bao-5-to-be-sold-overseas-as-denza-b5-seen-in-australia/",
+      "source_type": "reputable_media",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -8265,12 +8294,17 @@
       ],
       "production_status": "active",
       "china_market_status": "FAW Bestune compact SUV.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "FAW Bestune T77 compact SUV exported by FAW; sold in right-hand drive in South Africa and in left-hand drive in Russia, the Middle East and Africa.",
+      "common_export_regions": [
+        "South Africa",
+        "Russia",
+        "Middle East",
+        "Africa"
+      ],
+      "powertrain_export_relevance": "Combustion (ICE) — no EV-specific import-duty relief applies; standard duty rates per destination.",
+      "right_hand_drive_relevance": "Right-hand-drive production available — Bestune T77 is produced in RHD form for South Africa.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive.",
+      "market_considerations": "Compact SUV; RHD production makes sourcing viable for right-hand-drive destinations.",
       "parts_availability_notes": null,
       "charging_standard_notes": null,
       "homologation_notes": null,
@@ -8323,10 +8357,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.auto-data.net/en/bestune-t77-1.2-230-tid-143hp-dct-34983",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "FAW Bestune T77 RHD market listing (bitauto.com ZA)",
+      "source_url": "https://www.bitauto.com/za/news/100187933731.html",
+      "source_type": "industry",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -8994,14 +9028,20 @@
       ],
       "production_status": "active",
       "china_market_status": "Produced at Tesla's Shanghai Gigafactory for China and export markets.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "Tesla Model Y battery-electric crossover built at Giga Shanghai; exported globally including right-hand drive for Australia, New Zealand and the UK.",
+      "common_export_regions": [
+        "Australia",
+        "New Zealand",
+        "United Kingdom",
+        "Japan",
+        "Europe"
+      ],
+      "powertrain_export_relevance": "Battery-electric (EV) — may qualify for import-duty relief in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "Right-hand-drive production available — Giga Shanghai builds RHD Model Y for Australia, New Zealand and the UK.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; LHD units are also exported from Shanghai.",
+      "market_considerations": "The world's best-selling EV; strong RHD and LHD global distribution from the Shanghai export hub.",
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector compatibility; regional units may carry other inlets.",
       "homologation_notes": null,
       "generations": [
         {
@@ -9052,10 +9092,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.ultimatespecs.com/car-specs/Tesla/155867/Tesla-Model-Y-Maximum-Range.html",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Tesla Model Y Shanghai RHD export coverage (The Driven / Teslarati)",
+      "source_url": "https://thedriven.io/2025/04/17/thousands-of-new-tesla-model-y-customer-vehicles-head-to-australia/",
+      "source_type": "reputable_media",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
@@ -9072,14 +9112,21 @@
       ],
       "production_status": "active",
       "china_market_status": "Produced at Tesla's Shanghai Gigafactory for China and export markets.",
-      "export_relevance": null,
-      "common_export_regions": null,
-      "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
-      "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
-      "market_considerations": null,
+      "export_relevance": "Tesla Model 3 battery-electric sedan built at Giga Shanghai; exported globally including right-hand drive for the UK, Australia, New Zealand, Japan and Singapore.",
+      "common_export_regions": [
+        "United Kingdom",
+        "Australia",
+        "New Zealand",
+        "Japan",
+        "Singapore",
+        "Europe"
+      ],
+      "powertrain_export_relevance": "Battery-electric (EV) — may qualify for import-duty relief in some markets; confirm per destination.",
+      "right_hand_drive_relevance": "Right-hand-drive production available — Giga Shanghai builds RHD Model 3 for the UK, Australia, New Zealand, Japan and Singapore.",
+      "left_hand_drive_relevance": "Standard — China domestic-market production is left-hand drive; LHD units are also exported from Shanghai.",
+      "market_considerations": "The best-known China-built EV export; strong RHD and LHD global distribution from the Shanghai export hub.",
       "parts_availability_notes": null,
-      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector and voltage compatibility.",
+      "charging_standard_notes": "China-market charging standard (GB/T) — confirm destination charging-connector compatibility; regional RHD/LHD units may carry other inlets.",
       "homologation_notes": null,
       "generations": [
         {
@@ -9130,10 +9177,10 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Automotive specifications database",
-      "source_url": "https://www.ultimatespecs.com/car-specs/Tesla/136950/Tesla-Model-3-2023-RWD-60-kWh.html",
-      "source_type": "database",
-      "checked_date": "2026-10-06",
+      "source_name": "Tesla Model 3 RHD export coverage (Teslarati / The Driven)",
+      "source_url": "https://www.teslarati.com/tesla-model-3-highland-rhd-export-fleet-shanghai-south-port-video/",
+      "source_type": "reputable_media",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
       "last_verified": "2026-10-06"
     },
