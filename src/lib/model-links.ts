@@ -22,6 +22,19 @@ const MODEL_MARKETS: Record<string, string[]> = {
   "li-auto-l7": ["uae"],
   "nio-es6": ["uae"],
   "gac-gs4": ["tanzania", "nigeria"],
+  // P3.8 补挂：在 market 站 countryContent.popularModelIds 中列为热门、但此前缺
+  // Related-market 链接的车型。国别全部来自 market 站已发布的 popularModelIds 数据。
+  "byd-dolphin": ["brunei", "egypt", "ethiopia", "jamaica", "laos", "malawi", "malaysia", "mauritius", "nepal", "philippines", "rwanda", "thailand", "zambia"],
+  "byd-sealion-6": ["australia", "malaysia", "mongolia", "mozambique", "philippines"],
+  "chery-tiggo-7": ["kyrgyzstan"],
+  "deepal-s07": ["thailand"],
+  "haval-h9": ["kyrgyzstan"],
+  "honda-cr-v": ["bangladesh"],
+  "mg-4": ["australia", "botswana", "chile", "colombia", "fiji", "ghana", "indonesia", "malawi", "mozambique", "peru", "serbia", "zambia"],
+  "mg-5": ["mexico"],
+  "toyota-rav4": ["bangladesh"],
+  "wuling-bingo": ["ethiopia"],
+  "zeekr-001": ["belarus"],
 };
 
 export interface RelatedLink {
