@@ -21,7 +21,7 @@
         "UAE"
       ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "RHD production available — BYD sells the Song Plus as the Sealion 6 in right-hand drive for export markets including Australia and Thailand. Source an RHD unit for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
       "market_considerations": null,
       "parts_availability_notes": null,
@@ -140,9 +140,9 @@
       "source_name": "Manufacturer published specifications",
       "source_url": "https://www.byd.com/eu/car/seal-u",
       "source_type": "manufacturer",
-      "checked_date": "2026-10-06",
+      "checked_date": "2026-10-07",
       "confidence": "high",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "byd-qin-plus",
@@ -307,7 +307,7 @@
         "UAE"
       ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "RHD production available — BYD builds the Atto 3 in right-hand drive for export markets including Australia, Thailand, Singapore, South Africa, Malaysia and New Zealand. Source an RHD unit rather than converting a China LHD unit.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
       "market_considerations": null,
       "parts_availability_notes": null,
@@ -363,9 +363,9 @@
       "source_name": "Manufacturer published specifications",
       "source_url": "https://www.byd.com/eu/car/atto3",
       "source_type": "manufacturer",
-      "checked_date": "2026-10-06",
+      "checked_date": "2026-10-07",
       "confidence": "high",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "byd-han",
@@ -493,7 +493,7 @@
         "UAE"
       ],
       "powertrain_export_relevance": "EV/PHEV powertrains may qualify for import-duty relief in some markets — confirm per destination.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "RHD production available — BYD builds the Seal in right-hand drive for export markets including Thailand, Australia and Singapore. Source an RHD unit for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
       "market_considerations": null,
       "parts_availability_notes": null,
@@ -549,9 +549,9 @@
       "source_name": "Manufacturer published specifications",
       "source_url": "https://www.byd.com/eu/car/seal",
       "source_type": "manufacturer",
-      "checked_date": "2026-10-06",
+      "checked_date": "2026-10-07",
       "confidence": "high",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "geely-monjaro",
@@ -736,7 +736,7 @@
         "Kazakhstan"
       ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "RHD production available — GWM builds the Haval H6 in right-hand drive for export markets including South Africa and Australia. Source an RHD unit for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
       "market_considerations": null,
       "parts_availability_notes": null,
@@ -791,9 +791,9 @@
       "source_name": "Manufacturer published specifications",
       "source_url": "https://www.gwm-global.com/haval-h6",
       "source_type": "manufacturer",
-      "checked_date": "2026-10-06",
+      "checked_date": "2026-10-07",
       "confidence": "high",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "changan-cs75-plus",
@@ -4316,7 +4316,7 @@
         "Latin America"
       ],
       "powertrain_export_relevance": "Combustion (ICE) powertrain — subject to standard import duty; no EV-specific relief.",
-      "right_hand_drive_relevance": "Not standard — confirm right-hand-drive availability with the exporter for RHD destinations.",
+      "right_hand_drive_relevance": "RHD production available — the Jetour X70 (Plus) is produced in right-hand drive for South Africa (Jetour South Africa launch, 2024). Source an RHD unit for RHD destinations.",
       "left_hand_drive_relevance": "Standard — listed models are China domestic-market production (left-hand drive).",
       "market_considerations": "Left-hand-drive China-origin units; confirm RHD availability with the exporter (Jetour offers RHD in some markets).",
       "parts_availability_notes": "Jetour's global dealer network covers Russia, the Middle East, Africa and Latin America.",
@@ -4371,12 +4371,12 @@
           "last_verified": "2026-10-06"
         }
       ],
-      "source_name": "Jetour X70 export reference (industry)",
-      "source_url": "https://evautopro.com/cars/jetour-x70-plus/",
-      "source_type": "industry",
-      "checked_date": "2026-10-06",
+      "source_name": "Jetour South Africa (RHD, X70 Plus launch 2024)",
+      "source_url": "https://jetour.co.za/",
+      "source_type": "manufacturer",
+      "checked_date": "2026-10-07",
       "confidence": "medium",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-07"
     },
     {
       "model_id": "jetour-dashing",
